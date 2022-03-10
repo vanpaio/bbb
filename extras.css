@@ -23,8 +23,6 @@
   		height: calc(100vh - 3.75rem) !important;
   }
   
-  
-  
   .sidenav__scroll-wrap {
     overscroll-behavior: contain;
   }
@@ -35,4 +33,26 @@
 
   .sidenav-list__item-link.w--current ~ ul {
       display: grid;
+  }
+
+  code[class*=language-], pre[class*=language-] {
+      padding: 0;
+      margin: 0;
+      overflow: auto;
+      color: hsl(0deg 0% 50%) !important;
+      background: transparent;
+  }
+
+  .tag .attr-value {
+      color: red;
+  }
+
+  .token.tag {
+      color: white !important;
+  }
+
+  .attr-equals,
+  .attr-value .punctuation,
+  .attr-name {
+      color: hsl(0deg 0% 50%) !important;
   }
