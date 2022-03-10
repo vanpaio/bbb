@@ -1,1 +1,38 @@
 
+  * {-webkit-font-smoothing: antialiased;} /* Refines texts rendering in Chrome */
+  * {-webkit-tap-highlight-color: transparent; } /* Removes flash when user taps a link on mobile */
+  input[type=text] {   
+    /* Removes innershadow on form fields on iOS */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .table-column__body-content {
+    /* Add's ellipsis for table overflow content */
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  input.text-input, .modal-footer {
+  /* Increases sizes for elements with round corners */
+      width: calc(100% + 0.5rem);
+      margin-left: -0.25rem;
+      margin-right: -0.25rem;
+  }
+  .sidenav__scroll-wrap {
+  		height: calc(100vh - 3.75rem) !important;
+  }
+  
+  
+  
+  .sidenav__scroll-wrap {
+    overscroll-behavior: contain;
+  }
+  
+  .sidenav-list__item-link ~ ul {
+    display: none;
+  }
+
+  .sidenav-list__item-link.w--current ~ ul {
+      display: grid;
+  }
