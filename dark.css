@@ -1,1 +1,41 @@
+	.dark-mode,
+  .dark-mode .sidenav.sidenav__left { 
+      /* set bg and color */
+      color: white;
+      background-color: black;
+  }
 
+  .dark-mode .sidenav-list__item-link,
+  .dark-mode .header__name {
+      /* set color */
+      color: white;
+  }
+
+  .dark-mode .header__base {
+      color: white;
+      background-color: #323232;
+  }
+  
+  .dark-mode .divider,
+  .dark-mode .inline-notification,
+  .dark-mode .toast-notification {
+      background: #222222;
+  }
+
+  .dark-mode .component-example__white-theme {
+      border-color: #222222;
+  }
+
+  .dark-mode .w-tab-link {
+      color: white;
+  }
+
+  .dark-mode .w--current {
+      background: white;
+      color: black;
+  }
+  
+  .dark-mode .page-tabs__nav-item:not(.w--current):hover {
+    background-color: #323232;
+    outline-color: #323232;
+  }
