@@ -19,32 +19,32 @@ input.text-input, .modal-footer {
     margin-left: -0.25rem;
     margin-right: -0.25rem;
 }
-.sidenav__scroll-wrap {
+.sidenav-scroll {
   height: calc(100vh - 3.75rem) !important;
 }
 
-.sidenav__scroll-wrap.demo {
+.sidenav-scroll.demo {
     height: 352px !important;
 }
 
-.sidenav__scroll-wrap {
+.sidenav-scroll {
   overscroll-behavior: contain;
 }
 
-.sidenav-list__item-link ~ ul {
+.sidenav-item-link ~ ul {
   display: none;
 }
 
-.sidenav-list__item-link._w--current ~ ul,
-.sidenav-list__item-link.w--current ~ ul {
+.sidenav-item-link._w--current ~ ul,
+.sidenav-item-link.w--current ~ ul {
     display: grid;
 }
 
-.sidenav-list__item-link.with__sublist._w--current {
+.sidenav-item-link.sidenav-sublist._w--current {
     background-color: #ffd1d1;
 }
 
-.sidenav-list__item-link.with__sublist._w--current:hover {
+.sidenav-item-link.sidenav-sublist._w--current:hover {
     outline-color: transparent;
 }
 
