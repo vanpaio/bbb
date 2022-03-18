@@ -31,8 +31,13 @@ input.text-input, .modal-footer {
   display: none;
 }
 
+.sidenav-list__item-link._w--current ~ ul,
 .sidenav-list__item-link.w--current ~ ul {
     display: grid;
+}
+
+.sidenav-list__item-link.with__sublist._w--current {
+    background-color: #ffd1d1;
 }
 
 code[class*=language-], pre[class*=language-] {
