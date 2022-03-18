@@ -24,7 +24,7 @@ input.text-input, .modal-footer {
 }
 
 .sidenav__scroll-wrap.demo {
-    height: 352px;
+    height: 352px !important;
 }
 
 .sidenav__scroll-wrap {
