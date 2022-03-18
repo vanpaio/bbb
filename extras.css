@@ -23,6 +23,10 @@ input.text-input, .modal-footer {
   height: calc(100vh - 3.75rem) !important;
 }
 
+.sidenav__scroll-wrap.demo {
+    height: 352px;
+}
+
 .sidenav__scroll-wrap {
   overscroll-behavior: contain;
 }
