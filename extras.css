@@ -40,6 +40,10 @@ input.text-input, .modal-footer {
     background-color: #ffd1d1;
 }
 
+.sidenav-list__item-link.with__sublist._w--current:hover {
+    outline-color: transparent;
+}
+
 code[class*=language-], pre[class*=language-] {
     padding: 0;
     margin: 0;
