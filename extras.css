@@ -70,7 +70,7 @@ code[class*=language-], pre[class*=language-] {
     color: hsl(0deg 0% 50%) !important;
 }
 
-.linklist-item .list-item-url {
+.linklist-item .linklist-item-url {
     opacity: 0;
     text-overflow: ellipsis;
 }
