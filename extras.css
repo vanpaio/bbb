@@ -75,13 +75,14 @@ code[class*=language-], pre[class*=language-] {
     text-overflow: ellipsis;
 }
 
-.linklist-item:hover .list-item-url {
+.linklist-item:hover .linklist-item-url {
     opacity: .25;
 }
 
-.linklist-item .list-item-url:hover {
-    opacity: 1;
+.linklist-item .linklist-item-url:hover {
+/*     opacity: 1; */
 }
+
 [draggable=true]:hover {
     background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/62321e40140a3a7622d77586_draggable-handle.svg);
     background-position: 8px 50%;
