@@ -98,11 +98,16 @@ code[class*=language-], pre[class*=language-] {
     display: none;
 }
 
-.list-item:not(:hover) .btn-primary {
+.list-item:not(:hover) .btn {
+    display: none;
+}
+
+[data-bb-tab]:not(:hover) .btn {
     color: black;
     background-color: transparent;
     outline-color: black;
     outline-width: 0.0625rem;
     opacity: .25;
     font-weight: 400;
+    display: grid;
 }
