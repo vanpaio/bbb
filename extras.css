@@ -97,3 +97,14 @@ code[class*=language-], pre[class*=language-] {
 .list-item-selector input:checked ~ img{
     display: none;
 }
+.list-item .btn.btn-xs {
+    font-weight: 400;
+}
+
+.list-item:not(:hover) .btn-primary {
+    color: black;
+    background-color: transparent;
+    outline-color: black;
+    outline-width: 0.0625rem;
+    opacity: .25;
+}
