@@ -70,16 +70,16 @@ code[class*=language-], pre[class*=language-] {
     color: hsl(0deg 0% 50%) !important;
 }
 
-.list-item .list-item-url {
+.linklist-item .list-item-url {
     opacity: 0;
     text-overflow: ellipsis;
 }
 
-.list-item:hover .list-item-url {
+.linklist-item:hover .list-item-url {
     opacity: .25;
 }
 
-.list-item .list-item-url:hover {
+.linklist-item .list-item-url:hover {
     opacity: 1;
 }
 [draggable=true]:hover {
@@ -88,17 +88,17 @@ code[class*=language-], pre[class*=language-] {
     background-size: auto;
     background-repeat: no-repeat;
 }
-.list-item-selector:hover input,
-.list-item-selector input:checked {
+.linklist-item-selector:hover input,
+.linklist-item-selector input:checked {
     display: block;
 }
 
-.list-item-selector:hover img,
-.list-item-selector input:checked ~ img{
+.linklist-item-selector:hover img,
+.linklist-item-selector input:checked ~ img{
     display: none;
 }
 
-.list-item:not(:hover) .btn {
+.linklist-item:not(:hover) .btn {
     display: none;
 }
 
