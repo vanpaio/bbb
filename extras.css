@@ -143,3 +143,11 @@ code[class*=language-], pre[class*=language-] {
     outline: 0.1875rem solid black;
     z-index: 2;
 }
+
+
+
+/*  Project Document */
+
+.project-description:not(:focus) ~ .modal-footer {
+    display: none;
+}
