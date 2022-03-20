@@ -104,13 +104,14 @@ code[class*=language-], pre[class*=language-] {
     background-size: auto;
     background-repeat: no-repeat;
 }
-.linklist-item-selector:hover input,
-.linklist-item-selector input:checked {
+
+.linklist-item-checkbox:hover input,
+.linklist-item-checkbox input:checked {
     display: block;
 }
 
-.linklist-item-selector:hover img,
-.linklist-item-selector input:checked ~ img{
+.linklist-item-checkbox:hover img,
+.linklist-item-checkbox input:checked ~ img{
     display: none;
 }
 
