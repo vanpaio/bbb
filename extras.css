@@ -105,13 +105,14 @@ code[class*=language-], pre[class*=language-] {
     background-repeat: no-repeat;
 }
 
-.linklist-checkbox-wrapper:hover input,
-.linklist-checkbox-wrapper input:checked {
+.linklist-checkbox-wrapper input:checked,
+.linklist-checkbox-wrapper input:checked ~ .checkbox {
     display: block;
 }
 
-.linklist-checkbox-wrapper:hover img,
-.linklist-checkbox-wrapper input:checked ~ img {
+.linklist-checkbox-wrapper:hover .list-item-favicon,
+.linklist-checkbox-wrapper:not(:hover) .checkbox,
+.linklist-checkbox-wrapper input:checked ~ .list-item-favicon {
     display: none;
 }
 
