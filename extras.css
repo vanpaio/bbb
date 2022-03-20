@@ -111,8 +111,14 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .linklist-checkbox-wrapper:hover img,
-.linklist-checkbox-wrapper input:checked ~ img{
+.linklist-checkbox-wrapper input:checked ~ img {
     display: none;
+}
+
+.linklist-checkbox-wrapper input:checked ~ .checkbox {
+    border: .125rem solid red;
+    background: red url("https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/6209eae7fc1ea38e1dd83074_checkmark-icon.svg") -1px 0px no-repeat;
+    background-size: 14px;
 }
 
 .linklist-item:not(:hover, :focus) .btn {
@@ -128,7 +134,6 @@ code[class*=language-], pre[class*=language-] {
     font-weight: 400;
     display: grid;
 }
-
 
 
 /* Overflow Menu */
