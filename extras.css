@@ -148,6 +148,10 @@ code[class*=language-], pre[class*=language-] {
 
 /*  Project Document */
 
+.project-heading-area {
+    resize: none;
+}
+
 .project-description:not(:focus) ~ .modal-footer {
     display: none;
 }
