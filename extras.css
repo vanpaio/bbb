@@ -17,7 +17,7 @@ input[type=text] {
   text-overflow: ellipsis;
 }
 
-input.text-input, .modal-footer {
+input.text-input, .modal-group-right {
 /* Increases sizes for elements with round corners */
     width: calc(100% + 0.5rem);
     margin-left: -0.25rem;
@@ -152,6 +152,6 @@ code[class*=language-], pre[class*=language-] {
     resize: none;
 }
 
-.project-description:not(:focus) ~ .modal-footer {
+.project-description:not(:focus) ~ .modal-group-right {
     display: none;
 }
