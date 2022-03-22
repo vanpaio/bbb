@@ -180,3 +180,12 @@ code[class*=language-], pre[class*=language-] {
     content: attr(data-closetext);
     letter-spacing: 0;
 }
+
+.btn-tab:active .btn-bg {
+    outline-width: 0;
+}
+
+.btn-tab:hover .btn-bg {
+    background-color: #f00000;
+    outline-color: #f00000;
+}
