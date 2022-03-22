@@ -155,3 +155,24 @@ code[class*=language-], pre[class*=language-] {
 .project-description:not(:focus) ~ .modal-group-right {
     display: none;
 }
+
+
+/*  Buttons */
+.btn-tab .btn-closetab-wrapper .close-icon,
+.btn-tab .btn-closetab-wrapper:hover .close-icon ~ svg,
+.btn-tab .btn-bg-close {
+    display: none;
+}
+
+.btn-tab .btn-closetab-wrapper:hover .close-icon,
+.btn-tab .btn-closetab-wrapper:hover ~ .btn-bg-close {
+    display: block;
+}
+
+.btn-tab .btn-tab-text:before {
+    content: attr(data-opentext);
+}
+
+.btn-tab .btn-closetab-wrapper:hover + .btn-tab-text:before {
+    content: attr(data-closetext);
+}
