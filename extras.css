@@ -189,3 +189,8 @@ code[class*=language-], pre[class*=language-] {
     background-color: #f00000;
     outline-color: #f00000;
 }
+
+.btn-tab:hover .btn-bg.btn-bg-close {
+    background-color: #000;
+    outline-color: #000;
+}
