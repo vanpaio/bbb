@@ -171,8 +171,12 @@ code[class*=language-], pre[class*=language-] {
 
 .btn-tab .btn-tab-text:before {
     content: attr(data-opentext);
+    display: inline-block;
+    width: 4.3ch;
+    padding-right: .125rem;
 }
 
 .btn-tab .btn-closetab-wrapper:hover + .btn-tab-text:before {
     content: attr(data-closetext);
+    letter-spacing: 0;
 }
