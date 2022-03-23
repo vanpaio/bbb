@@ -197,5 +197,3 @@ code[class*=language-], pre[class*=language-] {
 .project-description:not(:focus) ~ .modal-group-right {
     display: none;
 }
-
-
