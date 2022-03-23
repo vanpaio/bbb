@@ -90,7 +90,7 @@ code[class*=language-], pre[class*=language-] {
     text-overflow: ellipsis;
 }
 
-.linklist-item:hover .linklist-item-url {
+.linklist-item:focus .linklist-item-url {
     opacity: .25;
 }
 
@@ -99,7 +99,7 @@ code[class*=language-], pre[class*=language-] {
 }
 
 [draggable=true]:hover {
-    background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/62321e40140a3a7622d77586_draggable-handle.svg);
+    background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/623a76b825ec66e08361f010_draggable-handle.svg);
     background-position: 8px 50%;
     background-size: auto;
     background-repeat: no-repeat;
