@@ -194,7 +194,7 @@ code[class*=language-], pre[class*=language-] {
     resize: none;
 }
 
-.project-description:not(:focus) ~ .modal-group-right {
+.note-editable:not(:focus) ~ .modal-group-right {
     display: none;
 }
 
