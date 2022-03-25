@@ -1,4 +1,4 @@
-/* Generated on: Fri Mar 25 2022 17:30:30 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 25 2022 18:27:40 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7172,7 +7172,19 @@ label {
 }
 
 .emoji-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 1rem;
   text-align: center;
 }
