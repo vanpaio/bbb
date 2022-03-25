@@ -1,4 +1,4 @@
-/* Generated on: Fri Mar 25 2022 22:18:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 25 2022 22:32:36 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8125,7 +8125,6 @@ label {
   display: -ms-grid;
   display: grid;
   overflow: hidden;
-  width: 1.75rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   justify-items: center;
@@ -8176,10 +8175,7 @@ label {
 .close-tab-text {
   position: absolute;
   z-index: 1;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100%;
   padding-left: 1.75rem;
@@ -8193,6 +8189,7 @@ label {
 .close-icon-wrapper {
   position: relative;
   z-index: 2;
+  display: none;
   width: 1rem;
 }
 
