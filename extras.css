@@ -105,6 +105,10 @@ code[class*=language-], pre[class*=language-] {
     background-repeat: no-repeat;
 }
 
+[draggable=true]:active {
+    cursor: grabbing;
+}
+
 .linklist-checkbox-wrapper input:checked,
 .linklist-checkbox-wrapper input:checked ~ .checkbox {
     display: block;
@@ -176,6 +180,18 @@ code[class*=language-], pre[class*=language-] {
 .btn-tab:hover .btn-bg.btn-bg-close {
     background-color: #000;
     outline-color: #000;
+}
+
+/* .close-tab-text {
+    display: none;
+} */
+
+.close-icon-wrapper:not(:hover) svg {
+    color: transparent;
+}
+
+.close-icon-wrapper:hover + .close-tab-text {
+    display: flex;
 }
 
 
