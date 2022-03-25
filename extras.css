@@ -197,3 +197,27 @@ code[class*=language-], pre[class*=language-] {
 .project-description:not(:focus) ~ .modal-group-right {
     display: none;
 }
+
+[contenteditable] {
+  border: 0rem none #000;
+  outline-color: transparent;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+[contenteditable]:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  outline-color: rgba(0, 0, 0, 0.02);
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+[contenteditable]:focus {
+  background-color: rgba(0, 0, 0, 0.04);
+  outline-color: rgba(0, 0, 0, 0.04);
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
