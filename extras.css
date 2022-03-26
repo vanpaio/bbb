@@ -220,6 +220,7 @@ code[class*=language-], pre[class*=language-] {
 .note-popover.bottom .note-popover-arrow {
   left: 148px !important;
   top: 58px !important;
+  transform: rotate(180deg);
   border: none !important;
 }
 
