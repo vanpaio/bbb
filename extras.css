@@ -147,15 +147,9 @@ code[class*=language-], pre[class*=language-] {
     outline-width: 0.0625rem;
 }
 
-[data-bb-tab]:not(:hover) .open-tab {color: black;}
-
-.close-icon-wrapper:not(:hover) svg {
-    color: transparent;
-}
-
-.close-icon-wrapper:hover + .close-tab-text {
-    display: flex;
-}
+[data-bb-tab]:not(:hover) .open-tab { color: black; }
+.close-icon-wrapper:not(:hover) svg { color: transparent; }
+.close-icon-wrapper:hover + .close-tab-text { display: flex; }
 
 
 /* Overflow Menu */
@@ -250,6 +244,6 @@ code[class*=language-], pre[class*=language-] {
     padding: 0.375rem !important;
 }
 
-[contenteditable] p:last-child {
-    margin-bottom: 0;
-}
+[contenteditable] :is(p, h1, h2, h3, h4, h5, ul, ol):first-child { margin-top: 0; }    /* Prevents margins at the begging...  */
+[contenteditable] :is(p, h1, h2, h3, h4, h5, ul, ol):last-child { margin-bottom: 0; }  /* ... and end of project descriptions */
+
