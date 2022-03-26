@@ -129,62 +129,20 @@ code[class*=language-], pre[class*=language-] {
 
 /*  Link list - Close/Open tab Buttons */
 
-.linklist-item:not(:hover, :focus) .btn {
-    display: none;
-}
+.linklist-item:not(:hover, :focus) .btn {display: none;}
 
 [data-bb-tab]:not(:hover) .btn-tab {
-    color: black;
     opacity: .25;
     display: grid;
 }
 
-[data-bb-tab]:not(:hover) .btn-bg {
+[data-bb-tab]:not(:hover) .open-tab {
     background-color: transparent;
     outline-color: black;
     outline-width: 0.0625rem;
 }
 
-.btn-tab .btn-closetab-wrapper .close-icon,
-.btn-tab .btn-closetab-wrapper:hover .close-icon ~ svg,
-.btn-tab .btn-bg-close {
-    display: none;
-}
-
-.btn-tab .btn-closetab-wrapper:hover .close-icon,
-.btn-tab .btn-closetab-wrapper:hover ~ .btn-bg-close {
-    display: block;
-}
-
-.btn-tab .btn-tab-text:before {
-    content: attr(data-opentext);
-    display: inline-block;
-    width: 4.3ch;
-    padding-right: .125rem;
-}
-
-.btn-tab .btn-closetab-wrapper:hover + .btn-tab-text:before {
-    content: attr(data-closetext);
-    letter-spacing: 0;
-}
-
-.btn-tab:active .btn-bg {
-    outline-width: 0;
-}
-
-.btn-tab:hover .btn-bg {
-    background-color: #f00000;
-    outline-color: #f00000;
-}
-
-.btn-tab:hover .btn-bg.btn-bg-close {
-    background-color: #000;
-    outline-color: #000;
-}
-
-/* .close-tab-text {
-    display: none;
-} */
+[data-bb-tab]:not(:hover) .open-tab {color: black;}
 
 .close-icon-wrapper:not(:hover) svg {
     color: transparent;
