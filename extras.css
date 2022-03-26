@@ -105,7 +105,8 @@ code[class*=language-], pre[class*=language-] {
     background-repeat: no-repeat;
 }
 
-[draggable=true]:active {
+[draggable=true]:active,
+.linklist-draghandle:active,{
     cursor: grabbing;
 }
 
@@ -124,11 +125,6 @@ code[class*=language-], pre[class*=language-] {
     border: .125rem solid red;
     background: red url("https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/6209eae7fc1ea38e1dd83074_checkmark-icon.svg") -1px 0px no-repeat;
     background-size: 14px;
-}
-
-.linklist-draghandle:active,
-.linklist-item:active{
-    cursor: grabbing;
 }
 
 
