@@ -3,22 +3,20 @@
 * {-webkit-tap-highlight-color: transparent; } /* Removes flash when user taps a link on mobile */
 
 
-input[type=text] {   
-  /* Removes innershadow on form fields on iOS */
+input[type=text] { /* Removes innershadow on form fields on iOS */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-.table-column__body-content {
-  /* Add's ellipsis for table overflow content */
+.table-column__body-content { /* Add's ellipsis for table overflow content */
   white-space: nowrap; 
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-input.text-input, .modal-group-right {
-/* Increases sizes for elements with round corners */
+input.text-input, 
+.modal-group-right { /* Increases sizes for elements with round corners */
     width: calc(100% + 0.5rem);
     margin-left: -0.25rem;
     margin-right: -0.25rem;
@@ -28,40 +26,26 @@ input.text-input, .modal-group-right {
 
 /*  Sidenav */
 
-.sidenav-scroll {
-  height: calc(100vh - 3.75rem) !important;
-}
+.sidenav-scroll { height: calc(100vh - 3.75rem) !important; }
 
-.sidenav-scroll.demo {
-    height: 352px !important;
-}
+.sidenav-scroll.demo { height: 352px !important;}
 
-.sidenav-scroll {
-  overscroll-behavior: contain;
-}
+.sidenav-scroll { overscroll-behavior: contain; }
 
-.sidenav-item-link ~ ul {
-  display: none;
-}
+.sidenav-item-link ~ ul { display: none; }
 
-.sidenav-item-link._w--current ~ ul,
-.sidenav-item-link.w--current ~ ul {
-    display: grid;
-}
+.sidenav-item-link:is(.w--current, ._w--current) ~ ul { display: grid; }
 
-.sidenav-item-link.sidenav-sublist._w--current {
-    background-color: #ffd1d1;
-}
+.sidenav-item-link.sidenav-sublist._w--current { background-color: #ffd1d1; }
 
-.sidenav-item-link.sidenav-sublist._w--current:hover {
-    outline-color: transparent;
-}
+.sidenav-item-link.sidenav-sublist._w--current:hover { outline-color: transparent; }
 
 
 
 /* Code Block */
 
-code[class*=language-], pre[class*=language-] {
+code[class*=language-], 
+pre[class*=language-] {
     padding: 0;
     margin: 0;
     overflow: auto;
