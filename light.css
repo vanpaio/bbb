@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 26 2022 00:46:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 26 2022 00:51:57 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1289,7 +1289,7 @@ label {
   grid-row-gap: 0.25rem;
 }
 
-.btn.btn-xs.btn-primary.btn-tab {
+.btn.btn-xs.btn-primary.btn-tab-delete {
   overflow: visible;
   padding-right: 0.25rem;
   background-color: transparent;
@@ -1299,7 +1299,7 @@ label {
   outline-width: 0.125rem;
 }
 
-.btn.btn-xs.btn-primary.btn-tab-v2 {
+.btn.btn-xs.btn-primary.btn-tab {
   overflow: visible;
   height: 1.75rem;
   padding-right: 0rem;
