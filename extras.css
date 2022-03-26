@@ -208,7 +208,8 @@ code[class*=language-], pre[class*=language-] {
 /*  text editor */
 
 .note-popover {
-	margin-left: -100px !important;
+    margin-left: -128px !important;
+    margin-top: -72px !important;
     border-radius: .5rem !important;
     padding: .25rem !important;
     box-shadow: 0px 2px 6px 1px #00000026 !important;
@@ -217,7 +218,8 @@ code[class*=language-], pre[class*=language-] {
 }
 
 .note-popover.bottom .note-popover-arrow {
-	left: 105px !important;
+  left: 148px !important;
+  top: 58px !important;
   border: none !important;
 }
 
