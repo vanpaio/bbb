@@ -241,10 +241,11 @@ pre[class*=language-] {
     z-index: 3;
     right: 0;
     transition: all 200ms ease;
+    opacity: .97;
 }
 
-.emojipicker-header:focus-within + .emoji-cat .emoji-cat-title {
-    top: .25rem;
+.emojipicker-header:focus-within ~ .emoji-cat .emoji-cat-title {
+    top: -4rem;
 }
 
 
