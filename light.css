@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 29 2022 14:52:51 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 29 2022 15:29:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4068,6 +4068,7 @@ label {
 }
 
 .search-input.search-input__small.emojipicker-search {
+  width: 100%;
   padding-right: 1rem;
   padding-left: 2.125rem;
   background-color: transparent;
