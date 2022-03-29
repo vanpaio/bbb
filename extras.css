@@ -248,6 +248,10 @@ pre[class*=language-] {
     top: -4rem;
 }
 
+.modal-content.emojipicker-scroll {
+    overflow-y: scroll;
+}
+
 
 /* Buildsmart Library */
 
