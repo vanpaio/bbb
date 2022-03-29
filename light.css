@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 29 2022 02:44:33 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 29 2022 02:51:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -502,7 +502,7 @@ label {
   transition: all 150ms ease;
   font-family: Inter, sans-serif;
   color: #000;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
