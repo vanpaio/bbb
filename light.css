@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 29 2022 03:12:57 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 29 2022 03:52:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1447,7 +1447,7 @@ label {
 
 .modal-container.emojipicker {
   overflow: hidden;
-  width: 30rem;
+  width: 30.5rem;
   height: 19rem;
   max-width: none;
   min-width: auto;
@@ -8341,8 +8341,8 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2.375rem;
+  height: 2.375rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8393,14 +8393,20 @@ label {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  grid-auto-columns: 1.875rem;
-  grid-auto-rows: 1.75rem;
-  grid-column-gap: 0.125rem;
-  grid-row-gap: 0.125rem;
-  -ms-grid-columns: 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem;
-  grid-template-columns: 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem 1.875rem;
-  -ms-grid-rows: 1.75rem;
-  grid-template-rows: 1.75rem;
+  grid-auto-columns: -webkit-min-content;
+  grid-auto-columns: min-content;
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+  -ms-grid-columns: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  -ms-grid-columns: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+  grid-template-columns: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-columns: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+  -ms-grid-rows: -webkit-min-content;
+  -ms-grid-rows: min-content;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
 }
 
 .emoji-cat-title {
