@@ -232,6 +232,21 @@ pre[class*=language-] {
 [contenteditable] :is(p, h1, h2, h3, h4, h5, ul, ol):last-child { margin-bottom: 0; }  /* ... and end of project descriptions */
 
 
+/* Emoji Modal */
+
+.emojipicker-header:focus-within {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    right: 0;
+    transition: all 200ms ease;
+}
+
+.emojipicker-header:focus-within + .emoji-cat .emoji-cat-title {
+    top: .25rem;
+}
+
 
 /* Buildsmart Library */
 
