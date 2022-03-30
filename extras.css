@@ -204,40 +204,12 @@ pre[class*=language-] {
     position: absolute;
 }
 
-.add-project-description {
-    transition: all 50ms ease;
-}
-
 .note-editable:empty + .add-description {
     display: block;
-    position: absolute;
-    z-index: 999;
 }
 
-.add-description {
-    width: 100%;
-    padding: 0.125rem 0;
-    color: #b8b8b8;
-    transition: all 550ms ease;
-    opacity: 0;
-}
-
-.add-description:hover {
-    text-decoration: none;
-    opacity: 1;
-}
-
-.add-description label {
-    margin: 0;
-}
-
-.add-description,
 .note-editable:focus + .add-description {
     display: none;
-}
-
-.add-description-label {
-    cursor: pointer;
 }
 
 /*  text editor */
