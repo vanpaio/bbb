@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 31 2022 02:48:54 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Mar 31 2022 03:07:02 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3945,6 +3945,9 @@ label {
 .linklist-item-body {
   display: -ms-grid;
   display: grid;
+  overflow: hidden;
+  max-width: 100%;
+  justify-items: stretch;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -3958,7 +3961,8 @@ label {
   grid-auto-columns: min-content;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
-  grid-template-columns: repeat(auto-fit, 36ch);
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   line-height: 1.3125rem;
@@ -6569,7 +6573,7 @@ label {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   grid-auto-flow: column;
-  grid-auto-columns: auto;
+  grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   -ms-grid-columns: 1fr;
@@ -7362,7 +7366,6 @@ label {
 .linklist-item-title {
   display: -ms-grid;
   display: grid;
-  max-width: 50%;
   justify-items: start;
   -webkit-box-align: center;
   -webkit-align-items: center;
