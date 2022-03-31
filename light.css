@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 31 2022 02:31:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Mar 31 2022 02:45:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -480,6 +480,7 @@ label {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  justify-items: start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
