@@ -86,7 +86,8 @@ pre[class*=language-] {
 /*     opacity: 1; */
 }
 
-[draggable=true]:hover {
+/* [draggable=true]:hover, */
+.linklist-item:hover .linklist-draghandle {
     background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/623a76b825ec66e08361f010_draggable-handle.svg);
     background-position: 8px 50%;
     background-size: auto;
