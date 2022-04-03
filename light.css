@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 03 2022 20:45:56 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 03 2022 20:58:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8156,7 +8156,7 @@ label {
   display: none;
 }
 
-.text-block {
+.item-title-text {
   overflow: hidden;
   max-width: 100%;
 }
