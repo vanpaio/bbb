@@ -214,6 +214,7 @@ pre[class*=language-] {
 .linklist-item .item-title-text {
     padding: 0.25rem !important;
     margin-left: -0.125rem;
+    outline: 0;
 }
 
 
