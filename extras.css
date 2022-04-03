@@ -71,60 +71,6 @@ pre[class*=language-] {
     color: hsl(0deg 0% 50%) !important;
 }
 
-/* [draggable=true]:hover, */
-.linklist-item:hover .linklist-draghandle {
-    background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/623a76b825ec66e08361f010_draggable-handle.svg);
-    background-position: 8px 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-[draggable=true]:active,
-.linklist-draghandle:active,{
-    cursor: grabbing;
-}
-
-.linklist-checkbox-wrapper input:checked,
-.linklist-checkbox-wrapper input:checked ~ .checkbox {
-    display: block;
-}
-
-.linklist-checkbox-wrapper:hover .list-item-favicon,
-.linklist-checkbox-wrapper:not(:hover) .checkbox,
-.linklist-checkbox-wrapper input:checked ~ .list-item-favicon {
-    display: none;
-}
-
-.linklist-checkbox-wrapper input:checked ~ .checkbox {
-    border: .125rem solid red;
-    background: red url("https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/6209eae7fc1ea38e1dd83074_checkmark-icon.svg") -1px 0px no-repeat;
-    background-size: 14px;
-}
-
-
-/*  Link list - Close/Open tab Buttons */
-
-.linklist-item:not(:hover, :focus) .btn,
-.linklist-item:not([data-bb-tab]) span,
-.linklist-item:not([data-bb-tab]) .close-tab {
-  display: none;
-}
-
-[data-bb-tab]:not(:hover) .btn-tab {
-    opacity: .25;
-    display: grid;
-}
-
-[data-bb-tab]:not(:hover) .open-tab {
-    background-color: transparent;
-    outline-color: black;
-    outline-width: 0.0625rem;
-}
-
-[data-bb-tab]:not(:hover) .open-tab { color: black; }
-.close-icon-wrapper:not(:hover) svg { color: transparent; }
-.close-icon-wrapper:hover + .close-tab-text { display: flex; }
-
 
 /* Overflow Menu */
 
@@ -202,7 +148,63 @@ pre[class*=language-] {
     display: none;
 }
 
-/* Link list */
+/* Linklist */
+
+.linklist-item:hover .linklist-draghandle {
+    background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/623a76b825ec66e08361f010_draggable-handle.svg);
+    background-position: 8px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+[draggable=true]:active,
+.linklist-draghandle:active,{
+    cursor: grabbing;
+}
+
+.linklist-checkbox-wrapper input:checked,
+.linklist-checkbox-wrapper input:checked ~ .checkbox {
+    display: block;
+}
+
+.linklist-checkbox-wrapper:hover .list-item-favicon,
+.linklist-checkbox-wrapper:not(:hover) .checkbox,
+.linklist-checkbox-wrapper input:checked ~ .list-item-favicon {
+    display: none;
+}
+
+.linklist-checkbox-wrapper input:checked ~ .checkbox {
+    border: .125rem solid red;
+    background: red url("https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/6209eae7fc1ea38e1dd83074_checkmark-icon.svg") -1px 0px no-repeat;
+    background-size: 14px;
+}
+
+
+/*  Link list - Close/Open tab Buttons */
+
+.linklist-item:not(:hover, :focus) .btn,
+.linklist-item:not([data-bb-tab]) span,
+.linklist-item:not([data-bb-tab]) .close-tab {
+  display: none;
+}
+
+[data-bb-tab]:not(:hover) .btn-tab {
+    opacity: .25;
+    display: grid;
+}
+
+[data-bb-tab]:not(:hover) .open-tab {
+    background-color: transparent;
+    outline-color: black;
+    outline-width: 0.0625rem;
+}
+
+[data-bb-tab]:not(:hover) .open-tab { color: black; }
+.close-icon-wrapper:not(:hover) svg { color: transparent; }
+.close-icon-wrapper:hover + .close-tab-text { display: flex; }
+
+
+/* Link list title */
 
 .linklist-item .linklist-item-url {
     opacity: 0;
