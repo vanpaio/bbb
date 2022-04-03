@@ -211,7 +211,7 @@ pre[class*=language-] {
 
 .linklist-item:focus .linklist-item-url { opacity: .25; }
 
-.linklist-item .text-block {
+.linklist-item .item-title-text {
     padding: 0.25rem !important;
     margin-left: -0.125rem;
 }
