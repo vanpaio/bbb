@@ -71,21 +71,6 @@ pre[class*=language-] {
     color: hsl(0deg 0% 50%) !important;
 }
 
-/* Link list */
-
-.linklist-item .linklist-item-url {
-    opacity: 0;
-    text-overflow: ellipsis;
-}
-
-.linklist-item:focus .linklist-item-url {
-    opacity: .25;
-}
-
-.linklist-item .linklist-item-url:hover {
-/*     opacity: 1; */
-}
-
 /* [draggable=true]:hover, */
 .linklist-item:hover .linklist-draghandle {
     background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/623a76b825ec66e08361f010_draggable-handle.svg);
@@ -216,6 +201,21 @@ pre[class*=language-] {
 .note-editable:focus + .add-description {
     display: none;
 }
+
+/* Link list */
+
+.linklist-item .linklist-item-url {
+    opacity: 0;
+    text-overflow: ellipsis;
+}
+
+.linklist-item:focus .linklist-item-url { opacity: .25; }
+
+.linklist-item .text-block {
+    padding: 0.25rem !important;
+    margin-left: -0.125rem;
+}
+
 
 /*  text editor */
 
