@@ -191,7 +191,7 @@ pre[class*=language-] {
 /*  Link list - Close/Open tab Buttons */
 
 .linklist-item:not(:hover, :focus) .btn,
-.linklist-item:not([data-bb-tab]) :is(span, .close-tab) {
+.linklist-item:not([data-bb-tab]) .close-tab {
   display: none;
 }
 
