@@ -195,10 +195,6 @@ pre[class*=language-] {
   display: none;
 }
 
-.linklist-item:not(:hover, :focus) .linklist-menu-wrapper {
-  opacity: 0;
-}
-
 [data-bb-tab]:not(:hover) .btn-tab {
     opacity: .25;
     display: grid;
