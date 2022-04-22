@@ -1,4 +1,4 @@
-/* Generated on: Fri Apr 22 2022 17:04:33 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Apr 22 2022 18:35:31 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2153,15 +2153,15 @@ label {
   position: relative;
   left: 0px;
   z-index: auto;
-  width: 1rem;
-  height: 1rem;
+  width: 0.75rem;
+  height: 0.75rem;
   margin-top: 0px;
   margin-left: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  border: 0.125rem solid #000;
+  border: 0.09375rem solid #000;
   border-radius: 0.125rem;
   -webkit-transition: opacity 150ms ease, all 50ms ease;
   transition: opacity 150ms ease, all 50ms ease;
@@ -2239,6 +2239,11 @@ label {
 .checkbox-label.checkbox-label__disabled {
   opacity: 0.3;
   cursor: not-allowed;
+}
+
+.checkbox-label.get-started {
+  padding-left: 0.25rem;
+  font-size: 0.75rem;
 }
 
 .snippet-inline {
@@ -8812,6 +8817,10 @@ label {
   background-color: transparent;
 }
 
+.checkbox-wrap.get-started {
+  padding-left: 0.25rem;
+}
+
 .modal-header__h4 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -8824,6 +8833,43 @@ label {
   margin-bottom: 0px;
   font-size: 1rem;
   line-height: 1.2;
+}
+
+.sidenav-get_started {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.div-block {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.div-block-2 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -10413,6 +10459,39 @@ label {
 }
 
 #w-node-a25588c0-441b-013a-6f8b-603bc745194c-ec68c8c0 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_70538262-6a56-e5b5-720c-45d7297d7597-ec68c8c0 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-df3ec4b3-e77a-2b5a-829a-0c84b1d7b9a0-ec68c8c0 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a1d94c05-7207-6ab6-f72f-969bfc73a28a-ec68c8c0 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
