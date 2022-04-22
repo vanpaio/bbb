@@ -1,4 +1,4 @@
-/* Generated on: Fri Apr 22 2022 18:36:13 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Apr 22 2022 19:18:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2879,6 +2879,10 @@ label {
   letter-spacing: 0.16px;
 }
 
+.radio-button__label.radio-helper-text {
+  margin-top: -0.625rem;
+}
+
 .radio-button__label-text {
   margin-bottom: 0px;
   padding-left: 0.5rem;
@@ -2886,6 +2890,10 @@ label {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+}
+
+.radio-button__label-text.with_helptext {
+  margin-top: 1.125rem;
 }
 
 .radio-button__disabled-mask {
