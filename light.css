@@ -1,4 +1,4 @@
-/* Generated on: Sun May 08 2022 03:40:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun May 08 2022 12:49:52 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2175,8 +2175,8 @@ label {
   position: relative;
   left: 0px;
   z-index: auto;
-  width: 0.75rem;
-  height: 0.75rem;
+  width: 1rem;
+  height: 1rem;
   margin-top: 0px;
   margin-left: 0px;
   -webkit-box-flex: 0;
@@ -2215,6 +2215,11 @@ label {
 .checkbox.checkbox-disabled.w--redirected-checked {
   border-color: #b8b8b8;
   background-color: #b8b8b8;
+}
+
+.checkbox.checkbox-xs {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .checkbox-proxy {
