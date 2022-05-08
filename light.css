@@ -1,4 +1,4 @@
-/* Generated on: Sun May 08 2022 02:11:18 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun May 08 2022 02:18:27 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9056,6 +9056,8 @@ label {
 .overflow-menu__project {
   display: -ms-grid;
   display: grid;
+  overflow: hidden;
+  width: 10rem;
   height: 1.625rem;
   margin-bottom: 0.25rem;
   padding: 0px 0.25rem;
