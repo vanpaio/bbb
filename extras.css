@@ -196,6 +196,14 @@ pre[class*=language-] {
     display: flex;
 }
 
+/*  Buttons */
+
+.btn > div {
+    text-overflow: ellipsis;
+    max-width: 14rem;
+    overflow: hidden
+}
+
 
 /*  Link list - Close/Open tab Buttons */
 
