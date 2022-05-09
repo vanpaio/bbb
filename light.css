@@ -1,4 +1,4 @@
-/* Generated on: Mon May 09 2022 16:27:58 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon May 09 2022 16:30:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -795,7 +795,7 @@ label {
 }
 
 .breadcrumb-link.w--current {
-  color: #171717;
+  color: #b8b8b8;
 }
 
 .breadcrumb-divider {
