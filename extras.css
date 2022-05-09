@@ -198,9 +198,9 @@ pre[class*=language-] {
 
 /*  Buttons */
 
-.btn > div {
+.btn > div:not(.btn-split__wrap) {
     text-overflow: ellipsis;
-    max-width: 14rem;
+    max-width: 100%;
     overflow: hidden
 }
 
