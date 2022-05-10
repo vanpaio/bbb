@@ -1,4 +1,4 @@
-/* Generated on: Tue May 10 2022 04:33:06 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue May 10 2022 04:34:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -544,7 +544,7 @@ label {
 
 .sidenav-item-link.w--current {
   background-color: #ffe5e5;
-  outline-color: #fff2f2;
+  outline-color: #ffe5e5;
 }
 
 .sidenav-item-link.w--current:hover {
