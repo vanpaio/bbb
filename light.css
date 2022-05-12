@@ -1,4 +1,4 @@
-/* Generated on: Thu May 12 2022 19:53:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu May 12 2022 20:08:43 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6790,6 +6790,15 @@ label {
   background-color: #fffa85;
 }
 
+.linklist-item.url-edit-mode {
+  overflow: hidden;
+  padding: 0rem;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: #ff2d2d;
+  background-color: #f5f5f5;
+}
+
 .number-input {
   width: 9.375rem;
   height: 2.5rem;
@@ -9658,6 +9667,30 @@ label {
   text-align: left;
 }
 
+.url-edit {
+  height: 100%;
+  margin-bottom: 0px;
+  padding: 0.25rem 1rem;
+  border: 1px none transparent;
+  background-color: #f5f5f5;
+}
+
+.url-edit::-webkit-input-placeholder {
+  color: #b8b8b8;
+}
+
+.url-edit:-ms-input-placeholder {
+  color: #b8b8b8;
+}
+
+.url-edit::-ms-input-placeholder {
+  color: #b8b8b8;
+}
+
+.url-edit::placeholder {
+  color: #b8b8b8;
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -11035,6 +11068,94 @@ label {
 }
 
 #w-node-_1fc9280c-25b1-622d-b880-c189b8d96283-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b2f-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b30-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b37-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b38-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b45-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b49-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a2f9c38e-b65c-74da-a9ce-1dd27b861b4e-b8d8304e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#field.w-node-_6dfd374d-a387-7b11-714b-08733314fdf6-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
