@@ -1,4 +1,4 @@
-/* Generated on: Thu May 12 2022 03:31:16 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu May 12 2022 03:34:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7722,7 +7722,14 @@ label {
 }
 
 .project-icon.w--open {
-  background-color: #fff2f2;
+  background-color: #ffe5e5;
+}
+
+.project-icon.w--open:hover {
+  outline-color: transparent;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
 }
 
 .project-header {
