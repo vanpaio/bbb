@@ -313,6 +313,10 @@ pre[class*=language-] {
     overflow-y: scroll;
 }
 
+/*  Archived */
+#archived-list .linklist-item {
+    background-color: #fffa85;
+}
 
 /* Buildsmart Library */
 
