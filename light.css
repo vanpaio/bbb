@@ -1,4 +1,4 @@
-/* Generated on: Thu May 12 2022 03:34:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu May 12 2022 19:53:39 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9636,9 +9636,15 @@ label {
   grid-template-rows: auto;
   border: 1px solid #000;
   border-radius: 0.5rem;
+  opacity: 0.25;
   -webkit-transition: all 70ms ease;
   transition: all 70ms ease;
   text-align: right;
+}
+
+.linklist-item-copyurl:hover {
+  border-color: rgba(0, 0, 0, 0.25);
+  opacity: 1;
 }
 
 .linklist-item-copyurl.edit {
