@@ -243,6 +243,10 @@ pre[class*=language-] {
     outline: 0;
 }
 
+/*  Link list EDIT-MODE */
+.linklist-item.url-edit-mode > div {
+	display: none;
+}
 
 /*  text editor */
 
