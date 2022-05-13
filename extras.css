@@ -3,7 +3,9 @@
 * {-webkit-tap-highlight-color: transparent; } /* Removes flash when user taps a link on mobile */
 
 .copyurl-text,
-[data-bb-truncate="true"] { /* Add ellipsis to elements */
+[data-bb-truncate="true"],
+[data-truncate="true"]{ /* Add ellipsis to elements */
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
