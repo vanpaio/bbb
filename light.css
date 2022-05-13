@@ -1,4 +1,4 @@
-/* Generated on: Fri May 13 2022 12:33:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri May 13 2022 12:53:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2465,6 +2465,8 @@ label {
   grid-template-rows: auto;
   border-radius: 0.75rem;
   background-color: #f5f5f5;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
   font-size: 0.875rem;
   line-height: 1.3;
 }
@@ -2491,6 +2493,12 @@ label {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.inline-notification.notification-visible {
+  -webkit-transform: translate(0px, -2rem);
+  -ms-transform: translate(0px, -2rem);
+  transform: translate(0px, -2rem);
 }
 
 .inline-notification__details {
@@ -9678,7 +9686,7 @@ label {
 .notifications-container {
   position: fixed;
   right: 2rem;
-  bottom: 2rem;
+  bottom: 0rem;
   z-index: 900;
   display: -ms-grid;
   display: grid;
