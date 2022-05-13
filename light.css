@@ -1,4 +1,4 @@
-/* Generated on: Fri May 13 2022 13:03:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri May 13 2022 13:12:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2459,6 +2459,7 @@ label {
   grid-auto-flow: column;
   grid-auto-columns: auto;
   grid-column-gap: 1.5rem;
+  grid-row-gap: 16px;
   -ms-grid-columns: auto;
   grid-template-columns: auto;
   -ms-grid-rows: auto;
@@ -2488,6 +2489,13 @@ label {
   background-color: #ffe5e5;
 }
 
+.inline-notification.inline-notification-error.notification-visible {
+  -webkit-transition: opacity 200ms ease, opacity 70ms ease, -webkit-transform 350ms ease;
+  transition: opacity 200ms ease, opacity 70ms ease, -webkit-transform 350ms ease;
+  transition: opacity 200ms ease, opacity 70ms ease, transform 350ms ease;
+  transition: opacity 200ms ease, opacity 70ms ease, transform 350ms ease, -webkit-transform 350ms ease;
+}
+
 .inline-notification.inline-multiline-notification {
   max-width: 46rem;
   -webkit-box-align: start;
@@ -2497,14 +2505,21 @@ label {
 }
 
 .inline-notification.notification-visible {
+  grid-auto-columns: auto;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 16px;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
   opacity: 1;
   -webkit-transform: translate(0px, -2rem);
   -ms-transform: translate(0px, -2rem);
   transform: translate(0px, -2rem);
-  -webkit-transition: opacity 70ms ease, -webkit-transform 350ms ease;
-  transition: opacity 70ms ease, -webkit-transform 350ms ease;
-  transition: opacity 70ms ease, transform 350ms ease;
-  transition: opacity 70ms ease, transform 350ms ease, -webkit-transform 350ms ease;
+  -webkit-transition: opacity 70ms ease, all 1ms ease, -webkit-transform 350ms ease;
+  transition: opacity 70ms ease, all 1ms ease, -webkit-transform 350ms ease;
+  transition: opacity 70ms ease, transform 350ms ease, all 1ms ease;
+  transition: opacity 70ms ease, transform 350ms ease, all 1ms ease, -webkit-transform 350ms ease;
 }
 
 .inline-notification.demo {
@@ -9711,6 +9726,8 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
 }
 
 @media screen and (max-width: 991px) {
