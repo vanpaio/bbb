@@ -2,6 +2,10 @@
 * {-webkit-font-smoothing: antialiased;} /* Refines texts rendering in Chrome */
 * {-webkit-tap-highlight-color: transparent; } /* Removes flash when user taps a link on mobile */
 
+.copyurl-text,
+[data-bb-truncate="true"] { /* Add ellipsis to elements */
+  text-overflow: ellipsis;
+}
 
 input[type=text] { /* Removes innershadow on form fields on iOS */
   -webkit-appearance: none;
@@ -246,14 +250,14 @@ pre[class*=language-] {
 }
 
 
-/*  Linklist - Url [edit mode] */
+/*  Linklist - Url & Url Edit */
 
 .linklist-item.url-edit-mode > div {
 	display: none;
 }
 
-.linklist-item:is(:focus, .selected) .linklist-item-copyurl {
-  display: flex;
+.linklist-item:is(:focus, .selected, :hover) .linklist-item-copyurl {
+  display: grid;
 }
 
 /*  Text editor */
