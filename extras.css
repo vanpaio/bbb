@@ -236,7 +236,7 @@ input.text-input,
 	display: none;
 }
 
-.linklist-item:not(:focus, .selected, :hover) .linklist-item-copyurl {
+.linklist-item .linklist-item-content:not(:focus, .selected, :hover) .linklist-item-copyurl {
   display: none;
 }
 
