@@ -148,6 +148,16 @@ pre[class*=language-] {
     display: none;
 }
 
+
+/*  Buttons */
+
+.btn > div:not(.btn-split__wrap) {
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden
+}
+
+
 /* Linklist */
 
 .list-item-favicon img {
@@ -196,18 +206,10 @@ pre[class*=language-] {
     display: flex;
 }
 
-/*  Buttons */
 
-.btn > div:not(.btn-split__wrap) {
-    text-overflow: ellipsis;
-    max-width: 100%;
-    overflow: hidden
-}
+/*  Linklist - Close/Open tab Buttons */
 
-
-/*  Link list - Close/Open tab Buttons */
-
-.linklist-item:not(:hover, :focus) .btn,
+.linklist-item:not(:hover) .btn,
 .linklist-item:not([data-bb-tab]) .close-tab {
   display: none;
 }
@@ -228,7 +230,7 @@ pre[class*=language-] {
 .close-icon-wrapper:hover + .close-tab-text { display: flex; }
 
 
-/* Link list title */
+/* Linklist - Title */
 
 .linklist-item .linklist-item-url {
     opacity: 0;
@@ -243,12 +245,18 @@ pre[class*=language-] {
     outline: 0;
 }
 
-/*  Link list EDIT-MODE */
+
+/*  Linklist - Url [edit mode] */
+
 .linklist-item.url-edit-mode > div {
 	display: none;
 }
 
-/*  text editor */
+.linklist-item:is(:focus, .selected) .linklist-item-copyurl {
+  display: flex;
+}
+
+/*  Text editor */
 
 .note-popover {
     margin-left: -128px !important;
