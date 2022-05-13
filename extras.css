@@ -4,7 +4,7 @@
 
 .copyurl-text,
 [data-bb-truncate="true"],
-[data-truncate="true"]{ /* Add ellipsis to elements */
+[data-truncate="true"] { /* Add ellipsis to elements */
   overflow: hidden;
   text-overflow: ellipsis;
 }
