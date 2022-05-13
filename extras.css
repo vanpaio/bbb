@@ -52,31 +52,6 @@ input.text-input,
     text-overflow: ellipsis;
 }
 
-/* Code Block */
-
-code[class*=language-], 
-pre[class*=language-] {
-    padding: 0;
-    margin: 0;
-    overflow: auto;
-    color: hsl(0deg 0% 50%) !important;
-    background: transparent;
-}
-
-.tag .attr-value {
-    color: red;
-}
-
-.token.tag {
-    color: white !important;
-}
-
-.attr-equals,
-.attr-value .punctuation,
-.attr-name {
-    color: hsl(0deg 0% 50%) !important;
-}
-
 
 /* Overflow Menu */
 
@@ -258,9 +233,10 @@ pre[class*=language-] {
 	display: none;
 }
 
-.linklist-item:is(:focus, .selected, :hover) .linklist-item-copyurl {
-  display: grid;
+.linklist-item:not(:focus, .selected, :hover) .linklist-item-copyurl {
+  display: none;
 }
+
 
 /*  Text editor */
 
@@ -339,4 +315,30 @@ pre[class*=language-] {
 
 .bbb .sidenav-item-link {
     font-weight: 400;
+}
+
+
+/* Code Block */
+
+code[class*=language-], 
+pre[class*=language-] {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    color: hsl(0deg 0% 50%) !important;
+    background: transparent;
+}
+
+.tag .attr-value {
+    color: red;
+}
+
+.token.tag {
+    color: white !important;
+}
+
+.attr-equals,
+.attr-value .punctuation,
+.attr-name {
+    color: hsl(0deg 0% 50%) !important;
 }
