@@ -194,7 +194,7 @@ input.text-input,
 /*  Linklist - Close/Open tab Buttons */
 
 .linklist-item .linklist-item-content:not(:hover) .btn,
-.linklist-item .linklist-item-content:not([data-bb-tab]) .close-tab {
+.linklist-item:not([data-bb-tab]) .close-tab {
   display: none;
 }
 
