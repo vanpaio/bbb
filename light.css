@@ -1,4 +1,4 @@
-/* Generated on: Fri May 13 2022 16:38:51 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat May 14 2022 20:47:42 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4335,7 +4335,6 @@ label {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   text-decoration: none;
-  cursor: default;
 }
 
 .assistive-text {
