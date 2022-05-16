@@ -133,11 +133,11 @@ input.text-input,
 
 /*  Buttons */
 
-.btn > div:not(.btn-split__wrap) {
+/*.btn > div:not(.btn-split__wrap) {
     text-overflow: ellipsis;
     max-width: 100%;
     overflow: hidden
-}
+}*/
 
 
 
