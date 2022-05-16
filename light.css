@@ -1,4 +1,4 @@
-/* Generated on: Mon May 16 2022 17:44:30 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon May 16 2022 17:46:00 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9775,6 +9775,12 @@ label {
   max-width: 100%;
   color: #b8b8b8;
   font-weight: 400;
+}
+
+.folder-title-text {
+  overflow: hidden;
+  max-width: 100%;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
