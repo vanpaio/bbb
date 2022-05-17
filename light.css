@@ -1,4 +1,4 @@
-/* Generated on: Tue May 17 2022 13:51:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue May 17 2022 14:06:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9842,6 +9842,8 @@ label {
   position: relative;
   display: -ms-grid;
   display: grid;
+  min-height: 2.375rem;
+  min-width: 8rem;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   float: right;
@@ -12108,73 +12110,6 @@ label {
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-}
-
-#w-node-_87c343b4-22ef-0418-7bc6-d649aa821259-b0a7704c {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_1b6b2a52-46c2-7281-d61c-5ac8b8d1256e-b0a7704c {
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-}
-
-#w-node-_1b6b2a52-46c2-7281-d61c-5ac8b8d12577-b0a7704c {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-#w-node-_1b6b2a52-46c2-7281-d61c-5ac8b8d12584-b0a7704c {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#project-description.w-node-_1b6b2a52-46c2-7281-d61c-5ac8b8d12585-b0a7704c {
-  -ms-grid-column-align: stretch;
-  justify-self: stretch;
-}
-
-#w-node-_1b6b2a52-46c2-7281-d61c-5ac8b8d1259c-b0a7704c {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_1b6b2a52-46c2-7281-d61c-5ac8b8d1259d-b0a7704c {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
 }
 
 #w-node-_26145a00-be99-189b-c45d-1770d07cb7ff-b0a7704c {
