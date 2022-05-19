@@ -71,7 +71,7 @@ input.text-input,
 .note-editable:not(:focus) ~ .modal-group-right {
     display: none;
 }
-.project_fl-wrapper:not(:hover) .project_fl-actions > .open-all {
+.main-content:not(:hover) .project_fl-actions > .open-all {
     display: none;
 }
 
