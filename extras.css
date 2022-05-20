@@ -226,7 +226,7 @@ input.text-input,
 
 .linklist-item:focus .linklist-item-url { opacity: .25; }
 
-.linklist-item .item-title-text {
+.linklist-item .item-title-text, .linklist-item .folder-title-text {
     padding: 0.25rem !important;
     margin-left: -0.125rem;
     outline: 0;
