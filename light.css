@@ -1,4 +1,4 @@
-/* Generated on: Mon May 23 2022 14:40:20 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon May 23 2022 14:41:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8759,7 +8759,7 @@ label {
   grid-template-rows: auto;
 }
 
-.linklist-toolbar.sticky {
+.linklist-toolbar.sticky-toolbar {
   position: -webkit-sticky;
   position: sticky;
   top: 3.7rem;
