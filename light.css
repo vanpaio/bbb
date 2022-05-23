@@ -1,4 +1,4 @@
-/* Generated on: Fri May 20 2022 17:59:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon May 23 2022 14:40:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5033,6 +5033,9 @@ label {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   grid-auto-flow: column;
   grid-auto-columns: -webkit-min-content;
   grid-auto-columns: min-content;
@@ -5061,9 +5064,6 @@ label {
   position: sticky;
   top: 3.75rem;
   z-index: 998;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
   border-top-style: none;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -8759,6 +8759,17 @@ label {
   grid-template-rows: auto;
 }
 
+.linklist-toolbar.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3.7rem;
+  height: 4rem;
+  margin-bottom: 0rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #fff;
+}
+
 .linklist-summary {
   display: -ms-grid;
   display: grid;
@@ -9844,7 +9855,7 @@ label {
   display: grid;
   min-height: 2.375rem;
   min-width: 9rem;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.75rem;
   float: right;
   -webkit-box-orient: vertical;
@@ -9869,17 +9880,6 @@ label {
   grid-template-columns: auto;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-}
-
-.project-heading-v2 {
-  display: inline-block;
-  overflow: hidden;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0.375rem;
-  float: left;
-  font-size: 2.5rem;
-  text-align: left;
 }
 
 .overflow-menu__wrap-v2 {
