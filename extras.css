@@ -73,7 +73,14 @@ input.text-input,
 }
 .main-content:not(:hover) .project_fl-actions > .open-all {
     display: none;
-}
+} 
+
+/* Review this code */
+.w--open + .open-all {
+    display: grid !important;
+} 
+
+/* End of review */
 
 [contenteditable] {
   border: 0rem none #000;
