@@ -1,4 +1,4 @@
-/* Generated on: Tue May 24 2022 21:04:16 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue May 24 2022 21:23:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1449,6 +1449,14 @@ label {
 }
 
 .svg-icon.copyurl {
+  width: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.svg-icon.edit-link {
   width: 1.5rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
