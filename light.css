@@ -1,4 +1,4 @@
-/* Generated on: Tue May 24 2022 20:05:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue May 24 2022 20:41:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4439,7 +4439,7 @@ label {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: #3d3d3d;
+  background-color: #000;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
