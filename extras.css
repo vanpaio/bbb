@@ -173,15 +173,16 @@ input.text-input,
     cursor: grabbing;
 }
 
-.linklist-checkbox-wrapper input:checked,
-.linklist-checkbox-wrapper input:checked ~ .checkbox {
-    display: block;
+
+.linklist-item-content:hover .list-item-favicon,
+.linklist-checkbox-wrapper:hover .list-item-favicon,
+.linklist-checkbox-wrapper:not(:hover) .checkbox {
+    display: none;
 }
 
-.linklist-checkbox-wrapper:hover .list-item-favicon,
-.linklist-checkbox-wrapper:not(:hover) .checkbox,
-.linklist-checkbox-wrapper input:checked ~ .list-item-favicon {
-    display: none;
+.linklist-item-content:hover .linklist-checkbox-wrapper input:checked ~ .checkbox,
+.linklist-item-content:hover .checkbox {
+    display: block;
 }
 
 .linklist-checkbox-wrapper input:checked ~ .checkbox {
