@@ -1,4 +1,4 @@
-/* Generated on: Tue May 24 2022 23:02:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Jun 08 2022 03:23:25 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6835,6 +6835,10 @@ label {
 
 .linklist-item.selected {
   background-color: #ffe5e5;
+  outline-color: #ff8484;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
 }
 
 .linklist-item.selected.edit {
