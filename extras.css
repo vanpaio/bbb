@@ -153,7 +153,7 @@ input.text-input,
 
 /* Linklist */
 
-.item-title-text:empty:after {
+:is(.item-title-text, .folder-title-text, .link-title):empty:after {
     content: attr(placeholder);
     color: #0000003b;
 }
