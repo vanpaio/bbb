@@ -153,6 +153,11 @@ input.text-input,
 
 /* Linklist */
 
+.item-title-text:empty:after {
+    content: attr(placeholder);
+    color: #0000003b;
+}
+
 .list-item-favicon img {
     vertical-align: inherit;
 }
