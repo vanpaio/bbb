@@ -47,7 +47,7 @@ input.text-input,
 .sidenav-item-link.sidenav-sublist._w--current:hover { outline-color: transparent; }
 
 .sidenav-item-link div,
-[data-bb-truncate] * {
+[data-bb-truncate="true"] * {
     overflow: hidden;
     text-overflow: ellipsis;
 }
