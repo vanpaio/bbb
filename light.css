@@ -1,4 +1,4 @@
-/* Generated on: Wed Jun 08 2022 03:23:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Jun 11 2022 03:11:31 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2175,6 +2175,45 @@ label {
 
 .overflow-menu__link.webflow-edit-text {
   display: block;
+}
+
+.overflow-menu__link.disabled {
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
+  color: #dedede;
+  cursor: default;
+}
+
+.overflow-menu__link.disabled:hover {
+  background-color: transparent;
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
+}
+
+.overflow-menu__link.disabled:focus {
+  background-color: transparent;
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
+}
+
+.overflow-menu__link.disabled:focus-visible {
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
+}
+
+.overflow-menu__link.disabled[data-wf-focus-visible] {
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
 }
 
 .form-item__label-delete {
@@ -11113,6 +11152,17 @@ label {
 }
 
 #w-node-_69691516-f7cd-e56c-58d7-375e6c1e1ae6-07d83041 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-f1f9c570-6430-8d71-92f5-01d449369d7a-07d83041 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
