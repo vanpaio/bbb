@@ -1,4 +1,4 @@
-/* Generated on: Thu Jun 16 2022 21:02:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jun 16 2022 21:09:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10040,6 +10040,19 @@ label {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.emojipicker__wrapper {
+  position: absolute;
+  top: 13.125rem;
+  display: none;
+}
+
+.emojipicker__wrapper.emojipicker__wrapper-demo {
+  position: relative;
+  top: auto;
+  z-index: 999;
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -10750,6 +10763,17 @@ label {
 #w-node-_40834dd7-f89b-6cf7-4f58-ba26389ecc23-5bd83030 {
   -ms-grid-column-align: center;
   justify-self: center;
+}
+
+#w-node-f6bd582d-ca11-91ea-19c0-0c12a461f11f-50d83038 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
 }
 
 #w-node-b5f16928-9d12-56cd-e181-674de74b58eb-e74b58eb {
