@@ -1,4 +1,4 @@
-/* Generated on: Wed Jun 15 2022 21:22:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jun 16 2022 21:02:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1544,10 +1544,6 @@ label {
 }
 
 .modal-container.emojipicker {
-  position: absolute;
-  top: 13.125rem;
-  z-index: 999;
-  display: none;
   overflow: hidden;
   width: 30.5rem;
   height: 19rem;
