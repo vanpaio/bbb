@@ -1,4 +1,4 @@
-/* Generated on: Fri Jun 17 2022 01:13:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Jun 17 2022 01:23:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6905,10 +6905,11 @@ label {
 .linklist-item.url-edit-mode {
   overflow: hidden;
   padding: 0rem;
-  border-style: solid;
-  border-width: 0.125rem;
-  border-color: #ff2d2d;
   background-color: #f5f5f5;
+  outline-color: #ff2d2d;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
 }
 
 .number-input {
