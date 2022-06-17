@@ -265,6 +265,10 @@ input.text-input,
 	display: none;
 }
 
+.url-edit-mode.selected {
+    outline: none;
+}
+
 .linklist-item .linklist-item-content:not(:focus, .selected, :hover) .linklist-item-copyurl {
   display: none;
 }
