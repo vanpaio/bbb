@@ -273,6 +273,21 @@ input.text-input,
   display: none;
 }
 
+.linklist-item.title-edit-mode .item-title-text {
+    background-color: transparent;
+}
+
+.linklist-item.title-edit-mode .linklist-item-body,
+.linklist-item.title-edit-mode .linklist-checkbox-wrapper input:checked ~ .checkbox,
+.linklist-item.title-edit-mode .linklist-item-content input {
+    display: none;
+}
+
+.linklist-item.title-edit-mode .list-item-favicon {
+    display: block;
+}
+
+
 
 /*  Linklist - Archived */
 #archived-list .linklist-item {
