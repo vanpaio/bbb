@@ -28,6 +28,13 @@ input.text-input,
     margin-right: -0.25rem;
 }
 
+.url-edit::selection {
+    background: #ff000024;  
+}
+
+.url-edit {
+    caret-color: red;
+}
 
 
 /*  Sidenav */
