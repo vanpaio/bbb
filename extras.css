@@ -29,12 +29,14 @@ input.text-input,
 }
 
 .url-edit::selection,
-input::selection {
+input::selection,
+.contenteditable {
     background: #ff000024;  
 }
 
 .url-edit,
-input {
+input,
+.contenteditable {
     caret-color: red;
 }
 
