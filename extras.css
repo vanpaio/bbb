@@ -294,10 +294,20 @@ input,
 
 
 /*  Linklist - Archived */
-#archived-list .linklist-item {
-    background-color: #FFFDD1;
+
+.linklist-wrapper#archived-section {
+    padding: 0.5rem 0;
+    transition: all 150ms ease;
 }
 
+.linklist-wrapper.open#archived-section {
+    background-color: #FFFDD1;
+    padding: 0.5rem;
+}
+
+.linklist-wrapper#archived-section  .tiny-link-indent {
+    margin: 0;
+}
 
 
 /*  Text editor */
