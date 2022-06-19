@@ -298,6 +298,7 @@ input,
 .linklist-wrapper#archived-section {
     padding: 0.5rem 0;
     transition: all 150ms ease;
+	box-sizing: border-box;
 }
 
 .linklist-wrapper.open#archived-section {
