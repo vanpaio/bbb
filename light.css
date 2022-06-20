@@ -1,4 +1,4 @@
-/* Generated on: Sun Jun 19 2022 20:44:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Jun 20 2022 00:28:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1433,6 +1433,7 @@ label {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
