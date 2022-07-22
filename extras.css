@@ -222,12 +222,18 @@ input,
     display: flex;
 }
 
+
+/* Toolbar */
 .sticky-toolbar {
     width: calc(100% + 0.25rem);
 }
 
+:not(.toolbar-visible) .sticky-toolbar--wrapper {
+    display: none;
+}
 
-/*  Linklist - Close/Open tab Buttons */
+
+/* Linklist - Close/Open tab Buttons */
 
 .linklist-item .linklist-item-content:not(:hover) .btn,
 .linklist-item:not([data-bb-tab]) .close-tab {
