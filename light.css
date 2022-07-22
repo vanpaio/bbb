@@ -1,4 +1,4 @@
-/* Generated on: Fri Jul 22 2022 00:25:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Jul 22 2022 01:50:42 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8878,6 +8878,7 @@ label {
   top: 3.7rem;
   height: 4rem;
   margin-bottom: 0rem;
+  margin-left: -0.125rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: #fff;
@@ -10060,7 +10061,11 @@ label {
 }
 
 .sticky-toolbar--wrapper {
-  height: 4rem;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
   margin-top: -4.5rem;
 }
 
