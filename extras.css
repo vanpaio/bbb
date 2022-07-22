@@ -228,7 +228,7 @@ input,
     width: calc(100% + 0.25rem);
 }
 
-:not(.toolbar-visible) .sticky-toolbar--wrapper {
+.project_fl-wrapper:not(.toolbar-visible) .sticky-toolbar--wrapper {
     display: none;
 }
 
