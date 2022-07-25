@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  height: 24px;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+a {
+  background: attr(icon url);
+  padding-left: 24px;
+}
+
+body > * {
+  width: 600px;
+}
