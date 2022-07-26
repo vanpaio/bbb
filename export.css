@@ -25,3 +25,7 @@ a {
 body > * {
   width: 600px;
 }
+
+[archived], [deleted], h3[archived]+dl, h3[deleted]+dl {
+  display: none;
+}
