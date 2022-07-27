@@ -73,6 +73,14 @@ body > dl > dt > h3::before {
     display: block;
 }
 
+dl {
+    margin: 0 0 2.5rem 0;
+}
+
+dl + p:after {
+    display: none !important;
+}
+
 dl dl h3 {
     font-size: 2em;
 }
