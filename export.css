@@ -18,8 +18,11 @@ a {
 }
 
 a {
-  background: attr(icon url);
+  background-image: var(--favicon);
   padding-left: 24px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position-y: 8px;
 }
 
 body > * {
