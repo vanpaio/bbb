@@ -73,6 +73,11 @@ body > dl > dt > h3::before {
     display: block;
 }
 
+body > dl > dt > dl {
+    padding-bottom: 4rem;
+    /*     border-bottom: 2px solid #F1F1F1; */
+}
+
 dl {
     margin: 0 0 2.5rem 0;
 }
