@@ -39,6 +39,8 @@ a {
     transition: background 70ms ease;
     position: relative;
     overflow: hidden;
+    width: calc(45rem + 0.25rem);
+    margin-left: -0.125rem;
 }
 
 a:hover::after {
