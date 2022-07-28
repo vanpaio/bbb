@@ -110,3 +110,15 @@ dl h3::after {
     margin: 2.2rem 0 0 0;
     line-height: 1.6;
 }
+
+
+body > p:before {
+    content: "Made with Booksmart";
+    display: block;
+    font-size: 0.875rem;
+    height: 1.5rem;
+    padding: 0.125rem 0 0 1.5rem;
+    background: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/6209ff6b5ef52de2893729fe_Favicon.png) no-repeat;
+    background-size: 1rem;
+    background-position-y: 0.0625rem;
+}
