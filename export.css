@@ -68,6 +68,14 @@ a:hover::after:hover {
     display: none;
 }
 
+h3 {
+/*     page-break-before: always; */
+}
+
+h3, a {
+    page-break-inside: avoid
+}
+
 dl h3 {
     font-size: 3.5em;
 }
@@ -126,4 +134,47 @@ body > p:before {
     background: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/6209ff6b5ef52de2893729fe_Favicon.png) no-repeat;
     background-size: 1rem;
     background-position-y: 0.0625rem;
+}
+
+
+/* Print */
+
+@media print {
+    @page {
+        size: portrait;
+    }
+
+    body > p:before {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    body > * {
+        width: 80%;
+    }
+
+    h3, a {
+        page-break-inside: avoid
+    }
+
+    a {
+
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    width: 100%;
+    }
+
+    a::after {
+        content: attr(href);
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0.75rem;
+        padding-left: 2.25rem;
+        max-width: 50%;
+        white-space: nowrap;
+        color: #000000;
+    }
 }
