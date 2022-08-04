@@ -1,4 +1,4 @@
-/* Generated on: Thu Aug 04 2022 18:18:11 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Aug 04 2022 18:51:48 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -467,6 +467,17 @@ label {
   max-width: 14rem;
   border-left-style: none;
   border-left-color: #000;
+}
+
+.sidenav-item.sidenav-close {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 0.625rem;
+  grid-row-gap: 0.625rem;
+  -ms-grid-columns: -webkit-min-content 1fr;
+  -ms-grid-columns: min-content 1fr;
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
 }
 
 .sidenav-item-link {
