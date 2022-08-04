@@ -63,6 +63,9 @@ input,
     text-overflow: ellipsis;
 }
 
+.sidenav-close:not(:hover) .btn-close {
+    opacity: 0.25;
+}
 
 /* Overflow Menu */
 
