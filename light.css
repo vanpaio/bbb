@@ -1,4 +1,4 @@
-/* Generated on: Thu Aug 04 2022 01:33:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Aug 04 2022 15:45:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1665,6 +1665,10 @@ label {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
   grid-auto-flow: row;
   grid-auto-columns: 1fr;
   grid-column-gap: 2.5rem;
