@@ -1,4 +1,4 @@
-/* Generated on: Fri Jul 22 2022 04:38:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Aug 04 2022 01:30:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -607,6 +607,15 @@ label {
 .sidenav-item-link.preferences-nav:hover {
   background-color: #fafafa;
   outline-color: #fafafa;
+}
+
+.sidenav-item-link.sidenav-close {
+  grid-auto-columns: -webkit-min-content;
+  grid-auto-columns: min-content;
+  -ms-grid-columns: -webkit-min-content 1fr;
+  -ms-grid-columns: min-content 1fr;
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
 }
 
 .page-wrap {
@@ -12264,6 +12273,17 @@ label {
 }
 
 #w-node-_456254b5-afef-81cf-16af-e364b0ded9d8-02d8307c {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_6eba0bcb-680b-8c81-4487-c60e39786fdf-02d8307c {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
