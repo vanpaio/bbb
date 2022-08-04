@@ -1,4 +1,4 @@
-/* Generated on: Thu Aug 04 2022 16:02:06 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Aug 04 2022 16:03:56 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -610,6 +610,7 @@ label {
 }
 
 .sidenav-item-link.sidenav-close {
+  padding-right: 0.25rem;
   grid-auto-columns: -webkit-min-content;
   grid-auto-columns: min-content;
   -ms-grid-columns: -webkit-min-content 1fr;
