@@ -1,4 +1,4 @@
-/* Generated on: Thu Aug 04 2022 16:05:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Aug 04 2022 16:19:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10090,6 +10090,96 @@ label {
 
 .sticky-toolbar--wrapper.demo {
   display: block;
+}
+
+.sidenav-close {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 2rem;
+  padding-right: 0.25rem;
+  padding-left: 1rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  justify-items: start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-flow: column;
+  grid-auto-columns: -webkit-min-content;
+  grid-auto-columns: min-content;
+  grid-column-gap: 0.625rem;
+  grid-row-gap: 0px;
+  -ms-grid-columns: -webkit-min-content 1fr;
+  -ms-grid-columns: min-content 1fr;
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  border: 0px solid #000;
+  border-radius: 0.5rem;
+  outline-color: transparent;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  font-family: Inter, sans-serif;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.sidenav-close:hover {
+  background-color: #fff2f2;
+  outline-color: #fff2f2;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+  text-decoration: none;
+}
+
+.sidenav-close:active {
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0rem;
+}
+
+.sidenav-close:focus-visible {
+  z-index: 999;
+  outline-color: #000;
+  outline-offset: 2px;
+  outline-style: solid;
+  outline-width: 4px;
+}
+
+.sidenav-close[data-wf-focus-visible] {
+  z-index: 999;
+  outline-color: #000;
+  outline-offset: 2px;
+  outline-style: solid;
+  outline-width: 4px;
+}
+
+.sidenav-close.w--current {
+  background-color: #ffe5e5;
+  outline-color: #ffe5e5;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+.sidenav-close.w--current:hover {
+  outline-color: #ffe5e5;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
 }
 
 @media screen and (max-width: 991px) {
