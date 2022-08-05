@@ -85,7 +85,7 @@ input,
 .note-editable:not(:focus) ~ .modal-group-right {
     display: none;
 }
-.main-content:not(:hover) .project_fl-actions > .open-all {
+.main-content:not(:hover) .project_fl-actions > :is(.show-description, .open-all) {
     display: none;
 } 
 
