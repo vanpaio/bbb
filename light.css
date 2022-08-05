@@ -1,4 +1,4 @@
-/* Generated on: Fri Aug 05 2022 01:38:37 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Aug 05 2022 03:12:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9995,7 +9995,7 @@ label {
   position: relative;
   display: -ms-grid;
   display: grid;
-  min-height: 2.375rem;
+  height: 2.375px;
   min-width: 9rem;
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
