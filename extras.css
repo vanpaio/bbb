@@ -67,6 +67,10 @@ input,
     opacity: 0.25;
 }
 
+.sidenav-list-wrapper section:not(:hover) .section-settings {
+    display: none;
+}
+
 /* Overflow Menu */
 
 .w--open .w-dropdown-link:focus {
