@@ -1,4 +1,4 @@
-/* Generated on: Tue Aug 09 2022 19:38:22 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Aug 09 2022 19:43:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9445,6 +9445,11 @@ label {
   background-color: #fdf5f5;
 }
 
+.sidenav-list-wrapper.col-5 {
+  overflow: auto;
+  padding-bottom: 4rem;
+}
+
 .sidenav-list-wrapper.col-4 {
   font-weight: 500;
 }
@@ -10205,8 +10210,16 @@ label {
   outline-width: 0.125rem;
 }
 
-.section-settings {
-  max-width: 100%;
+.section-fixed {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 991px) {
