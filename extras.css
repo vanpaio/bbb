@@ -241,6 +241,9 @@ input,
     display: none;
 }
 
+body:not(.show-description) :not(#archived-section).linklist-wrapper {
+    margin-top: 1.5rem;
+}
 
 /* Linklist - Close/Open tab Buttons */
 
