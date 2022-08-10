@@ -1,4 +1,4 @@
-/* Generated on: Wed Aug 10 2022 14:40:16 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 10 2022 14:55:52 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9440,6 +9440,7 @@ label {
   display: -ms-grid;
   display: grid;
   overflow: auto;
+  height: 100%;
   padding-top: 0.125rem;
   padding-left: 0.125rem;
   -webkit-align-content: space-between;
@@ -9474,6 +9475,10 @@ label {
 .sidenav-list-wrapper.demo {
   height: 18rem;
   padding-right: 0.875rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   font-weight: 400;
 }
 
@@ -10252,6 +10257,25 @@ label {
   grid-template-columns: min-content;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.sidenav-list-full {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 @media screen and (max-width: 991px) {
