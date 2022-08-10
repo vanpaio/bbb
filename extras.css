@@ -67,7 +67,7 @@ input,
     opacity: 0.25;
 }
 
-.sidenav-list-wrapper section:not(:hover) .section-settings {
+.sidenav-list-wrapper section:not(:hover) :is(.section-settings, .w-dropdown-toggle):not(.w--open) {
     display: none;
 }
 
