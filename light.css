@@ -1,4 +1,4 @@
-/* Generated on: Wed Aug 10 2022 18:43:40 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 10 2022 19:01:18 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1350,6 +1350,18 @@ label {
 
 .btn.btn-icon.btn-small.btn-primary.main-menu-plus {
   border-radius: 0.75rem;
+}
+
+.btn.btn-icon.btn-small.btn-secondary.scroll-top {
+  position: fixed;
+  right: 2.75rem;
+  bottom: 2rem;
+}
+
+.btn.btn-icon.btn-small.btn-secondary.scroll-top.demo {
+  position: relative;
+  right: 0rem;
+  bottom: 0rem;
 }
 
 .btn.btn-icon.btn-xs {
