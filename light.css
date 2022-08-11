@@ -1,4 +1,4 @@
-/* Generated on: Thu Aug 11 2022 18:02:35 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Aug 11 2022 18:12:52 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -486,6 +486,11 @@ label {
 }
 
 .sidenav-item.sidenav-archived:hover {
+  opacity: 1;
+}
+
+.sidenav-item.sidenav-archived.selected {
+  background-color: #ededed;
   opacity: 1;
 }
 
