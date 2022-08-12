@@ -282,15 +282,12 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 	display: none;
 }
 
-/* .url-edit-mode.selected {
-    outline: none;
-} */
-
 .linklist-item .linklist-item-content:not(:focus, .selected, :hover) .linklist-item-copyurl {
   display: none;
 }
 
-.linklist-item.title-edit-mode .item-title-text {
+.linklist-item.title-edit-mode .item-title-text[contenteditable] {
+    width: 100%;
     background-color: transparent;
 }
 
