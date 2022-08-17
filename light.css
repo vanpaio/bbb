@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 15 2022 20:29:30 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 17 2022 21:20:41 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9297,6 +9297,21 @@ label {
   color: #fff;
 }
 
+.overflow-sub_menu.disabled {
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
+}
+
+.overflow-sub_menu.disabled:hover {
+  background-color: transparent;
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
+}
+
 .overflow-sub_menu-toggle {
   display: -ms-grid;
   display: grid;
@@ -9352,6 +9367,19 @@ label {
 .overflow-sub_menu-toggle.overflow-menu__link-last:hover {
   background-color: red;
   color: #fff;
+}
+
+.overflow-sub_menu-toggle.disabled {
+  color: #dedede;
+  cursor: default;
+}
+
+.overflow-sub_menu-toggle.disabled:hover {
+  background-color: transparent;
+  outline-color: rgba(255, 242, 242, 0);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
 }
 
 .sub_menu-icon {
