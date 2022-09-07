@@ -2,6 +2,31 @@
 * {-webkit-font-smoothing: antialiased;} /* Refines texts rendering in Chrome */
 * {-webkit-tap-highlight-color: transparent; } /* Removes flash when user taps a link on mobile */
 
+:root {
+  --red-000: #fff2f2;
+  --red-100: #ffe5e5;
+  --red-200: #ffd1d1;
+  --red-300: #ffbfbf;
+  --red-400: #ff9f9f;
+  --red-500: #ff8484;
+  --red-600: #ff6161;
+  --red-700: #ff2d2d;
+  --red-800: #ff0000;
+  --red-900: #f00000;
+  --red-1000: #d90000;
+  --red-2000: #b70505;
+  
+  --gray-100: #FFFFFF;
+  --gray-200: #FAFAFA;
+  --gray-300: #F5F5F5;
+  --gray-400: #EDEDED;
+  --gray-500: #DEDEDE;
+  --gray-600: #B8B8B8;
+  --gray-700: #7B7B7B;
+  --gray-800: #222222;
+  --gray-900: #000000;
+}
+
 .copyurl-text,
 [data-bb-truncate="true"],
 [data-truncate="true"] { /* Add ellipsis to elements */
