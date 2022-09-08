@@ -1,41 +1,36 @@
-	.dark-mode,
-  .dark-mode .sidenav.sidenav__left { 
-      /* set bg and color */
-      color: white;
-      background-color: black;
-  }
+.dark-mode,
+.dark-mode .sidenav-item-link,
+.dark-mode .header__name,
+.dark-mode .w-tab-link {
+  color: var(--gray-100);
+}
 
-  .dark-mode .sidenav-list__item-link,
-  .dark-mode .header__name {
-      /* set color */
-      color: white;
-  }
+.dark-mode,
+.dark-mode .sidenav.sidenav__left { 
+  background-color: var(--gray-800);
+}
 
-  .dark-mode .header__base {
-      color: white;
-      background-color: #323232;
-  }
-  
-  .dark-mode .divider,
-  .dark-mode .inline-notification,
-  .dark-mode .toast-notification {
-      background: #222222;
-  }
+.dark-mode .divider,
+.dark-mode .header__base,
+.dark-mode .inline-notification,
+.dark-mode .toast-notification {
+  background-color: var(--gray-850);
+}
 
-  .dark-mode .component-example__white-theme {
-      border-color: #222222;
-  }
+.dark-mode .component-example__white-theme {
+  border-color: var(--gray-850);
+}
 
-  .dark-mode .w-tab-link {
-      color: white;
-  }
+.dark-mode .w--current {
+  background: var(--rose-100);
+  outline-color: var(--rose-100);
+}
 
-  .dark-mode .w--current {
-      background: white;
-      color: black;
-  }
-  
-  .dark-mode .page-tabs__nav-item:not(.w--current):hover {
-    background-color: #323232;
-    outline-color: #323232;
-  }
+.dark-mode .linklist-item:not(.selected) {
+  background-color: var(--gray-750);
+}
+
+.dark-mode .page-tabs__nav-item:not(.w--current):hover {
+  background-color: #323232;
+  outline-color: #323232;
+}
