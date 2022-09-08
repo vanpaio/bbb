@@ -2,7 +2,9 @@
 .dark-mode .header__name,
 .dark-mode .sidenav-item,
 .dark-mode .sidenav-item-link,
-.dark-mode .w-tab-link {
+.dark-mode .w-tab-link,
+.dark-mode .btn-secondary,
+.dark-mode .btn-ghost {
   color: var(--gray-100);
 }
 
