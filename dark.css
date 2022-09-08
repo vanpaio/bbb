@@ -2,13 +2,13 @@
 .dark-mode .header__name,
 .dark-mode .sidenav-item,
 .dark-mode .sidenav-item-link,
-.dark-mode .w-tab-link,
-.dark-mode .section-fixed {
+.dark-mode .w-tab-link {
   color: var(--gray-100);
 }
 
 .dark-mode,
-.dark-mode .sidenav.sidenav__left { 
+.dark-mode .sidenav.sidenav__left,
+.dark-mode .section-fixed { 
   background-color: var(--gray-800);
 }
 
@@ -41,4 +41,12 @@
 .dark-mode .page-tabs__nav-item:not(.w--current):hover {
   background-color: var(--gray-725);
   outline-color: var(--gray-725);
+}
+
+.dark-mode .modal_headed .divider {
+  background-color: var(--gray-750);
+}
+
+.dark-mode .moda_headed-header {
+  border-bottom-color: var(--gray-750);
 }
