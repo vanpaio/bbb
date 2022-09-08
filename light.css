@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 05:19:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 05:32:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9085,7 +9085,6 @@ label {
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
   font-family: Inter, sans-serif;
-  color: #171717;
 }
 
 .modal-content__padded {
@@ -9149,7 +9148,7 @@ label {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   border-radius: 0.5rem;
-  background-color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .checkbox-wrap {
