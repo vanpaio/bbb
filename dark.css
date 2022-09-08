@@ -30,7 +30,12 @@
   background-color: var(--gray-750);
 }
 
+.dark-mode .modal-container,
+.dark-mode .emoji-cat-title { 
+  background-color: var(--gray-725);
+}
+
 .dark-mode .page-tabs__nav-item:not(.w--current):hover {
-  background-color: #323232;
-  outline-color: #323232;
+  background-color: var(--gray-725);
+  outline-color: var(--gray-725);
 }
