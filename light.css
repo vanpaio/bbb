@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 13:16:40 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 15:49:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -629,8 +629,8 @@ label {
 }
 
 .sidenav-item-link.preferences-nav:hover {
-  background-color: rgba(0, 0, 0, 0.03);
-  outline-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.04);
+  outline-color: rgba(0, 0, 0, 0.04);
 }
 
 .sidenav-item-link.sidenav-close {
@@ -9148,7 +9148,7 @@ label {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
 .checkbox-wrap {
