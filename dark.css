@@ -1,6 +1,7 @@
 .dark-mode,
-.dark-mode .sidenav-item-link,
 .dark-mode .header__name,
+.dark-mode .sidenav-item,
+.dark-mode .sidenav-item-link,
 .dark-mode .w-tab-link {
   color: var(--gray-100);
 }
