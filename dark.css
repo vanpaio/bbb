@@ -4,7 +4,8 @@
 .dark-mode .sidenav-item-link,
 .dark-mode .w-tab-link,
 .dark-mode .btn-secondary,
-.dark-mode .btn-ghost {
+.dark-mode .btn-ghost,
+.dark-mode .btn {
   color: var(--gray-100);
 }
 
