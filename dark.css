@@ -33,6 +33,7 @@
 }
 
 .dark-mode .modal-container,
+.dark-mode .modal_headed,
 .dark-mode .emoji-cat-title { 
   background-color: var(--gray-725);
 }
