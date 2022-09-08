@@ -31,7 +31,8 @@
   outline-color: var(--rose-100);
 }
 
-.dark-mode .linklist-item:not(.selected) {
+.dark-mode .linklist-item:not(.selected),
+.dark-mode .modal_headed .divider {
   background-color: var(--gray-750);
 }
 
@@ -46,10 +47,10 @@
   outline-color: var(--gray-725);
 }
 
-.dark-mode .modal_headed .divider {
-  background-color: var(--gray-750);
-}
-
 .dark-mode .moda_headed-header {
   border-bottom-color: var(--gray-750);
+}
+
+.dark-mode .btn-disabled {
+  color: var(--gray-700) !important;
 }
