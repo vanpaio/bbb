@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 05:12:54 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 05:16:25 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -478,6 +478,7 @@ label {
   flex-direction: column;
   border-left-style: none;
   border-left-color: #000;
+  color: #000;
 }
 
 .sidenav-item.sidenav-archived {
@@ -10232,7 +10233,6 @@ label {
   -webkit-transition: all 150ms ease;
   transition: all 150ms ease;
   font-family: Inter, sans-serif;
-  color: #000;
   font-weight: 500;
   text-decoration: none;
   white-space: nowrap;
