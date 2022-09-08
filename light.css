@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 17:06:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 17:36:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1067,8 +1067,8 @@ label {
 }
 
 .btn.btn-disabled {
-  background-color: #ededed;
-  outline-color: #ededed;
+  background-color: rgba(93, 93, 93, 0.16);
+  outline-color: rgba(93, 93, 93, 0.16);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.13rem;
