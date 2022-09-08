@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 03:47:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 04:14:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6939,7 +6939,6 @@ label {
   background-color: #fafafa;
   -webkit-transition: all 90ms ease, background-position 0ms ease;
   transition: all 90ms ease, background-position 0ms ease;
-  color: #000;
   cursor: pointer;
 }
 
