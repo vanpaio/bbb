@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 15:49:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 16:55:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -629,8 +629,8 @@ label {
 }
 
 .sidenav-item-link.preferences-nav:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
 }
 
 .sidenav-item-link.sidenav-close {
@@ -649,8 +649,8 @@ label {
 }
 
 .sidenav-item-link.sidenav-settings:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
 }
 
 .page-wrap {
@@ -1139,8 +1139,8 @@ label {
 }
 
 .btn.btn-secondary:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
 }
 
 .btn.btn-secondary:active {
@@ -1186,14 +1186,14 @@ label {
 }
 
 .btn.btn-ghost:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   color: #000;
 }
 
 .btn.btn-ghost:active {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0px;
@@ -2118,24 +2118,24 @@ label {
 }
 
 .overflow-menu__toggle:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
 }
 
 .overflow-menu__toggle:active {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
 }
 
 .overflow-menu__toggle:focus {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
@@ -2154,8 +2154,8 @@ label {
 }
 
 .overflow-menu__toggle.w--open {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
@@ -5286,8 +5286,8 @@ label {
 
 .page-tabs__nav-item:hover {
   border-bottom-color: #6f6f6f;
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.12rem;
@@ -5295,7 +5295,7 @@ label {
 }
 
 .page-tabs__nav-item:active {
-  outline-color: rgba(0, 0, 0, 0.04);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-style: solid;
   outline-width: 0rem;
 }
@@ -6975,7 +6975,7 @@ label {
 }
 
 .linklist-item.linklist-archived {
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
 }
 
 .linklist-item.edit-mode {
@@ -7818,15 +7818,15 @@ label {
 }
 
 .tiny-link-indent:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
 }
 
 .tiny-link-indent:active {
-  outline-color: rgba(0, 0, 0, 0.04);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
@@ -7873,15 +7873,15 @@ label {
 }
 
 .editable:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
 }
 
 .editable:active {
-  outline-color: rgba(0, 0, 0, 0.04);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
@@ -7924,8 +7924,8 @@ label {
 }
 
 .project-icon:active {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
@@ -7989,7 +7989,7 @@ label {
 }
 
 .project-heading-area:focus {
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
   box-shadow: none;
   outline-color: transparent;
   outline-offset: 0px;
@@ -8063,8 +8063,8 @@ label {
 }
 
 .note-editable.editable:focus {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
@@ -9148,7 +9148,7 @@ label {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
 }
 
 .checkbox-wrap {
@@ -9595,24 +9595,24 @@ label {
 }
 
 .btn-split__toggle:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
 }
 
 .btn-split__toggle:active {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
 }
 
 .btn-split__toggle:focus {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
@@ -9631,8 +9631,8 @@ label {
 }
 
 .btn-split__toggle.w--open {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
@@ -9696,8 +9696,8 @@ label {
 }
 
 .tiny-link:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-  outline-color: rgba(0, 0, 0, 0.04);
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
@@ -9705,7 +9705,7 @@ label {
 }
 
 .tiny-link:active {
-  outline-color: rgba(0, 0, 0, 0.04);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
