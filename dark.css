@@ -1,73 +1,93 @@
 .dark-mode,
-.dark-mode .header__name,
-.dark-mode .sidenav-item,
-.dark-mode .sidenav-item-link,
-.dark-mode .w-tab-link,
-.dark-mode .btn-secondary,
-.dark-mode .btn-ghost,
-.dark-mode .btn,
-.dark-mode .w-dropdown-btn, 
-.dark-mode .w-dropdown-toggle, 
-.dark-mode .w-dropdown-link {
+.dark-mode :is(
+    .header__name,
+    .sidenav-item,
+    .sidenav-item-link,
+    .w-tab-link,
+    .btn-secondary,
+    .btn-ghost,
+    .btn,
+    .w-dropdown-btn, 
+    .w-dropdown-toggle, 
+    .w-dropdown-link,
+    .tiny-link) {
   color: var(--gray-100);
 }
 
 .dark-mode,
-.dark-mode .sidenav.sidenav__left,
-.dark-mode .section-fixed { 
+.dark-mode :is(
+    .sidenav.sidenav__left,
+    .section-fixed) { 
   background-color: var(--gray-800);
 }
 
-.dark-mode .divider,
-.dark-mode .header__base,
-.dark-mode .inline-notification,
-.dark-mode .toast-notification {
+.dark-mode :is(
+    .breadcrumb-divider) { 
+  background-color: var(--gray-100);
+}
+
+.dark-mode :is(
+    .divider,
+    .header__base,
+    .inline-notification,
+    .toast-notification) {
   background-color: var(--gray-850);
 }
 
-.dark-mode .component-example__white-theme {
+.dark-mode :is(
+    .component-example__white-theme) {
   border-color: var(--gray-850);
 }
 
-.dark-mode .w--current {
+
+.dark-mode :is(
+    .w--current) {
   background: var(--rose-100);
   outline-color: var(--rose-100);
 }
 
-.dark-mode .linklist-item:not(.selected),
-.dark-mode .modal_headed .divider {
+.dark-mode :is(
+    .linklist-item:not(.selected),
+    .modal_headed .divider) {
   background-color: var(--gray-750);
 }
 
-.dark-mode .overflow-menu_divider {
+.dark-mode :is(
+    .overflow-menu_divider) {
   border-color: var(--gray-750);
 }
 
-.dark-mode .modal-container,
-.dark-mode .modal_headed,
-.dark-mode .emoji-cat-title,
-.dark-mode .overflow-menu,
-.dark-mode .sub_menu { 
+.dark-mode :is(
+    .modal-container,
+    .modal_headed,
+    .emoji-cat-title,
+    .overflow-menu,
+    .sub_menu) { 
   background-color: var(--gray-725);
 }
 
-.dark-mode .page-tabs__nav-item:not(.w--current):hover {
+.dark-mode :is(
+    .page-tabs__nav-item:not(.w--current):hover) {
   background-color: var(--gray-725);
   outline-color: var(--gray-725);
 }
 
-.dark-mode .moda_headed-header {
+.dark-mode :is(
+    .moda_headed-header) {
   border-bottom-color: var(--gray-750);
 }
 
-.dark-mode .btn-disabled {
+.dark-mode :is(
+    .btn-disabled) {
   color: var(--gray-700) !important;
 }
 
-.dark-mode .main-content {
+.dark-mode :is(
+    .main-content) {
     background-color: var(--gray-800);
 }
 
-.dark-mode .checkbox:not(.w--redirected-checked) {
+.dark-mode :is(
+    .checkbox:not(.w--redirected-checked)) {
   border-color: var(--gray-100);
 }
