@@ -54,3 +54,7 @@
 .dark-mode .btn-disabled {
   color: var(--gray-700) !important;
 }
+
+.dark-mode .main-content {
+    background-color: var(--gray-800) !important;
+}
