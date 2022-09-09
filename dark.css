@@ -5,7 +5,10 @@
 .dark-mode .w-tab-link,
 .dark-mode .btn-secondary,
 .dark-mode .btn-ghost,
-.dark-mode .btn {
+.dark-mode .btn,
+.dark-mode .w-dropdown-btn, 
+.dark-mode .w-dropdown-toggle, 
+.dark-mode .w-dropdown-link {
   color: var(--gray-100);
 }
 
@@ -36,9 +39,15 @@
   background-color: var(--gray-750);
 }
 
+.dark-mode .overflow-menu_divider {
+  border-color: var(--gray-750);
+}
+
 .dark-mode .modal-container,
 .dark-mode .modal_headed,
-.dark-mode .emoji-cat-title { 
+.dark-mode .emoji-cat-title,
+.dark-mode .overflow-menu,
+.dark-mode .sub_menu { 
   background-color: var(--gray-725);
 }
 
@@ -56,5 +65,9 @@
 }
 
 .dark-mode .main-content {
-    background-color: var(--gray-800) !important;
+    background-color: var(--gray-800);
+}
+
+.dark-mode .checkbox:not(.w--redirected-checked) {
+  border-color: var(--gray-100);
 }
