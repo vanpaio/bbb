@@ -1,4 +1,4 @@
-/* Generated on: Sat Sep 10 2022 01:27:11 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 10 2022 01:59:00 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1187,7 +1187,6 @@ label {
 .btn.btn-ghost:hover {
   background-color: hsla(0, 0%, 67.8%, 0.1);
   outline-color: hsla(0, 0%, 67.8%, 0.1);
-  color: #000;
 }
 
 .btn.btn-ghost:active {
