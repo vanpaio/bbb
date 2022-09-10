@@ -17,7 +17,6 @@
   color: var(--gray-100);
 }
 
-.dark-mode,
 .dark-mode :is(
     .sidenav.sidenav__left,
     .section-fixed,
@@ -32,6 +31,7 @@
   background-color: var(--gray-100);
 }
 
+.dark-mode,
 .dark-mode :is(
     .divider,
     .header__base,
