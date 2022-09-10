@@ -11,9 +11,7 @@
     .w-dropdown-toggle, 
     .w-dropdown-link,
     .tiny-link,
-    .overflow-menu__link,
-    .overflow-menu__project
-) {
+    .overflow-menu__link) {
   color: var(--gray-100);
 }
 
@@ -92,7 +90,9 @@
 
 .dark-mode :is(
     .btn-disabled,
-    .w-dropdown-link.disabled) {
+    .w-dropdown-link.disabled,
+    .overflow-menu-list__title
+) {
   color: var(--gray-700) !important;
 }
 
