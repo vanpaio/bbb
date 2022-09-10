@@ -1,4 +1,4 @@
-/* Generated on: Fri Sep 09 2022 21:53:45 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 10 2022 01:27:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3130,6 +3130,7 @@ label {
 .radio-button.w--redirected-checked {
   border-width: 3px;
   border-color: red;
+  background-color: #fff;
   outline-color: red;
 }
 
