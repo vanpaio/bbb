@@ -18,7 +18,8 @@
 .dark-mode :is(
     .sidenav.sidenav__left,
     .section-fixed,
-    .main-content) { 
+    .main-content,
+    .linklist-toolbar.sticky-toolbar) { 
   background-color: var(--gray-800);
 }
 
