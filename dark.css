@@ -10,15 +10,18 @@
     .w-dropdown-btn, 
     .w-dropdown-toggle, 
     .w-dropdown-link,
-    .tiny-link) {
+    .tiny-link,
+    .overflow-menu__link) {
   color: var(--gray-100);
 }
 
+.dark-mode,
 .dark-mode :is(
     .sidenav.sidenav__left,
     .section-fixed,
     .main-content,
-    .linklist-toolbar.sticky-toolbar) {
+    .container,
+    .linklist-toolbar.sticky-toolbar) { 
   background-color: var(--gray-800);
 }
 
@@ -27,7 +30,6 @@
   background-color: var(--gray-100);
 }
 
-body.dark-mode,
 .dark-mode :is(
     .divider,
     .header__base,
@@ -57,7 +59,8 @@ body.dark-mode,
 }
 
 .dark-mode :is(
-    .overflow-menu_divider) {
+    .overflow-menu_divider,
+    .menu-divider) {
   border-color: var(--gray-750);
 }
 
@@ -66,6 +69,7 @@ body.dark-mode,
     .modal_headed,
     .emoji-cat-title,
     .overflow-menu,
+    .main-menu-ul,
     .sub_menu,
     [contenteditable=true]:focus,
     .title-edit-mode,
@@ -86,8 +90,7 @@ body.dark-mode,
 
 .dark-mode :is(
     .btn-disabled,
-    .overflow-menu-list__title
-) {
+    .w-dropdown-link.disabled) {
   color: var(--gray-700) !important;
 }
 
@@ -99,4 +102,3 @@ body.dark-mode,
 .dark-mode :is(.radio-button:not(.w--redirected-checked)) {
   outline-color: var(--gray-100);
 }
-
