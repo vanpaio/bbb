@@ -1,4 +1,4 @@
-/* Generated on: Sat Sep 10 2022 04:00:18 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 10 2022 17:56:25 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8964,7 +8964,7 @@ label {
   margin-bottom: 0rem;
   margin-left: -0.125rem;
   padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-bottom: 3.125rem;
   background-color: #fff;
 }
 
@@ -10377,7 +10377,13 @@ label {
   z-index: 9;
   width: 100%;
   height: 0.75rem;
+  border-top: 0.1875rem solid #ff2d2d;
   opacity: 0;
+}
+
+.drop-area.before.demo {
+  border-top-color: #ff6161;
+  opacity: 1;
 }
 
 .drop-area.after {
@@ -10385,6 +10391,7 @@ label {
   z-index: 9;
   width: 100%;
   height: 0.75rem;
+  border-top: 0.1875rem solid #ff6161;
   opacity: 0;
 }
 
