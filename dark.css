@@ -10,18 +10,15 @@
     .w-dropdown-btn, 
     .w-dropdown-toggle, 
     .w-dropdown-link,
-    .tiny-link,
-    .overflow-menu__link) {
+    .tiny-link) {
   color: var(--gray-100);
 }
 
-.dark-mode,
 .dark-mode :is(
     .sidenav.sidenav__left,
     .section-fixed,
     .main-content,
-    .container,
-    .linklist-toolbar.sticky-toolbar) { 
+    .linklist-toolbar.sticky-toolbar) {
   background-color: var(--gray-800);
 }
 
@@ -30,6 +27,7 @@
   background-color: var(--gray-100);
 }
 
+body.dark-mode,
 .dark-mode :is(
     .divider,
     .header__base,
@@ -59,8 +57,7 @@
 }
 
 .dark-mode :is(
-    .overflow-menu_divider,
-    .menu-divider) {
+    .overflow-menu_divider) {
   border-color: var(--gray-750);
 }
 
@@ -69,7 +66,6 @@
     .modal_headed,
     .emoji-cat-title,
     .overflow-menu,
-    .main-menu-ul,
     .sub_menu,
     [contenteditable=true]:focus,
     .title-edit-mode,
@@ -89,7 +85,9 @@
 }
 
 .dark-mode :is(
-    .btn-disabled) {
+    .btn-disabled,
+    .overflow-menu-list__title
+) {
   color: var(--gray-700) !important;
 }
 
@@ -101,3 +99,4 @@
 .dark-mode :is(.radio-button:not(.w--redirected-checked)) {
   outline-color: var(--gray-100);
 }
+
