@@ -1,4 +1,4 @@
-/* Generated on: Sat Sep 10 2022 02:49:46 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 10 2022 02:54:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9256,7 +9256,8 @@ label {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-radius: 0.125rem;
-  outline-color: rgba(255, 242, 242, 0);
+  background-color: transparent;
+  outline-color: transparent;
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
@@ -9268,8 +9269,8 @@ label {
 }
 
 .overflow-sub_menu:hover {
-  background-color: #fff2f2;
-  outline-color: #fff2f2;
+  background-color: rgba(255, 189, 189, 0.22);
+  outline-color: rgba(255, 189, 189, 0.22);
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
