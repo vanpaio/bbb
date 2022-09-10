@@ -1,4 +1,4 @@
-/* Generated on: Sat Sep 10 2022 02:21:35 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 10 2022 02:25:14 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8219,7 +8219,7 @@ label {
 }
 
 .main-menu-link:hover {
-  background-color: #fff2f2;
+  background-color: rgba(255, 189, 189, 0.22);
   outline-color: #fff2f2;
   outline-offset: 0px;
   outline-style: solid;
