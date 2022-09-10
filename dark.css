@@ -11,7 +11,8 @@
     .w-dropdown-toggle, 
     .w-dropdown-link,
     .tiny-link,
-    .overflow-menu__link) {
+    .overflow-menu__link,
+    .overflow-menu__project) {
   color: var(--gray-100);
 }
 
