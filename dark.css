@@ -88,6 +88,10 @@
 }
 
 .dark-mode :is(
-    .checkbox:not(.w--redirected-checked)) {
+    .checkbox:not(.w--redirected-checked), .radio-button:not(.w--redirected-checked)) {
   border-color: var(--gray-100);
+}
+
+.dark-mode :is(.radio-button:not(.w--redirected-checked)) {
+  outline-color: var(--gray-100);
 }
