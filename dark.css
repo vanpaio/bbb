@@ -10,7 +10,8 @@
     .w-dropdown-btn, 
     .w-dropdown-toggle, 
     .w-dropdown-link,
-    .tiny-link) {
+    .tiny-link,
+    .overflow-menu__link) {
   color: var(--gray-100);
 }
 
@@ -19,6 +20,7 @@
     .sidenav.sidenav__left,
     .section-fixed,
     .main-content,
+    .container,
     .linklist-toolbar.sticky-toolbar) { 
   background-color: var(--gray-800);
 }
@@ -57,7 +59,8 @@
 }
 
 .dark-mode :is(
-    .overflow-menu_divider) {
+    .overflow-menu_divider,
+    .menu-divider) {
   border-color: var(--gray-750);
 }
 
@@ -66,6 +69,7 @@
     .modal_headed,
     .emoji-cat-title,
     .overflow-menu,
+    .main-menu-ul,
     .sub_menu,
     [contenteditable=true]:focus,
     .title-edit-mode,
@@ -97,4 +101,3 @@
 .dark-mode :is(.radio-button:not(.w--redirected-checked)) {
   outline-color: var(--gray-100);
 }
-
