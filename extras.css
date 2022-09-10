@@ -61,8 +61,8 @@ input.text-input,
 
 .url-edit::selection,
 input::selection,
-[contenteditable=true]::selection {
-    background: #ff000024;  
+[contenteditable]::selection {
+    background: var(--red-400);  
 }
 
 .url-edit,
