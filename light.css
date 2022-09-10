@@ -1,4 +1,4 @@
-/* Generated on: Sat Sep 10 2022 02:06:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 10 2022 02:10:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8213,7 +8213,6 @@ label {
   outline-width: 0.125rem;
   -webkit-transition: all 120ms ease;
   transition: all 120ms ease;
-  color: #000;
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
