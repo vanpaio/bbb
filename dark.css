@@ -1,4 +1,5 @@
-    .dark-mode :is(
+.dark-mode,
+.dark-mode :is(
     .header__name,
     .sidenav-item,
     .sidenav-item-link,
