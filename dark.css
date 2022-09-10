@@ -17,7 +17,8 @@
 .dark-mode,
 .dark-mode :is(
     .sidenav.sidenav__left,
-    .section-fixed) { 
+    .section-fixed,
+    .main-content) { 
   background-color: var(--gray-800);
 }
 
@@ -47,8 +48,10 @@
 }
 
 .dark-mode :is(
-    .linklist-item:not(.selected),
-    .modal_headed .divider) {
+    .linklist-item:not(.selected, .edit-mode),
+    .modal_headed .divider,
+    [contenteditable=true]:not(:focus):hover,
+    .project-icon:not(.w--open):hover) {
   background-color: var(--gray-750);
 }
 
@@ -62,7 +65,10 @@
     .modal_headed,
     .emoji-cat-title,
     .overflow-menu,
-    .sub_menu) { 
+    .sub_menu,
+    [contenteditable=true]:focus,
+    .title-edit-mode,
+    .url-edit-mode) { 
   background-color: var(--gray-725);
 }
 
@@ -83,11 +89,6 @@
 }
 
 .dark-mode :is(
-    .main-content) {
-    background-color: var(--gray-800);
-}
-
-.dark-mode :is(
     .checkbox:not(.w--redirected-checked), .radio-button:not(.w--redirected-checked)) {
   border-color: var(--gray-100);
 }
@@ -95,3 +96,4 @@
 .dark-mode :is(.radio-button:not(.w--redirected-checked)) {
   outline-color: var(--gray-100);
 }
+
