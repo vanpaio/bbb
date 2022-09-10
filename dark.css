@@ -1,5 +1,4 @@
-.dark-mode,
-.dark-mode :is(
+    .dark-mode :is(
     .header__name,
     .sidenav-item,
     .sidenav-item-link,
@@ -16,6 +15,7 @@
   color: var(--gray-100);
 }
 
+.dark-mode,
 .dark-mode :is(
     .sidenav.sidenav__left,
     .section-fixed,
