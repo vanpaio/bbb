@@ -106,3 +106,13 @@
 .dark-mode :is(.radio-button:not(.w--redirected-checked)) {
   outline-color: var(--gray-100);
 }
+
+.dark-mode .text-input {
+  background-color: var(--gray-800);
+  border-color: var(--gray-800);
+}
+.dark-mode .text-input:focus {
+  background-color: var(--gray-850);
+  border-color: var(--gray-850);
+  outline-style: none;
+}
