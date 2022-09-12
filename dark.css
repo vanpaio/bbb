@@ -21,7 +21,6 @@
     .sidenav.sidenav__left,
     .section-fixed,
     .main-content,
-    .container,
     .linklist-toolbar.sticky-toolbar) { 
   background-color: var(--gray-800);
 }
