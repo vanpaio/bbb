@@ -30,7 +30,6 @@
   background-color: var(--gray-100);
 }
 
-.dark-mode,
 .dark-mode :is(
     .divider,
     .header__base,
