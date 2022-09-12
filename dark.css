@@ -22,8 +22,8 @@
     .section-fixed,
     .main-content,
     .linklist-toolbar.sticky-toolbar,
-    .dragging-ghost,
-    .dragging-ghost:before) { 
+    .dragging-ghost-pseudoparent,
+    .dragging-ghost-pseudoparent:before) { 
   background-color: var(--gray-800);
 }
 
