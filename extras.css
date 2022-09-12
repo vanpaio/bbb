@@ -266,7 +266,7 @@ input,
     display: flex;
 }
 
-.dragging-ghost.multiple:before {
+.dragging-ghost-pseudoparent.multiple:before {
     content: "";
     position: absolute;
     margin: 0.375rem 0 0 0.2rem;
