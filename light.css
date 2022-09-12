@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 21:01:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 21:06:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10661,8 +10661,10 @@ label {
 .dragging-ghost {
   position: relative;
   overflow: visible;
-  width: 12.5rem;
-  height: 3rem;
+  width: 13.4rem;
+  height: 3.5rem;
+  margin-top: -0.5rem;
+  padding-top: 0.5rem;
 }
 
 @media screen and (max-width: 991px) {
