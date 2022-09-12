@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 18:48:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 18:48:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10492,6 +10492,10 @@ label {
   background-color: #222;
   outline-color: #000;
   color: #fff;
+}
+
+.dragging-ghost-content {
+  max-width: 100%;
 }
 
 .dragging-ghost-favicon {
