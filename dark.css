@@ -116,3 +116,8 @@
   border-color: var(--gray-850);
   outline-style: none;
 }
+
+.dark-mode [data-bb-tab] .linklist-item-content:not(:hover) .open-tab {
+    color: var(--gray-000);
+    outline-color: var(--gray-000);
+}
