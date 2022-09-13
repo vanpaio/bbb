@@ -513,4 +513,9 @@ pre[class*=language-] {
 .dragging {
     opacity: 0.1;
     filter: grayscale(100%);
+    outline-color: transparent !important;
+}
+
+.dragging .linklist-item-body {
+  opacity: 0;
 }
