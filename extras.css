@@ -372,7 +372,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 }
 
 .linklist-wrapper.open#archived-section {
-    background-color: #FFFDD1;
+    background-color: var(--rose-100);
     padding: 0.5rem;
 }
 
