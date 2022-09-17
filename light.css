@@ -1,4 +1,4 @@
-/* Generated on: Sat Sep 17 2022 16:03:07 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Sep 17 2022 16:39:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6976,7 +6976,7 @@ label {
 }
 
 .linklist-item.linklist-archived {
-  background-color: rgba(255, 242, 174, 0.65);
+  background-color: rgba(255, 192, 132, 0.6);
 }
 
 .linklist-item.linklist-archived:focus {
@@ -10690,10 +10690,9 @@ label {
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   border-radius: 0.75rem;
-  background-color: rgba(255, 226, 152, 0.25);
-  outline-color: #ffe299;
+  background-color: rgba(255, 199, 152, 0.25);
   outline-offset: 0px;
-  outline-style: solid;
+  outline-style: none;
   outline-width: 0.125rem;
   -webkit-transition: all 150ms ease;
   transition: all 150ms ease;
