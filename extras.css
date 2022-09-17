@@ -366,14 +366,13 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 /*  Linklist - Archived */
 
 .linklist-wrapper#archived-section {
-    padding: 0.5rem 0;
-    transition: all 150ms ease;
 	box-sizing: border-box;
 }
 
-.linklist-wrapper.open#archived-section {
-    background-color: var(--rose-100);
-    padding: 0.5rem;
+.archive-element.linklist-wrapper:not(.open) {
+    background-color: transparent;
+    outline: none;
+    padding: none;
 }
 
 .linklist-wrapper#archived-section  .tiny-link-indent {
