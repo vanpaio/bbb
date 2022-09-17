@@ -53,7 +53,7 @@
 }
 
 .dark-mode :is(
-    .linklist-item:not(.selected, .edit-mode),
+    .linklist-item:not(.selected, .edit-mode, .linklist-archived),
     .modal_headed .divider,
     [contenteditable=true]:not(:focus):hover,
     .project-icon:not(.w--open):hover) {
@@ -120,4 +120,8 @@
 .dark-mode [data-bb-tab] .linklist-item-content:not(:hover) .open-tab {
     color: var(--gray-000);
     outline-color: var(--gray-000);
+}
+
+.dark-mode .linklist-archived :is(.item-title-text, .linklist-item-copyurl *, .delete-element) {
+  color: var(--gray-900);
 }
