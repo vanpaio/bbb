@@ -125,3 +125,10 @@
 .dark-mode .linklist-archived :is(.item-title-text, .linklist-item-copyurl *, .delete-element) {
   color: var(--gray-900);
 }
+
+
+/*  Bookmarks */
+.dark-mode.bookmarks .linklist-item.selected {
+    background-color: var(--gray-200);
+    color: var(--gray-900);
+}
