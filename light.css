@@ -1,4 +1,4 @@
-/* Generated on: Tue Sep 20 2022 02:02:01 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Sep 20 2022 02:03:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7010,8 +7010,8 @@ label {
 }
 
 .linklist-item.folder {
-  -webkit-transition-duration: 80ms, 0ms;
-  transition-duration: 80ms, 0ms;
+  -webkit-transition-duration: 25ms, 0ms;
+  transition-duration: 25ms, 0ms;
 }
 
 .linklist-item.folder:hover {
