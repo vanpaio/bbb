@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 19 2022 17:15:32 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Sep 20 2022 01:11:42 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10699,10 +10699,6 @@ label {
 }
 
 .archive-element {
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  padding: 0.5rem;
   grid-auto-columns: 1fr;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
@@ -10710,13 +10706,23 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+}
+
+.archive-element.collapsable {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  padding: 0.5rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
   border-radius: 0.75rem;
   background-color: rgba(255, 172, 67, 0.25);
+  outline-color: #000;
   outline-offset: 0px;
   outline-style: none;
   outline-width: 0.125rem;
-  -webkit-transition: all 150ms ease;
-  transition: all 150ms ease;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
 }
 
 .linklist-actions-old {
@@ -13292,7 +13298,7 @@ label {
   grid-row-end: span 1;
 }
 
-#archived-section.w-node-_2367e97d-0d41-a546-96cf-3748705ff506-b8d8304e {
+#archived-section.w-node-e5d8a421-037e-0a71-1650-71edd10782a7-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13303,7 +13309,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a40f8bd4-52c0-0158-9314-53e68f4bc16c-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782ad-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13314,7 +13320,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a40f8bd4-52c0-0158-9314-53e68f4bc16d-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782ae-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13325,7 +13331,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a40f8bd4-52c0-0158-9314-53e68f4bc16e-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782af-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13336,7 +13342,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a40f8bd4-52c0-0158-9314-53e68f4bc175-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782b6-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13347,7 +13353,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a40f8bd4-52c0-0158-9314-53e68f4bc176-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782b7-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13358,7 +13364,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a40f8bd4-52c0-0158-9314-53e68f4bc189-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782ca-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13369,7 +13375,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-e44a7e84-75fb-1e3c-1a56-951d546a6737-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782cb-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13380,7 +13386,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-e44a7e84-75fb-1e3c-1a56-951d546a6738-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782cc-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13391,7 +13397,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-e44a7e84-75fb-1e3c-1a56-951d546a6739-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782cd-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13402,7 +13408,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-e44a7e84-75fb-1e3c-1a56-951d546a6740-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782d4-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13413,7 +13419,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-e44a7e84-75fb-1e3c-1a56-951d546a6741-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782d5-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13424,7 +13430,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-e44a7e84-75fb-1e3c-1a56-951d546a6754-b8d8304e {
+#w-node-e5d8a421-037e-0a71-1650-71edd10782e8-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
