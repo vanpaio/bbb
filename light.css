@@ -1,4 +1,4 @@
-/* Generated on: Tue Sep 20 2022 01:11:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Sep 20 2022 01:16:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10700,12 +10700,12 @@ label {
 
 .archive-element {
   grid-auto-columns: 1fr;
-  grid-column-gap: 0.5rem;
-  grid-row-gap: 0.5rem;
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .archive-element.collapsable {
@@ -10715,14 +10715,16 @@ label {
   padding: 0.5rem;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
   border-radius: 0.75rem;
   background-color: rgba(255, 172, 67, 0.25);
   outline-color: #000;
   outline-offset: 0px;
   outline-style: none;
   outline-width: 0.125rem;
-  -webkit-transition-duration: 150ms;
-  transition-duration: 150ms;
+  -webkit-transition-property: none;
+  transition-property: none;
 }
 
 .linklist-actions-old {
