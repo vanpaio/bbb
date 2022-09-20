@@ -525,8 +525,3 @@ pre[class*=language-] {
     outline-color: transparent;
     color: var(--gray-100);
 }
-
-.bookmarks .linklist-item.selected .folder-title-text {
-    font-weight: 500;
-    letter-spacing: 0.25px;
-}
