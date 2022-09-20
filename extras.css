@@ -517,3 +517,16 @@ pre[class*=language-] {
 .dragging .linklist-item-body {
   opacity: 0;
 }
+
+
+/* Bookmarks */
+.bookmarks .linklist-item.selected {
+    background-color: var(--gray-800);
+    outline-color: transparent;
+    color: var(--gray-100);
+}
+
+.bookmarks .linklist-item.selected .folder-title-text {
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
