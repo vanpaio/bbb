@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 21 2022 15:57:12 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 21 2022 15:59:06 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10205,6 +10205,7 @@ label {
   -ms-flex-align: center;
   align-items: center;
   border-left: 0rem solid hsla(0, 0%, 67.8%, 0.1);
+  opacity: 0.5;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   color: #b8b8b8;
@@ -10213,6 +10214,7 @@ label {
 .linklist-empty:hover {
   padding-left: 1rem;
   border-left-width: 0.1875rem;
+  opacity: 1;
 }
 
 .inline-code {
