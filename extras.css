@@ -536,7 +536,7 @@ pre[class*=language-] {
 
 /*  Drag and drop */
 
-.linklist-item:not(.folder),
+.linklist-item.dragging,
 .sidenav-item {
     transition: all 150ms 100ms cubic-bezier(0.4, 0, 1, 1), opacity 400ms ease;
 }
