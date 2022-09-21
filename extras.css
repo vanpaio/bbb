@@ -207,9 +207,6 @@ input,
 }
 
 
-/*  Buttons */
-
-
 
 /* Linklist */
 
@@ -283,7 +280,8 @@ input,
 }
 
 
-/* Linklist - Toolbar */
+
+/* Linklist - Editing (Toolbar) */
 .sticky-toolbar {
     width: calc(100% + 0.25rem);
 }
@@ -295,6 +293,16 @@ input,
 body:not(.show-description) :not(#archived-section).linklist-wrapper {
     margin-top: 1.5rem;
 }
+
+.toolbar-visible .linklist-item:not(.selected) {
+    opacity: 0.7;
+}
+
+.toolbar-visible .linklist-item:not(.selected):hover {
+    opacity: 1;
+}
+
+
 
 /* Linklist - Close/Open tab Buttons */
 
