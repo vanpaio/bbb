@@ -103,6 +103,10 @@ input,
 
 /* Overflow Menu */
 
+.w-dropdown {
+    z-index: unset;
+}
+
 .w--open .w-dropdown-link:focus {
     outline: 0.1875rem solid black;
     z-index: 2;
