@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 21 2022 14:48:48 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 21 2022 15:28:39 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6939,8 +6939,8 @@ label {
   grid-template-rows: auto;
   border-radius: 0.5rem;
   background-color: #fafafa;
-  -webkit-transition: all 90ms ease, background-position 0ms ease;
-  transition: all 90ms ease, background-position 0ms ease;
+  -webkit-transition: all 70ms ease, background-position 0ms ease;
+  transition: all 70ms ease, background-position 0ms ease;
   cursor: pointer;
 }
 
