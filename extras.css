@@ -342,6 +342,11 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 .close-icon-wrapper:not(:hover) svg { color: transparent; }
 .close-icon-wrapper:hover + .close-tab-text { display: flex; }
 
+.linklist-item:not([data-bb-tab]) .open-tab-text span:last-child,
+.linklist-item[data-bb-tab] .open-tab-text span:first-child {
+    display: none;
+}
+
 
 /* Linklist - Title */
 
