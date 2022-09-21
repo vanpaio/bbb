@@ -298,6 +298,17 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 
 /* Linklist - Close/Open tab Buttons */
 
+:is(.open-icon-wrapper, .close-icon-wrapper) {
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+}
+
 .linklist-item .linklist-item-content:not(:hover) .btn,
 .linklist-item:not([data-bb-tab]) .close-tab {
   display: none;
