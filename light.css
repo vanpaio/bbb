@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 21 2022 15:59:06 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 22 2022 02:46:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6572,7 +6572,7 @@ label {
   display: flex;
   overflow: auto;
   height: 100vh;
-  padding: 0.5rem 0.125rem 0rem 1rem;
+  padding: 0.5rem 0.125rem 0rem 0.5rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -7707,6 +7707,7 @@ label {
   display: -ms-grid;
   display: grid;
   width: 100%;
+  padding: 0.5rem;
   grid-auto-columns: 1fr;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
@@ -7714,6 +7715,7 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  border-radius: 0.5rem;
 }
 
 .structured-list__body-multiline-item {
