@@ -556,6 +556,22 @@ body.is-dragging * {
   opacity: 0;
 }
 
+.sidenav-list-wrapper section {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.linklist {
+    width: calc(100% + 1rem);
+}
+
+body.is-dragging :is(
+    .sidenav-list-wrapper section, 
+    .linklist
+):not(:hover) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
 
 /* Bookmarks */
 .bookmarks .linklist-item.selected {
