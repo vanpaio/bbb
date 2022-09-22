@@ -577,6 +577,10 @@ body.is-dragging :is(
     background-color: rgba(0, 0, 0, 0.02);
 }
 
+body.is-dragging .vertical-divider {
+    opacity: 0.3;
+}
+
 /* Bookmarks */
 .bookmarks .linklist-item.selected {
     background-color: var(--gray-800);
