@@ -73,6 +73,7 @@ input,
 
 /*  Sidenav */
 
+
 .sidenav-scroll { height: calc(100vh - 3.75rem) !important; }
 
 .sidenav-scroll.demo { height: 352px !important;}
@@ -100,6 +101,10 @@ input,
 .sidenav-list-wrapper section:not(:hover) :is(.section-settings, .w-dropdown-toggle):not(.w--open) {
     display: none;
 }
+
+.sidenav-scroll section {max-width: 15.625rem}
+
+
 
 /* Overflow Menu */
 
@@ -571,7 +576,6 @@ body.is-dragging :is(
 ):not(:hover) {
     background-color: rgba(0, 0, 0, 0.02);
 }
-
 
 /* Bookmarks */
 .bookmarks .linklist-item.selected {
