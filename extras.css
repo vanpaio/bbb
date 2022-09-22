@@ -233,7 +233,7 @@ input,
 }
 
 .linklist-item:hover .linklist-draghandle {
-        background-image: url(/images/draggable-handle.svg);
+    background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/632bd37bbdb024dba0a337cf_draggable-handle.svg);
     background-position: 8px 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ input,
 
 .linklist-checkbox-wrapper input:checked ~ .checkbox {
     border: .125rem solid red;
-    background: red url("/images/checkmark-icon.svg") -1px 0px no-repeat;
+    background: red url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/620c60c3367acb38050e65d5_checked.svg) -1px 0px no-repeat;
     background-size: 14px;
 }
 
