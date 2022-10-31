@@ -1,4 +1,4 @@
-/* Generated on: Thu Oct 06 2022 23:52:40 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Oct 31 2022 14:07:06 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7655,7 +7655,7 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 1rem;
+  width: 0.9375rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
