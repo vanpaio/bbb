@@ -103,7 +103,13 @@ input,
 
 .sidenav-scroll section {max-width: 15.625rem}
 
-
+.emoji-icon-link {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right: -0.3125rem;
+    bottom: -0.3125rem;
+}
 
 /* Overflow Menu */
 
