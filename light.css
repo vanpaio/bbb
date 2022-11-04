@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 04 2022 14:20:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 04 2022 21:23:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2093,6 +2093,13 @@ label {
 
 .overflow-menu__wrap:active {
   outline-width: 0px;
+}
+
+.overflow-menu__wrap.project_fl-dropdown {
+  position: absolute;
+  top: 50%;
+  right: -1.75rem;
+  margin-top: 0.75rem;
 }
 
 .overflow-menu__toggle {
@@ -7971,6 +7978,7 @@ label {
 }
 
 .project-header {
+  position: relative;
   display: -ms-grid;
   display: grid;
   justify-items: start;
