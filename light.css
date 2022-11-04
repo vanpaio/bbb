@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 04 2022 21:23:37 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 04 2022 21:25:15 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10105,7 +10105,6 @@ label {
 .project_fl-title-wrapper {
   display: -ms-grid;
   display: grid;
-  float: left;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
