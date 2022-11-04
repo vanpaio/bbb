@@ -115,6 +115,21 @@ input,
     bottom: -0.3125rem;
 }
 
+.sidenav-item.link:hover a:not(.w--current) {
+    background-color: transparent;
+    outline: transparent;
+    color: #000;
+}
+
+.sidenav-item.link a {
+    color: #5a5a5a;
+}
+
+.sidenav-item.link a.w--current {
+    color: #000;
+}
+
+
 /* Overflow Menu */
 
 .w-dropdown {
