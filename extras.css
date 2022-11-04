@@ -367,6 +367,14 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     display: none;
 }
 
+.linklist-item[data-bb-tab] svg.open-icon {
+    display:none;
+}
+
+.linklist-item:not([data-bb-tab]) svg.tab-icon {
+    display:none;
+}
+
 
 /* Linklist - Title */
 
