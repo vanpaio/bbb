@@ -1,4 +1,4 @@
-/* Generated on: Mon Oct 31 2022 14:07:06 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 04 2022 01:56:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7651,6 +7651,7 @@ label {
 }
 
 .emoji-icon {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
