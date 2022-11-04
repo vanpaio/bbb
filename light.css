@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 04 2022 01:56:10 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 04 2022 14:20:24 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -574,6 +574,8 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
+  font-weight: 600;
+  letter-spacing: -0.005rem;
 }
 
 .sidenav-item-link.w--current:hover {
