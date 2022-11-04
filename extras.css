@@ -103,6 +103,10 @@ input,
 
 .sidenav-scroll section {max-width: 15.625rem}
 
+.sidenav-item.link .emoji-icon {
+    margin-right: 0.25rem;
+}
+
 .emoji-icon-link {
     height: 12px;
     width: 12px;
