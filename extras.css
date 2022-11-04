@@ -240,6 +240,7 @@ input,
 
 .list-item-favicon img {
     vertical-align: inherit;
+    image-rendering: pixelated;
 }
 
 .linklist-wrapper .actions-list {
