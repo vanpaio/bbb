@@ -322,6 +322,11 @@ input,
 
 
 /* Linklist - Editing (Toolbar) */
+
+.floating-toolbar {
+    pointer-events: none;
+}
+
 .sticky-toolbar {
     width: calc(100% + 0.25rem);
 }
