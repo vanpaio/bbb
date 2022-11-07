@@ -1,4 +1,4 @@
-/* Generated on: Mon Nov 07 2022 16:34:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 07 2022 18:50:54 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9004,7 +9004,10 @@ label {
 }
 
 .linklist-toolbar.floating-toolbar {
-  top: 0rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+  z-index: 999;
   margin-bottom: 0rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
