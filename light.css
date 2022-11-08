@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 08 2022 20:56:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Nov 08 2022 21:29:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1541,6 +1541,10 @@ label {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.svg-icon.icon-medium {
+  width: 1.5rem;
 }
 
 .btn-svg__disabled {
