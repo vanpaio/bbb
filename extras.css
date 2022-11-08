@@ -156,6 +156,10 @@ input,
 .project-heading-area {
     resize: none;
 }
+.project-heading {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
 
 .note-editable:not(:focus) ~ .modal-group-right {
     display: none;
