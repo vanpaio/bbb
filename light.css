@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 08 2022 20:29:31 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Nov 08 2022 20:56:36 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8939,6 +8939,10 @@ label {
 
 .emojipicker-wrapper {
   background-color: transparent;
+}
+
+.emojipicker-wrapper.w--open {
+  left: 0px;
 }
 
 .sidenav-item-text {
