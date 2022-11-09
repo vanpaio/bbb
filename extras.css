@@ -133,6 +133,18 @@ input,
     opacity: 1;
 }
 
+.sidenav-item[data-bb-tab]:before {
+    display: block;
+    content: " ";
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    background: var(--red-500);
+    top: 50%;
+    left: 0.25rem;
+    margin-top: -0.125rem;
+    border-radius: 1rem;
+}
 
 /* Overflow Menu */
 
