@@ -33,6 +33,7 @@
 }
 
 .dark-mode :is(
+    .btn-secondary,
     .divider,
     .header__base,
     .inline-notification,
