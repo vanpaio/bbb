@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 09 2022 04:29:23 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 09 2022 18:33:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7017,6 +7017,8 @@ label {
 .linklist-item.edit-mode.url-edit-mode {
   overflow: hidden;
   padding: 0rem 0.5rem 0rem 0rem;
+  grid-column-gap: 0.75rem;
+  grid-row-gap: 0.75rem;
 }
 
 .linklist-item.linklist-bookmark.selected {
