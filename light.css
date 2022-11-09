@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 08 2022 21:53:01 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 09 2022 03:24:01 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11177,6 +11177,11 @@ label {
 
   .modal-document {
     width: auto;
+  }
+
+  .main-content {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 
   .modal_headed-sidenav {
