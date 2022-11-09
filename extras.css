@@ -122,15 +122,15 @@ input,
 .sidenav-item.link:hover a:not(.w--current) {
     background-color: transparent;
     outline: transparent;
-    color: #000;
+    opacity: 1;
 }
 
 .sidenav-item.link a {
-    color: #5a5a5a;
+    opacity: 0.6;
 }
 
 .sidenav-item.link a.w--current {
-    color: #000;
+    opacity: 1;
 }
 
 
