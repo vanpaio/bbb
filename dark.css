@@ -33,7 +33,6 @@
 }
 
 .dark-mode :is(
-    .btn-secondary,
     .divider,
     .header__base,
     .inline-notification,
@@ -46,6 +45,14 @@
   border-color: var(--gray-850);
 }
 
+.dark-mode .btn-secondary {
+    background-color: var(--gray-750);
+    outline-color: var(--gray-750);
+}
+.dark-mode .btn-secondary:hover {
+    background-color: #292929;
+    outline-color:  #292929;
+}
 
 .dark-mode :is(
     .w--current) {
