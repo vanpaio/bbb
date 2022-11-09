@@ -444,6 +444,15 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     display: block;
 }
 
+.btn-copy-url {
+    margin-right: 0.5rem;
+    order: 2;
+}
+
+.linklist-item:not(.url-edit-mode) .btn-copy-url {
+    display: none;
+}
+
 
 
 /*  Linklist - Archived */
