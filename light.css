@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 09 2022 20:16:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 10 2022 00:00:57 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10263,6 +10263,7 @@ label {
   z-index: 999;
   display: none;
   margin-top: 3.5rem;
+  margin-left: 0px;
 }
 
 .emojipicker__wrapper.emojipicker__wrapper-demo {
