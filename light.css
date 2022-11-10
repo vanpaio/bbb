@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 10 2022 04:50:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 10 2022 05:16:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2103,9 +2103,8 @@ label {
 
 .overflow-menu__wrap.project_fl-dropdown {
   position: absolute;
-  top: 0.25rem;
-  right: -3.5rem;
-  margin-top: 0px;
+  right: 1rem;
+  margin-top: 0.25rem;
 }
 
 .overflow-menu__toggle {
@@ -10129,6 +10128,8 @@ label {
 
 .project_fl-header {
   position: relative;
+  margin: -2rem -4.5rem;
+  padding: 2rem 4.5rem;
   justify-items: start;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -10265,6 +10266,7 @@ label {
 
 .emojipicker__wrapper.emojipicker__wrapper-demo {
   position: relative;
+  left: 0px;
   display: block;
   margin-top: 0rem;
 }
