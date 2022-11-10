@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 10 2022 17:18:48 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 10 2022 23:46:25 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -825,6 +825,8 @@ label {
 }
 
 .breadcrumb {
+  position: absolute;
+  top: 6.625rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -834,6 +836,10 @@ label {
   -ms-flex-align: center;
   align-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.breadcrumb.demo {
+  position: static;
 }
 
 .breadcrumb-link-old {
