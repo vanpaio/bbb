@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 10 2022 03:53:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 10 2022 04:11:05 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2134,10 +2134,6 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
-  -webkit-transition: -webkit-transform 200ms ease-in-out;
-  transition: -webkit-transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
 }
 
 .overflow-menu__toggle:hover {
@@ -2146,9 +2142,6 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 .overflow-menu__toggle:active {
