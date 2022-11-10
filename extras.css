@@ -201,8 +201,8 @@ input,
 }
 
 .toolbar-visible .project_fl-actions .btn-primary {
-    background-color: var(--ghost-200);
-    outline-color: var(--ghost-200);
+    background-color: var(--ghost-300);
+    outline-color: var(--ghost-300);
     color: var(--gray--900);
 }
 
