@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 10 2022 01:49:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 10 2022 02:59:46 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9475,7 +9475,7 @@ label {
 
 .sub_menu.w--open {
   z-index: 999;
-  min-width: 140px;
+  min-width: 10rem;
   padding: 0.5rem;
   border-radius: 0.375rem;
   background-color: #fff;
@@ -9493,7 +9493,7 @@ label {
   display: -ms-grid;
   display: grid;
   overflow: hidden;
-  width: 10rem;
+  width: 11.1rem;
   height: 1.625rem;
   margin-bottom: 0.25rem;
   padding: 0px 0.25rem;
