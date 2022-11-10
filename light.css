@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 10 2022 03:50:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 10 2022 03:53:55 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2090,19 +2090,11 @@ label {
 .overflow-menu__wrap {
   margin-right: 0px;
   margin-left: 0px;
-  -webkit-transition: all 30ms ease, -webkit-transform 200ms ease-in-out;
-  transition: all 30ms ease, -webkit-transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out, all 30ms ease;
-  transition: transform 200ms ease-in-out, all 30ms ease, -webkit-transform 200ms ease-in-out;
+  -webkit-transition: all 30ms ease;
+  transition: all 30ms ease;
   font-family: Inter, sans-serif;
   font-weight: 500;
   cursor: pointer;
-}
-
-.overflow-menu__wrap:hover {
-  -webkit-transform: scale(2);
-  -ms-transform: scale(2);
-  transform: scale(2);
 }
 
 .overflow-menu__wrap:active {
@@ -2142,6 +2134,10 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
 }
 
 .overflow-menu__toggle:hover {
@@ -2150,6 +2146,9 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .overflow-menu__toggle:active {
