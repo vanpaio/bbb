@@ -450,6 +450,9 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     outline: 0;
 }
 
+.project-icon:not(.hidden) ~ .project-heading {
+    margin-left: 4rem;
+}
 
 /*  Linklist - Url & Url Edit */
 
