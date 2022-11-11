@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 11 2022 01:00:52 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 11 2022 01:16:23 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1069,6 +1069,14 @@ label {
   -ms-grid-row-align: center;
   align-self: center;
   grid-auto-columns: 1fr;
+}
+
+.btn.btn-primary.btn-tab {
+  padding: 0rem;
+  outline-color: red;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 0.125rem;
 }
 
 .btn.btn-primary.google-signin {
@@ -8672,15 +8680,15 @@ label {
 }
 
 .close-tab.close-tab__lg {
-  padding-right: 1rem;
+  padding-right: 1.25rem;
   padding-left: 0.75rem;
   justify-items: end;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  grid-column-gap: 0.25rem;
-  grid-row-gap: 0.25rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
 }
 
 .open-tab {
@@ -8732,9 +8740,10 @@ label {
 
 .open-tab.open-tab__lg {
   height: auto;
-  padding-right: 0rem;
-  padding-left: 0rem;
-  justify-items: end;
+  padding: 0.75rem 1rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  border-radius: 90px;
 }
 
 .close-tab-text {
@@ -8756,6 +8765,10 @@ label {
   outline-width: 0.125px;
   text-align: left;
   letter-spacing: 0px;
+}
+
+.close-tab-text.close-tab-text__lg {
+  padding-left: 1rem;
 }
 
 .close-icon-wrapper {
