@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 11 2022 06:21:15 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 11 2022 18:42:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1091,6 +1091,11 @@ label {
 
 .btn.btn-primary.btn-split {
   padding-right: 2.5rem;
+}
+
+.btn.btn-primary.btn-disabled:hover {
+  background-color: rgba(93, 93, 93, 0.16);
+  outline-color: rgba(93, 93, 93, 0.16);
 }
 
 .btn.btn-disabled {
@@ -2464,6 +2469,11 @@ label {
 .checkbox.checkbox-xs {
   width: 0.75rem;
   height: 0.75rem;
+}
+
+.checkbox.checkbox-tertiary.w--redirected-checked {
+  border-color: #000;
+  background-color: #000;
 }
 
 .checkbox-proxy {
@@ -5482,6 +5492,10 @@ label {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+}
+
+.linklist-actions.regular-bookmarks {
+  background-color: #000;
 }
 
 .actions-list {
@@ -13366,6 +13380,11 @@ label {
 }
 
 #w-node-eb18109e-b954-f50f-1d03-bd871f1f28b1-b8d8304e {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_54f7b2a9-5639-2e26-16ac-fad354bf3cdb-b8d8304e {
   -ms-grid-column-align: center;
   justify-self: center;
 }
