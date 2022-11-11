@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 11 2022 01:16:23 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 11 2022 01:16:55 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8769,6 +8769,7 @@ label {
 
 .close-tab-text.close-tab-text__lg {
   padding-left: 1rem;
+  font-weight: 600;
 }
 
 .close-icon-wrapper {
@@ -8780,6 +8781,10 @@ label {
 .open-tab-text {
   position: relative;
   text-align: left;
+}
+
+.open-tab-text.open-tab-text__lg {
+  font-weight: 600;
 }
 
 .copy-link {
