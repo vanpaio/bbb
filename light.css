@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 10 2022 23:46:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 11 2022 00:33:07 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8497,6 +8497,11 @@ label {
   align-items: center;
 }
 
+.open-icon-wrapper.icon-lg {
+  width: 20px;
+  height: 20px;
+}
+
 .btn-tab-text {
   position: relative;
   z-index: 3;
@@ -8666,6 +8671,20 @@ label {
   text-decoration: none;
 }
 
+.close-tab.close-tab-lg {
+  margin-right: 0.125rem;
+  margin-left: 0.125rem;
+  padding-right: 0.375rem;
+  padding-left: 0.75rem;
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 0.25rem;
+}
+
 .open-tab {
   display: -ms-grid;
   display: grid;
@@ -8713,6 +8732,10 @@ label {
   outline-width: 0rem;
 }
 
+.open-tab.open-tab-lg {
+  height: auto;
+}
+
 .close-tab-text {
   position: absolute;
   z-index: 1;
@@ -8724,7 +8747,7 @@ label {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 40px;
   background-color: #000;
   outline-color: #000;
   outline-offset: 0px;
