@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 11 2022 06:14:11 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 11 2022 06:21:15 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -659,6 +659,11 @@ label {
   background-color: #ff2d2d;
   outline-color: #ff2d2d;
   color: #fff;
+}
+
+.sidenav-item-link.legacy-bookmark:hover {
+  background-color: hsla(0, 0%, 67.8%, 0.1);
+  outline-color: hsla(0, 0%, 67.8%, 0.1);
 }
 
 .page-wrap {
