@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 11 2022 01:20:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 11 2022 03:02:54 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7964,7 +7964,7 @@ label {
   -webkit-transition: all 70ms ease;
   transition: all 70ms ease;
   font-size: 2.5rem;
-  line-height: 2.2rem;
+  line-height: 2.5rem;
   cursor: pointer;
 }
 
