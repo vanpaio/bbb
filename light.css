@@ -1,4 +1,4 @@
-/* Generated on: Sun Nov 13 2022 00:08:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Nov 13 2022 19:16:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6994,7 +6994,6 @@ label {
   background-color: rgba(0, 0, 0, 0.02);
   -webkit-transition: all 70ms ease, background-position 0ms ease;
   transition: all 70ms ease, background-position 0ms ease;
-  cursor: pointer;
 }
 
 .linklist-item:hover {
@@ -10067,6 +10066,7 @@ label {
   max-width: 12.5rem;
   line-height: 1.5rem;
   text-align: left;
+  cursor: text;
 }
 
 .url-edit {
