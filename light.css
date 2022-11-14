@@ -1,4 +1,4 @@
-/* Generated on: Sun Nov 13 2022 22:46:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 14 2022 04:26:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5498,6 +5498,7 @@ label {
 }
 
 .actions-list {
+  position: relative;
   display: -ms-grid;
   display: grid;
   height: 100%;
@@ -10789,6 +10790,48 @@ label {
   z-index: 2;
   margin-top: 0rem;
   margin-right: 0rem;
+}
+
+.badge.tag__lightred {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #fff2f2;
+  outline-color: #ffe5e5;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+  color: red;
+}
+
+.badge.tag__lightred.dragging-count {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 2;
+  margin-top: 0rem;
+  margin-right: 0rem;
+}
+
+.badge.badge__sm {
+  height: 1.25rem;
+  min-width: 1.25rem;
+  padding: 0.125rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.badge.badge__sm.tag__lightred.selection__count {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: -0.96875rem;
+  margin-right: -1rem;
 }
 
 .badge__inner-wrap {
