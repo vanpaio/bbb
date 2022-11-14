@@ -1,4 +1,4 @@
-/* Generated on: Mon Nov 14 2022 06:01:03 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 14 2022 06:29:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1757,6 +1757,9 @@ label {
 .modal-content.preferences {
   display: -ms-grid;
   display: grid;
+  overflow: scroll;
+  margin: -1.5rem -1rem -1rem -1.5rem;
+  padding: 1.5rem 1rem 1rem 1.5rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -9233,8 +9236,8 @@ label {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  min-height: 60vh;
-  padding: 1.5rem;
+  height: 38rem;
+  padding: 1.5rem 1rem 1rem;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
