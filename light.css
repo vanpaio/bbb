@@ -1,4 +1,4 @@
-/* Generated on: Mon Nov 14 2022 18:33:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 14 2022 19:15:56 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10840,6 +10840,41 @@ label {
   font-weight: 600;
 }
 
+.badge.badge__xs {
+  padding: 0.0625rem 0.125rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-weight: 600;
+}
+
+.badge.badge__xs.tag__lightred.selection__count {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: -0.96875rem;
+  margin-right: -1rem;
+  font-weight: 600;
+}
+
+.badge.badge__xs.tag__red_inverted {
+  border: 0.0625rem solid #fff;
+  background-color: transparent;
+}
+
+.badge.badge__xs.tag__red_inverted.selection__count {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: -0.96875rem;
+  margin-right: -1rem;
+  font-weight: 600;
+}
+
 .badge__inner-wrap {
   position: relative;
   display: -webkit-box;
@@ -11609,6 +11644,28 @@ label {
 }
 
 #w-node-_7d64411c-1463-d001-7a94-3afebd04d55d-f8d8302a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-_6d8fcc2d-12a7-7a43-6f89-f37e9e4b14a1-f8d8302a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-_3646e3ac-d94a-60f0-b020-6dfd720bbcf3-f8d8302a {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
