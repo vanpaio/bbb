@@ -133,6 +133,7 @@ input,
 
 .sidenav-item.link a .sidenav-item-text {
     opacity: 0.6;
+    font-weight: 400;
 }
 
 .sidenav-item.link a.w--current .sidenav-item-text {
