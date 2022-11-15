@@ -684,3 +684,13 @@ body.is-dragging .linklist-actions {
     outline-color: transparent;
     color: var(--gray-100);
 }
+
+/* Settings Modal */
+.img-button-wrapper.selected .img-button-thumbnail {
+    outline-color: var(--red-800);
+    outline-width: 0.125rem;
+}
+
+.img-button-wrapper.selected {
+    font-weight: 600;
+}
