@@ -685,6 +685,14 @@ body.is-dragging .vertical-divider {
 body.is-dragging .linklist-actions {
     display: none !important;
 }
+.is-dragging .breadcrumb .tiny-link.drop-area {
+    background-color: var(--ghost-400);
+    outline-width: 0.25rem;
+    outline-style: solid;
+    outline-color: var(--ghost-400);
+    border-radius: 0.125rem;
+}
+
 
 /* Bookmarks */
 .bookmarks .linklist-item.selected {
