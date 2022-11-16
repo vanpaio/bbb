@@ -685,12 +685,21 @@ body.is-dragging .vertical-divider {
 body.is-dragging .linklist-actions {
     display: none !important;
 }
+.is-dragging .breadcrumb {
+    background-color: rgba(0, 0, 0, 0.02);
+    outline-color: rgba(0, 0, 0, 0.02);
+    padding-right: 0;
+    outline-width: 0.75rem;
+    outline-style: solid;
+    border-radius: 0.125rem;
+}
 .is-dragging .breadcrumb .tiny-link.drop-area {
-    background-color: var(--ghost-400);
     outline-width: 0.25rem;
     outline-style: solid;
-    outline-color: var(--ghost-400);
     border-radius: 0.125rem;
+}
+.is-dragging .breadcrumb-divider {
+    opacity: 0.25;
 }
 
 
