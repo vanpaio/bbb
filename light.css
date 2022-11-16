@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 15 2022 00:25:23 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 16 2022 23:37:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9854,6 +9854,12 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
+}
+
+.tiny-link.drag-over {
+  background-color: #ff2d2d;
+  outline-color: #ff2d2d;
+  color: #fff;
 }
 
 .folder-item {
