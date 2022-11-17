@@ -445,6 +445,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     background-size: 0.75rem;
     background-position: center;
     background-repeat: no-repeat;
+    mix-blend-mode: multiply;
 }
 
 /* Linklist - Title */
