@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 17 2022 02:32:08 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 17 2022 02:40:56 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10836,6 +10836,23 @@ label {
 }
 
 .badge.badge__sm.tag__lightred.selection__count {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: -0.96875rem;
+  margin-right: -1rem;
+  font-weight: 600;
+}
+
+.badge.badge__sm.tag__tertiary_light {
+  border: 0.0625rem solid #000;
+  background-color: transparent;
+  color: #000;
+}
+
+.badge.badge__sm.tag__tertiary_light.selection__count {
   position: absolute;
   left: auto;
   top: 0%;
