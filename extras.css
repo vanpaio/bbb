@@ -422,6 +422,14 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     outline-width: 0.0625rem;
 }
 
+.linklist-item:not([data-bb-tab]) .badge.badge__sm {
+    display: none;
+}
+
+.linklist-item .badge.badge__sm {
+    opacity: .25;
+}
+
 [data-bb-tab] .linklist-item-content:not(:hover) .open-tab { color: black; }
 .close-icon-wrapper:not(:hover) svg { color: transparent; }
 .close-icon-wrapper:hover + .close-tab-text { display: flex; }
