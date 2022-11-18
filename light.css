@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 18 2022 02:37:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 18 2022 02:47:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4525,6 +4525,7 @@ label {
 
 .search-input.search-input__header {
   border-radius: 0px;
+  background-color: transparent;
 }
 
 .search-input.search-input__header:focus {
