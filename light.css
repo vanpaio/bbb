@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 18 2022 18:54:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 18 2022 20:35:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11127,6 +11127,24 @@ label {
   background-color: transparent;
 }
 
+.linklist-favicon {
+  position: relative;
+  width: 16px;
+  max-width: none;
+  margin-bottom: 0rem;
+  padding-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: 0.125rem;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -12670,17 +12688,6 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-a041a000-42ff-9d69-7382-125d3dd71b85-91d8304a {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
 #w-node-_93ac1a5b-ef5b-cbc3-9c90-563a9769e38d-91d8304a {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -12703,7 +12710,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-_0e641a1a-013a-297f-37cb-d6765d17cb57-91d8304a {
+#w-node-_0646660a-12c2-7ae7-6dbc-78c71d02c66d-91d8304a {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -12736,17 +12743,6 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-ee7876dc-ab2c-3952-17bc-5e7b058139e3-91d8304a {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
 #w-node-ee7876dc-ab2c-3952-17bc-5e7b058139ee-91d8304a {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -12759,17 +12755,6 @@ label {
 }
 
 #w-node-ee7876dc-ab2c-3952-17bc-5e7b058139f6-91d8304a {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_759c7426-ca2c-26f3-8f93-49ab761d7b1b-91d8304a {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
