@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 18 2022 02:36:31 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 18 2022 02:37:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4461,10 +4461,6 @@ label {
   min-width: 0px;
   -webkit-transition: all 120ms ease;
   transition: all 120ms ease;
-}
-
-.search.header__search:hover {
-  left: 0rem;
 }
 
 .search-input {
