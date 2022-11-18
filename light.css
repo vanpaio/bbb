@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 18 2022 18:47:27 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Nov 18 2022 18:54:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11092,7 +11092,7 @@ label {
   background-color: #fff;
 }
 
-.list-2 {
+.search-result__list {
   margin-bottom: 0px;
   padding-left: 0rem;
   list-style-type: none;
