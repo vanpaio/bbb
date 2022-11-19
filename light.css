@@ -1,4 +1,4 @@
-/* Generated on: Fri Nov 18 2022 20:35:09 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Nov 19 2022 00:24:04 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11080,7 +11080,7 @@ label {
 .search-result {
   display: -ms-grid;
   display: grid;
-  padding: 2rem 0.75rem 0.875rem;
+  padding: 3.1875rem 0.75rem 0.875rem;
   grid-auto-columns: 1fr;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
