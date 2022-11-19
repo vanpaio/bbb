@@ -12,7 +12,8 @@
     .tiny-link,
     .overflow-menu__link,
     .overflow-menu__project,
-    .overflow-sub_menu-toggle) {
+    .overflow-sub_menu-toggle,
+    .linklist-item-title) {
   color: var(--gray-100);
 }
 
