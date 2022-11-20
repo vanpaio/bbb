@@ -1,4 +1,4 @@
-/* Generated on: Sun Nov 20 2022 17:30:11 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Nov 20 2022 17:46:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4456,8 +4456,6 @@ label {
 }
 
 .search.header__search {
-  position: absolute;
-  left: 12rem;
   min-width: 0px;
   -webkit-transition: all 120ms ease;
   transition: all 120ms ease;
@@ -4530,6 +4528,36 @@ label {
 
 .search-input.search-input__header:focus {
   box-shadow: none;
+}
+
+.search-input.header__search-input {
+  height: 3.125rem;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.search-input.header__search-input:focus {
+  box-shadow: none;
+}
+
+.search-input.header__search-input::-webkit-input-placeholder {
+  font-weight: 400;
+}
+
+.search-input.header__search-input:-ms-input-placeholder {
+  font-weight: 400;
+}
+
+.search-input.header__search-input::-ms-input-placeholder {
+  font-weight: 400;
+}
+
+.search-input.header__search-input::placeholder {
+  font-weight: 400;
 }
 
 .search-icon {
@@ -11083,7 +11111,8 @@ label {
   z-index: -1;
   display: -ms-grid;
   display: grid;
-  padding: 3.1875rem 0.5rem 0.875rem;
+  margin-top: -3.125rem;
+  padding: 3rem 0.5rem 0.875rem;
   grid-auto-columns: 1fr;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
@@ -12676,6 +12705,17 @@ label {
 }
 
 #w-node-_07c30dd2-2f32-1229-f469-add8b762f6b2-52d83046 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_3c491241-402e-564f-a933-05020dd43ac5-91d8304a {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
