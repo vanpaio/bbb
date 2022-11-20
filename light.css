@@ -1,4 +1,4 @@
-/* Generated on: Sun Nov 20 2022 21:50:20 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Nov 20 2022 22:02:40 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4456,7 +4456,7 @@ label {
 }
 
 .search.header__search {
-  min-width: 0px;
+  width: auto;
   -webkit-transition: all 120ms ease;
   transition: all 120ms ease;
 }
@@ -11107,14 +11107,14 @@ label {
 
 .search-result {
   position: absolute;
-  top: 0.5rem;
+  top: 0px;
   z-index: -1;
   display: -ms-grid;
   display: grid;
   overflow: hidden;
-  min-width: 36rem;
+  width: 100%;
   margin-top: 0px;
-  padding: 2.75rem 0.5rem 0.75rem;
+  padding: 3.125rem 0.5rem 0.75rem;
   grid-auto-columns: 1fr;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
@@ -11137,7 +11137,7 @@ label {
   overflow: scroll;
   max-height: 60vh;
   margin: -0.75rem -0.5rem -0.5rem;
-  padding: 0.75rem 0.75rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.75rem 0.5rem 0.5rem;
   list-style-type: none;
 }
 
@@ -11199,8 +11199,9 @@ label {
 }
 
 .search__wrapper {
+  position: relative;
   z-index: 1;
-  padding-top: 0.5rem;
+  width: 36rem;
 }
 
 .search__wrapper.demo {
@@ -15292,6 +15293,17 @@ label {
   grid-row-end: span 1;
 }
 
+#w-node-_76a3c623-16df-386f-91f5-9515f30bf0bb-c455d5ce {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-_09a1e9e6-65ef-81d6-91fa-98255adb12f6-c455d5ce {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -15623,17 +15635,6 @@ label {
 }
 
 #w-node-_09a1e9e6-65ef-81d6-91fa-98255adb1423-c455d5ce {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_76a3c623-16df-386f-91f5-9515f30bf0bb-c455d5ce {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
