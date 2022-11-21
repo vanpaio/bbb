@@ -1,4 +1,4 @@
-/* Generated on: Mon Nov 21 2022 05:24:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 21 2022 05:27:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11619,8 +11619,18 @@ label {
     padding-bottom: 10rem;
   }
 
+  .linklist-menu-wrapper {
+    position: static;
+    width: 2.5rem;
+  }
+
   .sidenav-list-wrapper {
     padding-bottom: 10rem;
+  }
+
+  .folder-menu-wrapper {
+    position: static;
+    width: 2.5rem;
   }
 }
 
@@ -13977,7 +13987,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-eafdf9e9-5e00-3b4c-0d92-2c016cab1c1b-b8d8304e {
+#w-node-eafdf9e9-5e00-3b4c-0d92-2c016cab1c1c-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13988,7 +13998,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-eafdf9e9-5e00-3b4c-0d92-2c016cab1c1c-b8d8304e {
+#w-node-eafdf9e9-5e00-3b4c-0d92-2c016cab1c1b-b8d8304e {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
