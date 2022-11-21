@@ -740,14 +740,15 @@ body.is-dragging .linklist-actions {
 }
 
 .header__base #search:placeholder-shown + .search-result,
-.header__base #search:not(:focus) + .search-result {
+.header__base #search:not(:focus) + .search-result,
+.header__base #search:not(:focus)::-webkit-search-cancel-button {
     display: none;
 }
 
-.search-icon {
+.header__base .search-icon {
     pointer-events: none;
 }
 
-.search-result__list {
+.header__base .search-result__list {
     overscroll-behavior: contain;
 }
