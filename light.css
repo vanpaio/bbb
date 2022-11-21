@@ -1,4 +1,4 @@
-/* Generated on: Mon Nov 21 2022 02:07:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 21 2022 02:28:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1574,7 +1574,7 @@ label {
 
 .svg-icon.search-icon {
   left: 0.75rem;
-  top: 0.7rem;
+  top: 0.5rem;
   width: 1.875rem;
   height: 1.875rem;
   padding: 0.125rem;
@@ -4543,7 +4543,6 @@ label {
 .search-input.header__search-input {
   height: 2.875rem;
   margin-right: 0rem;
-  padding-top: 0.25rem;
   border-radius: 1rem;
   background-color: #fff;
   color: #000;
@@ -11137,6 +11136,8 @@ label {
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 0 0 0.86rem 0 rgba(0, 0, 0, 0.09), 0 0 0.7rem 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
 }
 
 .search-result.demo {
