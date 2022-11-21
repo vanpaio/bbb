@@ -1,4 +1,4 @@
-/* Generated on: Mon Nov 21 2022 05:41:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 21 2022 05:46:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10302,6 +10302,7 @@ label {
 
 .project_fl-header {
   position: relative;
+  max-width: 100vw;
   margin: -2rem -4.5rem;
   padding: 2rem 4.5rem;
   justify-items: start;
@@ -11636,6 +11637,11 @@ label {
   .folder-menu-wrapper {
     position: static;
     width: 2.5rem;
+  }
+
+  .project_fl-wrapper {
+    max-width: none;
+    margin-left: 0rem;
   }
 }
 
