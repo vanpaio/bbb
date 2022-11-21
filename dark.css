@@ -1,3 +1,7 @@
+.dark-mode {
+  color-scheme: dark;
+}
+
 .dark-mode,
 .dark-mode :is(
     .header__name,
@@ -13,7 +17,9 @@
     .overflow-menu__link,
     .overflow-menu__project,
     .overflow-sub_menu-toggle,
-    .linklist-item-title) {
+    .linklist-item-title,
+    .header__base #search,
+    .search-result .empty-state) {
   color: var(--gray-100);
 }
 
@@ -75,7 +81,8 @@
 
 .dark-mode :is(
     .overflow-menu_divider,
-    .menu-divider) {
+    .menu-divider,
+    .horz_divider) {
   border-color: var(--gray-750);
 }
 
@@ -88,7 +95,10 @@
     .sub_menu,
     [contenteditable=true]:focus,
     .title-edit-mode,
-    .url-edit-mode) { 
+    .url-edit-mode,
+    .search-result,
+    .header__base #search,
+    .linklist__search) { 
   background-color: var(--gray-725);
 }
 
@@ -144,4 +154,8 @@
 .dark-mode.bookmarks .linklist-item.selected {
     background-color: var(--gray-200);
     color: var(--gray-900);
+}
+
+.dark-mode .linklist__search:hover {
+  background-color: var(--rose-100) !important;
 }
