@@ -733,15 +733,15 @@ body.is-dragging .linklist-actions {
 
 /*  Search  */
 
-.header__base #search:placeholder-shown + .search-result,
-.header__base #search:not(:focus) + .search-result {
-    display: none;
-}
-
 .header__base #search:not(:focus) {
     width: 0;
     background-color: transparent;
     cursor: pointer;
+}
+
+.header__base #search:placeholder-shown + .search-result,
+.header__base #search:not(:focus) + .search-result {
+    display: none;
 }
 
 .search-icon {
