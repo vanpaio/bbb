@@ -739,8 +739,8 @@ body.is-dragging .linklist-actions {
     cursor: pointer;
 }
 
-.header__base #search:placeholder-shown + .search-result,
-.header__base #search:not(:focus) + .search-result,
+.header__base #search:placeholder-shown + .search-result, 
+.header__base .search__wrapper:not(:focus-within) + .search-result, 
 .header__base #search:not(:focus)::-webkit-search-cancel-button {
     display: none;
 }
