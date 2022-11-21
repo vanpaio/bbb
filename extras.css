@@ -719,6 +719,7 @@ body.is-dragging .linklist-actions {
     color: var(--gray-100);
 }
 
+
 /* Settings Modal */
 .img-button-wrapper.selected .img-button-thumbnail {
     outline-color: var(--red-800);
@@ -727,4 +728,26 @@ body.is-dragging .linklist-actions {
 
 .img-button-wrapper.selected {
     font-weight: 600;
+}
+
+
+/*  Search  */
+
+.header__base #search:placeholder-shown + .search-result,
+.header__base #search:not(:focus) + .search-result {
+    display: none;
+}
+
+.header__base #search:not(:focus) {
+    width: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-icon {
+    pointer-events: none;
+}
+
+.search-result__list {
+    overscroll-behavior: contain;
 }
