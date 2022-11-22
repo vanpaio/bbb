@@ -71,9 +71,10 @@ input::selection,
 }
 
 .url-edit,
+.item-title-text,
 input,
 :not(.wf-design-mode, [data-w-id]) [contenteditable=true] {
-    caret-color: red;
+    caret-color: red !important;
 }
 
 
