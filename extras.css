@@ -694,6 +694,11 @@ body.is-dragging .vertical-divider {
 body.is-dragging .linklist-actions {
     display: none !important;
 }
+
+body.is-dragging .linklist-item.folder {
+  opacity: 1 !important;
+}
+
 .is-dragging .breadcrumb {
     background-color: rgba(0, 0, 0, 0.02);
     outline-color: rgba(0, 0, 0, 0.02);
