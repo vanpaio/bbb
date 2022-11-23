@@ -408,7 +408,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
   display: none;
 }
 
-.linklist-item.folder .linklist-item-content .btn {
+.linklist-item.folder .linklist-item-content .btn.open-folder {
   display: grid;
 }
 
