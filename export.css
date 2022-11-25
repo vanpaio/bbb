@@ -125,7 +125,7 @@ dl h3::after {
 }
 
 
-body > p:before {
+body > dt:last-child:after {
     content: "Made with Booksmart";
     display: block;
     font-size: 0.875rem;
