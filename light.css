@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 29 2022 18:33:28 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 30 2022 17:46:06 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8022,7 +8022,7 @@ label {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   text-align: center;
 }
 
