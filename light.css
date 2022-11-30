@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 30 2022 20:08:14 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 30 2022 20:15:18 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11832,7 +11832,6 @@ label {
 
   .sidenav-scroll {
     overflow: auto;
-    height: 100vh;
   }
 
   .snippet-multi.new {
@@ -11907,10 +11906,6 @@ label {
     font-size: 1.125rem;
   }
 
-  .tiny-link-indent {
-    display: none;
-  }
-
   .banner-notification.inline-notification__info {
     max-width: 38rem;
   }
@@ -11958,6 +11953,10 @@ label {
   .project_fl-wrapper {
     max-width: none;
     margin-left: 0rem;
+  }
+
+  .nav-header {
+    display: none;
   }
 }
 
