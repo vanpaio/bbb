@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 30 2022 22:39:44 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 30 2022 22:50:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11959,6 +11959,7 @@ label {
   }
 
   .sidenav-list-wrapper {
+    padding-top: 1rem;
     padding-bottom: 10rem;
   }
 
