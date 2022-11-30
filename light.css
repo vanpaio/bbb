@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 30 2022 18:48:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 30 2022 20:07:46 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8029,8 +8029,6 @@ label {
 .emoji-icon.emoji-folder {
   width: 1.5rem;
   height: 1.375rem;
-  margin-left: -0.325rem;
-  padding-top: 0.1875rem;
   background-image: url("https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/63879b824f6b107f80b645ac_project-basefolder.svg");
   background-position: 0px 0px;
   background-size: contain;
@@ -11546,6 +11544,7 @@ label {
   .sidenav.sidenav__left {
     overflow: visible;
     height: auto;
+    min-width: 3.625rem;
     border-right: 2px solid #f5f5f5;
   }
 
@@ -11555,6 +11554,10 @@ label {
 
   .sidenav-list {
     padding-bottom: 10rem;
+  }
+
+  .sidenav-item-link {
+    padding-left: 0.375rem;
   }
 
   .sidenav-switcher__wrap:hover {
@@ -11900,6 +11903,14 @@ label {
     display: none;
   }
 
+  .emoji-icon {
+    font-size: 1.125rem;
+  }
+
+  .tiny-link-indent {
+    display: none;
+  }
+
   .banner-notification.inline-notification__info {
     max-width: 38rem;
   }
@@ -11923,6 +11934,10 @@ label {
 
   .modal_headed-sidenav {
     padding-bottom: 10rem;
+  }
+
+  .sidenav-item-text {
+    display: none;
   }
 
   .linklist-menu-wrapper {
@@ -16227,6 +16242,17 @@ label {
 }
 
 #w-node-_4af9cebb-0d4e-bdfd-2a20-8adef928280b-c455d5ce {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_9dc3d3de-2f41-a938-f904-4299dd1637ba-c455d5ce {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
