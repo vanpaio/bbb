@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 30 2022 21:54:52 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 30 2022 22:22:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11553,10 +11553,22 @@ label {
 
   .sidenav-list {
     padding-bottom: 10rem;
+    padding-left: 0rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .sidenav-item {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .sidenav-item-link {
-    width: auto;
     height: auto;
     padding: 0.25rem;
   }
@@ -11833,6 +11845,8 @@ label {
 
   .sidenav-scroll {
     overflow: auto;
+    padding-right: 0.875rem;
+    padding-left: 0.75rem;
   }
 
   .snippet-multi.new {
@@ -11928,7 +11942,7 @@ label {
 
   .main-content {
     padding-right: 0.5rem;
-    padding-left: 2.5rem;
+    padding-left: 3.875rem;
   }
 
   .modal_headed-sidenav {
