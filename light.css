@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 29 2022 18:29:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Nov 29 2022 18:33:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11481,6 +11481,7 @@ label {
   border-color: #ff6161;
   border-radius: 1.25rem;
   background-color: #ff6161;
+  cursor: pointer;
 }
 
 .select__project-color.select__blue {
