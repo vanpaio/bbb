@@ -1,4 +1,4 @@
-/* Generated on: Thu Dec 01 2022 22:26:30 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Dec 01 2022 23:00:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11536,6 +11536,10 @@ label {
   background-color: #fff;
 }
 
+.sidenav-item_link-favicon {
+  width: 1rem;
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -11572,6 +11576,7 @@ label {
     width: auto;
     height: auto;
     padding: 0.25rem;
+    justify-items: center;
   }
 
   .sidenav-switcher__wrap:hover {
@@ -11988,6 +11993,11 @@ label {
 
   .nav-header {
     display: none;
+  }
+
+  .sidenav-item_link-favicon {
+    width: 1.25rem;
+    margin-top: -0.25rem;
   }
 }
 
@@ -16271,7 +16281,18 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-_20a50061-1f1c-9eef-74db-1b13f7a20809-c455d5ce {
+#w-node-fd916ee8-631a-a5e6-f179-99866861c478-c455d5ce {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_5ecb7812-6a3c-0d9b-6319-be6ae158b766-c455d5ce {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
