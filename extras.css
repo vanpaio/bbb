@@ -188,9 +188,15 @@ input,
 }
 
 .main-content:not(:hover) .project_fl-actions :is(.show-description, .open-all),
-.project_fl-header:not(:hover) .overflow-menu__toggle:not(.w--open) {
+.main-content:not(:hover) .project_fl-header:not(:hover) .overflow-menu__toggle:not(.w--open) {
     display: none;
-} 
+}
+
+@media screen and (min-width: 991px) {
+  .project_fl-header:not(:hover) .overflow-menu__toggle:not(.w--open) {
+    display: none ;
+}
+}
 
 :not(.wf-design-mode, [data-w-id]) [contenteditable=true], .project-icon {
     transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
