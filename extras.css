@@ -779,7 +779,7 @@ body.is-dragging .linklist-item.folder {
 
 
 /*  Popup  */
-body:is(.popup) .open-manager-tab {
+body:not(.popup) .open-manager-tab {
     visibility: hidden;
     display: none;
 }
