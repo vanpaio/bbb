@@ -187,7 +187,7 @@ input,
     box-decoration-break: clone;
 }
 
-.main-content:not(:hover) .project_fl-actions :is(.show-description, .open-all),
+.main-content:not(:hover) .project_fl-actions :is(.show-description, .btn-open-all),
 .main-content:not(:hover) .project_fl-header:not(:hover) .overflow-menu__toggle:not(.w--open) {
     display: none;
 }
