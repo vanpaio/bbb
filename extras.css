@@ -776,3 +776,10 @@ body.is-dragging .linklist-item.folder {
     background:transparent;
     display: none;
 }
+
+
+/*  Popup  */
+body:is(.popup) .open-manager-tab {
+    visibility: hidden;
+    display: none;
+}
