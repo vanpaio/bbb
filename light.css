@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 21 2022 19:42:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 21 2022 21:51:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7286,7 +7286,7 @@ label {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  grid-auto-flow: column;
+  grid-auto-flow: row;
   grid-auto-columns: auto;
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
@@ -10467,9 +10467,9 @@ label {
   left: 0%;
   top: 0%;
   right: 0%;
-  bottom: 0%;
   display: -ms-grid;
   display: grid;
+  min-height: 3rem;
   padding: 0.25rem 0.75rem 0.25rem 1.375rem;
   grid-auto-flow: column;
   grid-auto-columns: auto;
@@ -11562,6 +11562,13 @@ label {
   width: 1rem;
 }
 
+.linklist-item-notes {
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  border-top: 0.125rem solid hsla(0, 0%, 67.8%, 0.1);
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -12421,6 +12428,28 @@ label {
   grid-row-end: span 1;
 }
 
+#w-node-b5f16928-9d12-56cd-e181-674de74b58fd-e74b58eb {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_1c4cb81f-9075-3f86-ae54-01bc0a222b75-e74b58eb {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-b5f16928-9d12-56cd-e181-674de74b58ec-e74b58eb {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -12487,7 +12516,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-b5f16928-9d12-56cd-e181-674de74b58fd-e74b58eb {
+#w-node-a87eab76-a361-6a93-94d6-9add76da157b-e74b58eb {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
