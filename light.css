@@ -1,4 +1,4 @@
-/* Generated on: Thu Dec 01 2022 23:00:44 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 21 2022 16:36:24 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1580,6 +1580,19 @@ label {
   padding-top: 0.5625rem;
   padding-bottom: 0.5625rem;
   line-height: 1rem;
+}
+
+.btn.btn-tertiary.open-manager-tab {
+  position: fixed;
+  left: auto;
+  right: 2.75rem;
+  bottom: 2rem;
+}
+
+.btn.btn-tertiary.open-manager-tab.demo {
+  position: relative;
+  right: 0rem;
+  bottom: 0rem;
 }
 
 .btn.modal-footer-btn {
@@ -12295,50 +12308,6 @@ label {
   grid-row-end: 2;
 }
 
-#w-node-_7d64411c-1463-d001-7a94-3afebd04d559-f8d8302a {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-_7d64411c-1463-d001-7a94-3afebd04d55d-f8d8302a {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-_6d8fcc2d-12a7-7a43-6f89-f37e9e4b14a1-f8d8302a {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-_3646e3ac-d94a-60f0-b020-6dfd720bbcf3-f8d8302a {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
 #w-node-_8e253cca-babd-5d90-f0a9-6ebc1262f49a-f8d8302a {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -12348,6 +12317,50 @@ label {
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
+}
+
+#w-node-c84178ec-98ef-977e-6183-1c3a9618c2b3-f8d8302a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-c84178ec-98ef-977e-6183-1c3a9618c2b7-f8d8302a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-c84178ec-98ef-977e-6183-1c3a9618c2bc-f8d8302a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-c84178ec-98ef-977e-6183-1c3a9618c2c0-f8d8302a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
 }
 
 #w-node-_0fb5b71f-5628-9aaa-1896-276758162e71-4cd8302b {
