@@ -521,6 +521,12 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 }
 
 
+/*  Link properties */
+
+.crossed .item-title-text {
+    text-decoration: line-through;
+}
+
 
 /*  Linklist - Archived */
 
