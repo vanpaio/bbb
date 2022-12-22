@@ -210,7 +210,7 @@ input,
     opacity: 0.4;
 }
 
-.toolbar-visible .project_fl-actions .btn-primary {
+.toolbar-visible .project_fl-actions :is(.btn.btn-primary, .open-tab) {
     background-color: var(--ghost-300);
     outline-color: var(--ghost-300);
     color: var(--gray--900);
