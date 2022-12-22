@@ -83,6 +83,8 @@ input,
 /*  Sidenav */
 
 
+.sindenav-item {width: calc(100% - 0.375rem);} /* fix outline cropping when navigating with keyboard */
+
 .sidenav-scroll { height: calc(100vh - 3.75rem) !important; }
 
 .sidenav-scroll.demo { height: 352px !important;}
