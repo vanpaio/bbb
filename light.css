@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 21 2022 21:51:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Dec 22 2022 18:42:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11563,10 +11563,14 @@ label {
 }
 
 .linklist-item-notes {
-  margin-top: 3rem;
-  padding-top: 0.5rem;
+  margin-top: 2.5rem;
   padding-bottom: 1rem;
-  border-top: 0.125rem solid hsla(0, 0%, 67.8%, 0.1);
+}
+
+.item-note {
+  display: inline;
+  background-color: rgba(0, 129, 204, 0.07);
+  color: #0061fe;
 }
 
 @media screen and (max-width: 991px) {
