@@ -1,4 +1,4 @@
-/* Generated on: Thu Dec 22 2022 18:56:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Dec 22 2022 22:08:59 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11571,6 +11571,7 @@ label {
   display: inline;
   background-color: rgba(0, 129, 204, 0.07);
   color: rgba(0, 97, 254, 0.7);
+  line-height: 1.4375rem;
 }
 
 @media screen and (max-width: 991px) {
