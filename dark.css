@@ -2,6 +2,10 @@
   color-scheme: dark;
 }
 
+.dark-mode .invert-colors {
+  filter: invert(1);
+}
+
 .dark-mode,
 .dark-mode :is(
     .header__name,
