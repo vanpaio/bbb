@@ -314,11 +314,24 @@ input,
     justify-self: center;
 }
 
-.linklist-item:hover .linklist-draghandle {
+/* .linklist-item:hover .linklist-draghandle {
     background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/632bd37bbdb024dba0a337cf_draggable-handle.svg);
     background-position: 8px 50%;
     background-size: auto;
     background-repeat: no-repeat;
+} */
+
+.linklist-item:hover .linklist-draghandle:before {
+    content: "";
+    width: 0.125rem;
+    background-color: var(--gray-600);
+    opacity: 0.2;
+    height: 1.25rem;
+    border-radius: 1px;
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    margin-top: -0.625rem;
 }
 
 [draggable=true]:active,
