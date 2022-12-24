@@ -189,9 +189,13 @@ input,
     box-decoration-break: clone;
 }
 
-.main-content:not(:hover) .project_fl-actions :is(.show-description, .btn-open-all),
-.main-content:not(:hover) .project_fl-header:not(:hover) .overflow-menu__toggle:not(.w--open) {
+.main-content:not(:hover) :is(.project_fl-actions-group, .btn-open-all),
+.main-content:not(:hover) .overflow-menu__toggle:not(.w--open) {
     display: none;
+}
+
+.main-content:not(:hover) .w--open ~ :is(.project_fl-actions-group, .btn-open-all) {
+  display: grid;
 }
 
 /* @media screen and (min-width: 991px) {
