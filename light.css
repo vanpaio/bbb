@@ -1,4 +1,4 @@
-/* Generated on: Thu Dec 22 2022 22:08:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Dec 24 2022 20:03:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8303,7 +8303,7 @@ label {
 
 .project-icon {
   position: absolute;
-  left: 0px;
+  top: -5.5rem;
   display: inline-block;
   width: 3.25rem;
   height: 3.25rem;
@@ -8522,6 +8522,7 @@ label {
   outline-style: none;
   outline-width: 0px;
   font-size: 2.5rem;
+  line-height: 1.35;
 }
 
 .project-heading.project-title-input {
@@ -8887,7 +8888,7 @@ label {
 
 .main-content {
   min-height: 100vh;
-  padding: 10rem 2rem 8.5rem;
+  padding: 12rem 2rem 8.5rem;
   background-color: #fff;
 }
 
@@ -11574,6 +11575,18 @@ label {
   line-height: 1.4375rem;
 }
 
+.linklist-draghandle-old {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  width: 1.25rem;
+  padding-bottom: 0px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -12658,6 +12671,28 @@ label {
   grid-row-end: span 1;
 }
 
+#w-node-be388b84-afa9-5334-f98a-4a884fc1f601-dd13abd6 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_5518b3c6-ef17-d37d-71c5-552ac5915233-dd13abd6 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-_20688daa-12f2-b654-3257-5764a1d756bb-a1d756ba {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -12681,28 +12716,6 @@ label {
 }
 
 #w-node-_20688daa-12f2-b654-3257-5764a1d756c5-a1d756ba {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-be388b84-afa9-5334-f98a-4a884fc1f601-dd13abd6 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_5518b3c6-ef17-d37d-71c5-552ac5915233-dd13abd6 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
