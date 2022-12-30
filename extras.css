@@ -535,7 +535,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 
 
 /*  Link properties */
-.crossed:not(.selected, :hover) {
+.crossed:not(.selected, :hover, :has(.w--open)) {
   opacity: 0.5;
 }
 
