@@ -189,7 +189,8 @@ input,
     box-decoration-break: clone;
 }
 
-.main-content:not(:hover, :has(.w--open)) :is(.project_fl-actions-group, .btn-open-all) {
+.main-content:not(:hover, :has(.w--open)) :is(.project_fl-actions-group, .btn-open-all),
+.main-content:not(:hover) .overflow-menu__toggle:not(.w--open) {
     display: none;
 }
 
