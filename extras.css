@@ -768,6 +768,10 @@ body.is-dragging .linklist-item.folder {
     font-weight: 600;
 }
 
+.modal-content.preferences {
+    overflow-y: overlay;
+}
+
 
 /*  Search  */
 
