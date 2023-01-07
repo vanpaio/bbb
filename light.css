@@ -1,4 +1,4 @@
-/* Generated on: Fri Jan 06 2023 14:09:27 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Jan 07 2023 11:51:35 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1495,6 +1495,10 @@ label {
 .btn.btn-ghost.btn-xs {
   grid-column-gap: 0.25rem;
   grid-row-gap: 0.25rem;
+}
+
+.btn.btn-ghost.btn-xs.btn-copy-url {
+  min-width: auto;
 }
 
 .btn.btn-danger {
@@ -7356,7 +7360,7 @@ label {
 
 .linklist-item.edit-mode.url-edit-mode {
   overflow: hidden;
-  padding: 0rem 0.5rem 0rem 0rem;
+  padding: 0rem 0.125rem 0rem 0rem;
   grid-auto-flow: column;
   grid-column-gap: 0rem;
   grid-row-gap: 0rem;
