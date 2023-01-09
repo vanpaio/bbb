@@ -191,7 +191,7 @@ input,
 
 .main-content:not(:hover, :has(.w--open, .selected)) :is(.project_fl-actions-group, .btn-open-all),
 .main-content:not(:hover, :has(.selected)) .overflow-menu__toggle:not(.w--open) {
-    display: none;
+    visibility: hidden;
 }
 
 .main-content:not(:hover) .w--open ~ :is(.project_fl-actions-group, .btn-open-all) {
