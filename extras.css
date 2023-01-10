@@ -866,3 +866,50 @@ body:not(.popup) .open-manager-tab {
     visibility: hidden;
     display: none;
 }
+
+
+
+/* Regular Bookmarks */
+.regular-bookmark .linklist-actions {
+    background-color: var(--gray-900);
+}
+
+.regular-bookmark :is(.btn.btn-primary, .open-tab) {
+    background: var(--gray-900);
+    outline-color: var(--gray-900);
+}
+
+.regular-bookmark :is(.w--current) {
+    background: var(--ghost-300);
+    outline-color: var(--ghost-300);
+}
+
+.regular-bookmark :is(.selected:not(.img-button-wrapper)) {
+    background: var(--ghost-200);
+    outline-color: var(--gray-100);
+}
+
+.regular-bookmark :is(.btn.btn-primary, .open-tab) {
+    background: var(--gray-900);
+    outline-color: var(--gray-900);
+}
+
+.dark-mode.regular-bookmark :is(.w--current) {
+    background: var(--ghost-300);
+    outline-color: var(--ghost-300);
+}
+
+.regular-bookmark :is(.linklist-item.selected) {
+    background-color: var(--gray-725);
+    outline-color: var(--gray-725);
+    color: var(--gray-100);
+}
+
+.regular-bookmark :is(.selected) .linklist-item-title {
+    color: var(--gray-100);
+}
+
+.regular-bookmark [data-bb-tab] .linklist-item-content:not(:hover) .open-tab {
+    color: var(--gray-100);
+    outline-color: var(--gray-100);
+}
