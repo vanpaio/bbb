@@ -201,8 +201,8 @@ body.blue q {
   background: hsl(216deg 100% 66% / 7%);
 }
 body.yellow q {
-  color: hsl(45deg 100% 48%);
-  background: hsl(45deg 100% 71% / 10%);
+  color: hsl(45deg 95% 62%);
+  background: hsl(45 100% 71% / 0.15);
 }
 body.purple q {
   color: hsl(268, 91%, 68%);
