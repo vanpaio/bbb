@@ -911,7 +911,7 @@ body:not(.popup) .open-manager-tab {
     color: var(--gray-100);
 }
 
-.regular-bookmark [data-bb-tab] .linklist-item-content:not(:hover) .open-tab {
+.regular-bookmark [data-bb-tab].selected .linklist-item-content:not(:hover) .open-tab {
     color: var(--gray-100);
     outline-color: var(--gray-100);
 }
