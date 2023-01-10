@@ -1,4 +1,4 @@
-/* Generated on: Tue Jan 10 2023 15:52:35 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Jan 10 2023 16:03:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11597,6 +11597,7 @@ label {
 }
 
 .item-note {
+  display: block;
   margin-right: -0.75rem;
   margin-bottom: -1.25rem;
   margin-left: -1.375rem;
