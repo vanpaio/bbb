@@ -1,4 +1,4 @@
-/* Generated on: Tue Jan 10 2023 00:55:57 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Jan 10 2023 08:02:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8334,8 +8334,8 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
-  -webkit-transition: all 70ms ease;
-  transition: all 70ms ease;
+  -webkit-transition: all 20ms ease;
+  transition: all 20ms ease;
   font-size: 2rem;
   line-height: 2.5rem;
   text-align: center;
