@@ -870,6 +870,7 @@ body:not(.popup) .open-manager-tab {
 
 
 /* Regular Bookmarks */
+
 .regular-bookmark .linklist-actions {
     background-color: var(--gray-900);
 }
@@ -879,8 +880,9 @@ body:not(.popup) .open-manager-tab {
     outline-color: var(--gray-900);
 }
 
-.regular-bookmark :is(.w--current) {
-    background: var(--ghost-300);
+.regular-bookmark :is(.w--current),
+#bookmark-list .sidenav-item-link:hover {
+    background-color: var(--ghost-300);
     outline-color: var(--ghost-300);
 }
 
