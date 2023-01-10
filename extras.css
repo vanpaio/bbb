@@ -212,6 +212,10 @@ body.cyan q {
   color: hsl(192deg 81% 60%);
   background: hsl(192deg 97% 74% / 13%);
 }
+body.green q {
+  color: hsl(104, 61%, 60%);
+  background: hsl(104deg 61% 60% / 7%);
+}
 body.orange q {
   color: hsl(28, 100%, 65%);
   background: hsl(28deg 100% 65% / 10%);
