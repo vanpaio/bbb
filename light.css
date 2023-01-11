@@ -1,4 +1,4 @@
-/* Generated on: Wed Jan 11 2023 19:26:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Jan 11 2023 22:47:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8333,8 +8333,10 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0.125rem;
-  -webkit-transition: all 70ms ease;
-  transition: all 70ms ease;
+  -webkit-transition: all 70ms ease, -webkit-transform 50ms ease;
+  transition: all 70ms ease, -webkit-transform 50ms ease;
+  transition: transform 50ms ease, all 70ms ease;
+  transition: transform 50ms ease, all 70ms ease, -webkit-transform 50ms ease;
   font-size: 2rem;
   line-height: 2.5rem;
   text-align: center;
@@ -8355,6 +8357,9 @@ label {
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 0rem;
+  -webkit-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .project-icon.w--open {
