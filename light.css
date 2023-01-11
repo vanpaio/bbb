@@ -1,4 +1,4 @@
-/* Generated on: Tue Jan 10 2023 16:03:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Jan 11 2023 19:11:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7280,8 +7280,7 @@ label {
   display: grid;
   width: 100%;
   min-height: 3rem;
-  margin-bottom: 0px;
-  padding: 0.25rem 0.75rem 0.25rem 1.375rem;
+  padding-right: 0rem;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -10480,8 +10479,9 @@ label {
 .linklist-item-content {
   position: absolute;
   left: 0%;
-  top: 0%;
+  top: auto;
   right: 0%;
+  bottom: 0%;
   display: -ms-grid;
   display: grid;
   min-height: 3rem;
@@ -11592,15 +11592,11 @@ label {
 }
 
 .linklist-item-notes {
-  margin-top: 2.5rem;
-  padding-bottom: 1rem;
+  margin-bottom: 2.75rem;
 }
 
 .item-note {
   display: block;
-  margin-right: -0.75rem;
-  margin-bottom: -1.25rem;
-  margin-left: -1.375rem;
   padding: 1rem 1.375rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
@@ -12745,7 +12741,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-b5f16928-9d12-56cd-e181-674de74b58fd-e74b58eb {
+#w-node-_1c4cb81f-9075-3f86-ae54-01bc0a222b75-e74b58eb {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -12756,7 +12752,7 @@ label {
   grid-row-end: span 1;
 }
 
-#w-node-_1c4cb81f-9075-3f86-ae54-01bc0a222b75-e74b58eb {
+#w-node-b5f16928-9d12-56cd-e181-674de74b58fd-e74b58eb {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
