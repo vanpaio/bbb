@@ -1,4 +1,4 @@
-/* Generated on: Wed Jan 11 2023 19:11:37 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Jan 11 2023 19:26:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11598,8 +11598,8 @@ label {
 .item-note {
   display: block;
   padding: 1rem 1.375rem;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   background-color: rgba(0, 129, 204, 0.07);
   font-family: 'Space Grotesk', sans-serif;
   color: rgba(0, 97, 254, 0.7);
