@@ -641,6 +641,10 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     text-decoration: line-through;
 }
 
+body .crossed q.item-note {
+  color: inherit;
+  opacity: 0.5;
+}
 
 /*  Linklist - Archived */
 
