@@ -416,13 +416,6 @@ body .project-icon:is(:hover, .w--open)  {
     justify-self: center;
 }
 
-/* .linklist-item:hover .linklist-draghandle {
-    background-image: url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/632bd37bbdb024dba0a337cf_draggable-handle.svg);
-    background-position: 8px 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-} */
-
 .linklist-item:hover .linklist-draghandle:before {
     content: "";
     width: 0.125rem;
@@ -463,6 +456,10 @@ body .project-icon:is(:hover, .w--open)  {
 .linklist-item:hover .overflow-menu__toggle,
 .linklist-item .linklist-item-content .overflow-menu__toggle.btn.w--open {
     display: flex;
+}
+
+.linklist-item:has(.w--open):not(.selected) {
+    background-color: rgba(251, 175, 175, 0.2) !important;
 }
 
 .multiple .dragging-ghost-pseudoparent:before {
