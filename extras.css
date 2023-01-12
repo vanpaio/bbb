@@ -962,3 +962,13 @@ body:not(.popup) .open-manager-tab {
     color: var(--gray-100);
     outline-color: var(--gray-100);
 }
+
+/*  Document Popup  */
+
+.project-popup :is(.sidenav__left, .header__base) {
+    display: none;
+}
+
+.project-popup .main-content {  
+    padding: 7.5rem 1.5rem 2rem;
+}
