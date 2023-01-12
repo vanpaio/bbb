@@ -458,8 +458,8 @@ body .project-icon:is(:hover, .w--open)  {
     display: flex;
 }
 
-.linklist-item:has(.w--open):not(.selected) {
-    background-color: rgba(251, 175, 175, 0.2) !important;
+.linklist-item:has(.w--open):not(.selected) {	
+    background-color: var(--rose-000) !important;
 }
 
 .multiple .dragging-ghost-pseudoparent:before {
