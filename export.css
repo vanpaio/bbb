@@ -10,7 +10,7 @@ body {
     
 }
 
-body > * {
+body > *:not(#booksmart_manager--iframe) {
     width: 45rem;
 }
 
