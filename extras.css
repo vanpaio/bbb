@@ -830,7 +830,7 @@ body.is-dragging .linklist-actions {
     display: none !important;
 }
 
-body.is-dragging .linklist-item.folder {
+body.is-dragging .linklist-item.folder:not(.dragging) {
   opacity: 1 !important;
 }
 
