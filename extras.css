@@ -641,6 +641,10 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     text-decoration: line-through;
 }
 
+.crossed .list-item-favicon img {
+  filter: grayscale(100);
+}
+
 body .crossed q.item-note {
   color: inherit;
   opacity: 0.5;
