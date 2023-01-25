@@ -1,4 +1,4 @@
-/* Generated on: Wed Jan 25 2023 18:14:15 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Jan 25 2023 18:56:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2445,8 +2445,8 @@ label {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  margin-right: 0.25rem;
-  padding-top: 0.25rem;
+  margin-right: 0.1875rem;
+  padding-top: 0.1875rem;
 }
 
 .overflow-menu__toggle {
