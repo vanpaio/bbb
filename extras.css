@@ -39,6 +39,11 @@
   --ghost-400: #5050501A;
 }
 
+[data-bb-truncate="true"] * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .copyurl-text,
 [data-bb-truncate="true"],
 [data-truncate="true"],
@@ -99,9 +104,13 @@ input,
 
 .sidenav-item-link.sidenav-sublist._w--current:hover { outline-color: transparent; }
 
-[data-bb-truncate="true"] * {
-    overflow: hidden;
-    text-overflow: ellipsis;
+.sidenav-item:hover .sidenav-item-link {
+    background-color: rgba(255, 189, 189, 0.22);
+    outline-color: rgba(255, 189, 189, 0.22);
+    outline-offset: 0px;
+    outline-style: solid;
+    outline-width: 0.125rem;
+    text-decoration: none;
 }
 
 .sidenav-item-text div {
