@@ -764,6 +764,9 @@ body .crossed q.item-note {
     overflow-y: overlay;
 }
 
+.color-picker__wrapper-v2 {
+    pointer-events: none;
+}
 
 
 /* Buildsmart Library */
