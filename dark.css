@@ -43,11 +43,7 @@
   background-color: var(--gray-100);
 }
 
-.dark-mode :is(
-    .divider,
-    .header__base,
-    .inline-notification,
-    .toast-notification) {
+.dark-mode :is(.divider, .header__base, .inline-notification, .toast-notification) {
   background-color: var(--gray-850);
 }
 
@@ -73,7 +69,8 @@
 
 .dark-mode :is(
     .linklist-item:not(.selected, .edit-mode, .linklist-archived),
-    .modal_headed .divider,
+    .modal .divider,
+    .color__picker-divider,
     [contenteditable=true]:not(:focus):hover,
     .project-icon:not(.w--open):hover) {
   background-color: var(--gray-750);
