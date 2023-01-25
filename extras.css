@@ -104,7 +104,7 @@ input,
 
 .sidenav-item-link.sidenav-sublist._w--current:hover { outline-color: transparent; }
 
-.sidenav-item:hover .sidenav-item-link {
+:is(.sidenav-item:hover, .sidenav-item:has(.w--open)) .sidenav-item-link {
     background-color: rgba(255, 189, 189, 0.22);
     outline-color: rgba(255, 189, 189, 0.22);
     outline-offset: 0px;
