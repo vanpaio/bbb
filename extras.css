@@ -113,7 +113,7 @@ input,
 }
 
 .sidenav-list-wrapper section:not(:hover) .w-dropdown:not(.sidenav-item-overflow-menu) :is(.section-settings, .w-dropdown-toggle):not(.w--open),
-.sidenav-list-wrapper .sidenav-item:not(:hover) .w-dropdown.sidenav-item-overflow-menu {
+.sidenav-list-wrapper .sidenav-item:not(:hover) .w-dropdown.sidenav-item-overflow-menu .w-dropdown-toggle:not(.w--open) {
     display: none;
 }
 
