@@ -761,7 +761,7 @@ body .crossed q.item-note {
 }
 
 .modal-content.emojipicker-scroll {
-    overflow-y: scroll;
+    overflow-y: overlay;
 }
 
 
