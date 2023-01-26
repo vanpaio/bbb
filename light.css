@@ -1,4 +1,4 @@
-/* Generated on: Thu Jan 26 2023 15:58:34 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jan 26 2023 16:14:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4847,10 +4847,11 @@ label {
   height: 2.875rem;
   margin-right: 0rem;
   padding-right: 0.75rem;
+  padding-left: 4.1875rem;
   border-radius: 1rem;
   background-color: #fff;
-  -webkit-transition-duration: 1240ms;
-  transition-duration: 1240ms;
+  -webkit-transition-duration: 140ms;
+  transition-duration: 140ms;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   color: #000;
