@@ -921,6 +921,31 @@ body.is-dragging .linklist-item.folder:not(.dragging) {
     display: none;
 }
 
+.search__wrapper:has(input#search:focus) {
+  width: calc(100vw - 1.5rem);
+  position: absolute;
+  left: 0;
+  margin-left: -0.375rem;
+  transition: width 40ms 10ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: opacity 70ms 0 ease-out !important;
+}
+
+.search__wrapper input#search:not(:focus) {
+  opacity: 0;
+}
+
+.header__name:has(input#search:focus) .header__name-span {
+  display: none;
+}
+
+.search__wrapper:has(input#search:focus) .search-icon {
+  margin-left: 0.375rem;
+}
+
+.header__base:has(input#search:not(:placeholder-shown)) .header-action-right {
+  display: none;
+}
+
 
 /*  Popup  */
 body:not(.popup) .open-manager-tab {
