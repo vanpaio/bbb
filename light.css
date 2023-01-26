@@ -1,4 +1,4 @@
-/* Generated on: Wed Jan 25 2023 21:36:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jan 26 2023 15:58:34 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4849,6 +4849,10 @@ label {
   padding-right: 0.75rem;
   border-radius: 1rem;
   background-color: #fff;
+  -webkit-transition-duration: 1240ms;
+  transition-duration: 1240ms;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
   color: #000;
   font-size: 1.5rem;
   font-weight: 400;
@@ -9424,7 +9428,7 @@ label {
 
 .emoji-cat {
   position: relative;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
 }
 
 .add-description {
@@ -10993,6 +10997,8 @@ label {
 }
 
 .logo-wrapper {
+  position: relative;
+  z-index: 2;
   height: 1.8125rem;
 }
 
