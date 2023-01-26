@@ -1,4 +1,4 @@
-/* Generated on: Thu Jan 26 2023 18:19:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jan 26 2023 18:24:01 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12220,6 +12220,10 @@ label {
     position: static;
   }
 
+  .overflow-menu__wrap.sidenav-item-overflow-menu {
+    display: none;
+  }
+
   .sidenav-btn__left-fixed {
     display: block;
     margin-top: -1px;
@@ -12598,7 +12602,7 @@ label {
   }
 
   .sidenav-list-wrapper {
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 10rem;
   }
 
