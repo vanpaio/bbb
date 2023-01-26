@@ -39,6 +39,7 @@
   --ghost-400: #5050501A;
 }
 
+
 [data-bb-truncate="true"] * {
     overflow: hidden;
     text-overflow: ellipsis;
