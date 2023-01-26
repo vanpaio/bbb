@@ -1,4 +1,4 @@
-/* Generated on: Thu Jan 26 2023 17:41:12 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jan 26 2023 18:11:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12613,6 +12613,10 @@ label {
 
   .nav-header {
     display: none;
+  }
+
+  .search__wrapper {
+    margin-left: 0.5rem;
   }
 
   .sidenav-item_link-favicon {
