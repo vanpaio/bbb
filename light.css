@@ -1,4 +1,4 @@
-/* Generated on: Thu Jan 26 2023 18:11:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jan 26 2023 18:19:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12212,6 +12212,10 @@ label {
     color: #bebebe;
   }
 
+  .svg-icon.search-icon {
+    left: 11.75rem;
+  }
+
   .overflow-menu__wrap.project_fl-dropdown {
     position: static;
   }
@@ -12239,6 +12243,10 @@ label {
 
   .tabs__nav-item {
     width: 8rem;
+  }
+
+  .search-input.header__search-input {
+    padding-left: 3.375rem;
   }
 
   .tabs__nav-item-dark {
