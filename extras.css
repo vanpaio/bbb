@@ -917,7 +917,7 @@ body.is-dragging .linklist-item.folder:not(.dragging) {
     display: none;
 }
 
-.search__wrapper:has(input#search) {
+.search__wrapper:not(.demo):has(input#search) {
   width: calc(100vw - 1.5rem);
   /* position: absolute; */
   /* left: 0; */
