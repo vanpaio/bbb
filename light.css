@@ -1,4 +1,4 @@
-/* Generated on: Fri Jan 27 2023 03:27:20 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Jan 27 2023 16:54:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7470,7 +7470,11 @@ label {
 }
 
 .linklist-item.linklist__search {
+  padding-right: 0.75rem;
   padding-left: 0.75rem;
+  grid-auto-flow: column;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
   border-radius: 0.25rem;
   background-color: transparent;
 }
@@ -8626,6 +8630,7 @@ label {
   outline-width: 0px;
   font-size: 2.5rem;
   line-height: 1.35;
+  font-weight: 700;
 }
 
 .project-heading.project-title-input {
@@ -11603,7 +11608,6 @@ label {
 
 .search__wrapper.demo {
   position: relative;
-  width: 33rem;
   height: 106px;
   max-width: 100%;
   cursor: pointer;
@@ -13082,6 +13086,83 @@ label {
 }
 
 #w-node-_3f4a9c51-a0b9-bdcb-6c76-fe5df5dabd68-c5bfbb7f {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+}
+
+#w-node-d5522212-abf6-66e3-7942-4ee325d0fcaf-c5bfbb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d5522212-abf6-66e3-7942-4ee325d0fcb0-c5bfbb7f {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-d5522212-abf6-66e3-7942-4ee325d0fcb1-c5bfbb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d5522212-abf6-66e3-7942-4ee325d0fcc6-c5bfbb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#field.w-node-e96a1e53-7304-ef01-1106-e7c5ab688d56-c5bfbb7f {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-d5522212-abf6-66e3-7942-4ee325d0fce7-c5bfbb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d5522212-abf6-66e3-7942-4ee325d0fce8-c5bfbb7f {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
