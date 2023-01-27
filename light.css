@@ -1,4 +1,4 @@
-/* Generated on: Fri Jan 27 2023 16:54:11 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Jan 27 2023 20:35:07 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11643,7 +11643,15 @@ label {
   border-color: #ff6161;
   border-radius: 1.25rem;
   background-color: #ff6161;
+  -webkit-transition: all 70ms ease;
+  transition: all 70ms ease;
   cursor: pointer;
+}
+
+.select__project-color:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .select__project-color.select__blue {
