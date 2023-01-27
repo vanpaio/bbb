@@ -939,7 +939,7 @@ body.is-dragging .linklist-item.folder:not(.dragging) {
   opacity: 0;
 }
 
-.header__base:has(input#search:not(:placeholder-shown)) .header-action-right {
+.header__base:has(input#search:not(:placeholder-shown, :not(:focus))) .header-action-right {
   display: none;
 }
 
