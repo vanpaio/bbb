@@ -903,6 +903,10 @@ input#search::placeholder {
     cursor: pointer;
 }
 
+.search-input.header__search-input:placeholder-shown {
+	background-color: transparent !important;
+}
+
 .header__base #search:placeholder-shown + .search-result, 
 .header__base .search__wrapper:not(:focus-within) .search-result, 
 .header__base #search:not(:focus)::-webkit-search-cancel-button {
