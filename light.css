@@ -1,4 +1,4 @@
-/* Generated on: Sat Jan 28 2023 04:13:07 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Jan 28 2023 04:26:27 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4868,19 +4868,19 @@ label {
 }
 
 .search-input.header__search-input::-webkit-input-placeholder {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .search-input.header__search-input:-ms-input-placeholder {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .search-input.header__search-input::-ms-input-placeholder {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .search-input.header__search-input::placeholder {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .search-icon {
