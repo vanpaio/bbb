@@ -427,7 +427,7 @@ body .project-icon:is(:hover, .w--open)  {
     justify-self: center;
 }
 
-.linklist-item:hover .linklist-draghandle:before {
+:is(.linklist-item:hover .linklist-draghandle, .dragging-ghost-draghandle):before {
     content: "";
     width: 0.125rem;
     background-color: var(--gray-600);
