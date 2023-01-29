@@ -747,6 +747,17 @@ body .crossed q.item-note {
 
 /* Emoji Modal */
 
+.emoji {
+  font-family: "Twemoji Mozilla",
+               "Apple Color Emoji",
+               "Segoe UI Emoji",
+               "Segoe UI Symbol",
+               "Noto Color Emoji",
+               "EmojiOne Color",
+               "Android Emoji",
+               sans-serif;
+}
+
 .emojipicker-header:focus-within {
     position: sticky;
     top: 0;
