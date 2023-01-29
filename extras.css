@@ -754,8 +754,9 @@ body .crossed q.item-note {
 
 /* Emoji Modal */
 
-.emoji, 
-.emoji-icon, 
+.emoji,
+.menu-icon,
+.emoji-icon,
 .project-icon,
 .breadcrumb-icon {
   font-family: "Twemoji Mozilla",
