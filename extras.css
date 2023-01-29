@@ -39,6 +39,13 @@
   --ghost-400: #5050501A;
 }
 
+/* Keyboard navigation (tab navigation, :focus, :focus-visible)
+
+*:not(.selected):focus-visible {
+    outline: solid 4px #612BFC !important;
+    outline-offset: 0;
+
+} */
 
 [data-bb-truncate="true"] * {
     overflow: hidden;
