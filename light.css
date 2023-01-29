@@ -1,4 +1,4 @@
-/* Generated on: Sun Jan 29 2023 22:00:06 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Jan 29 2023 22:37:39 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10276,9 +10276,18 @@ label {
 }
 
 .tiny-link {
-  display: inline-block;
+  display: -ms-grid;
+  display: grid;
   margin-left: 0px;
   padding: 0.125rem;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
   border-radius: 0.25rem;
   outline-color: transparent;
   outline-offset: 0px;
