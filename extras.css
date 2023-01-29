@@ -754,7 +754,10 @@ body .crossed q.item-note {
 
 /* Emoji Modal */
 
-.emoji {
+.emoji, 
+.emoji-icon, 
+.project-icon,
+.breadcrumb-icon {
   font-family: "Twemoji Mozilla",
                "Apple Color Emoji",
                "Segoe UI Emoji",
