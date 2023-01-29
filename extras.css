@@ -758,6 +758,14 @@ body .crossed q.item-note {
                sans-serif;
 }
 
+.emoji-cat:first-child {
+    margin-top: 3.5rem;
+}
+
+[id^=⊛] {
+    display: none;
+}
+
 .emojipicker-header:focus-within {
     position: sticky;
     top: 0;
