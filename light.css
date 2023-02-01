@@ -1,4 +1,4 @@
-/* Generated on: Sun Jan 29 2023 23:05:06 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 01 2023 19:20:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -686,7 +686,6 @@ label {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  max-width: 14rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -9367,6 +9366,8 @@ label {
 .emojipicker-list {
   display: -ms-grid;
   display: grid;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -16972,7 +16973,7 @@ label {
   grid-row-end: span 1;
 }
 
-#field.w-node-_65790215-2444-bbc1-4849-a66f06ba67fd-3abfbba5 {
+#description.w-node-_65790215-2444-bbc1-4849-a66f06ba67fd-3abfbba5 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
