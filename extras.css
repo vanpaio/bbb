@@ -269,7 +269,7 @@ body.pink .project-icon {
 }
 body.purple .project-icon {
     --color: 268, 91%, 68%;
-    --opacity: 0.25;
+    --opacity: 0.4;
     background: hsl(var(--color), var(--opacity));
 }
 body.cyan .project-icon {
@@ -774,7 +774,7 @@ body .crossed q.item-note {
     margin-top: 3.5rem;
 }
 
-[id^=âŠ›] {
+[id^=Ã¢Å â€º] {
     display: none;
 }
 
