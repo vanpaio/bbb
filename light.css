@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 01 2023 19:40:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Feb 03 2023 08:47:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1050,7 +1050,7 @@ label {
 
 .breadcrumb {
   position: absolute;
-  top: 6.625rem;
+  top: 6.9375rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8403,7 +8403,7 @@ label {
 
 .project-icon {
   position: absolute;
-  top: -5.5rem;
+  top: -6rem;
   display: inline-block;
   width: 3.5rem;
   height: 3.5rem;
@@ -10818,7 +10818,7 @@ label {
 .emojipicker__wrapper {
   position: absolute;
   left: 0px;
-  top: -2rem;
+  top: -2.625rem;
   z-index: 999;
   display: none;
 }
