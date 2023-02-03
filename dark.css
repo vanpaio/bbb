@@ -147,6 +147,11 @@
     outline-color: var(--gray-000);
 }
 
+.dark-mode .badge.badge__sm.tag__tertiary_light {
+    color: var(--gray-000);
+    border-color: var(--gray-000);
+}
+
 .dark-mode .linklist-archived :is(.item-title-text, .linklist-item-copyurl *, .delete-element) {
   color: var(--gray-900);
 }
