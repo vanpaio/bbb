@@ -141,11 +141,12 @@ input,
 }
 
 .emoji-icon-link {
-    height: 12px;
+    display: none;
+/*     height: 12px;
     width: 12px;
     position: absolute;
     right: -0.3125rem;
-    bottom: -0.3125rem;
+    bottom: -0.3125rem; */
 }
 
 .sidenav-item.link:hover a:not(.w--current) .sidenav-item-text {
