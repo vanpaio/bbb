@@ -1,4 +1,4 @@
-/* Generated on: Tue Feb 07 2023 18:17:03 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Feb 07 2023 18:20:48 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1678,7 +1678,7 @@ label {
   min-height: auto;
   padding: 0.125rem;
   border-radius: 0.25rem;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
 }
 
 .btn.btn-icon.btn-xxs.btn-ghost.leading {
