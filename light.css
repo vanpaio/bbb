@@ -1,4 +1,4 @@
-/* Generated on: Tue Feb 07 2023 18:20:48 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 15 2023 22:00:40 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11321,6 +11321,7 @@ label {
   margin-top: -0.96875rem;
   margin-right: -1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .badge.badge__sm.tag__tertiary_light {
