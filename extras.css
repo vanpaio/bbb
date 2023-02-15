@@ -594,6 +594,10 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     mix-blend-mode: multiply;
 }
 
+.badge__inner-wrap div:after {
+    content: attr(data-bb-tab);
+}
+
 /* Linklist - Title */
 
 .linklist-item .linklist-item-url {
