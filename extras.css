@@ -498,6 +498,9 @@ body .project-icon:is(:hover, .w--open)  {
     outline-width: 0.125rem;
 }
 
+.is-dragging .linklist-empty-state.drop-area {
+    background-color: var(--ghost-400)
+}
 
 
 /* Linklist - Editing (Toolbar) */
