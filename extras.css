@@ -1057,7 +1057,7 @@ body:not(.popup) .open-manager-tab {
 
 
 /*  Shared  */
-.shared .emoji-folder:after {
+.shared :is(.emoji-folder, .folder-title-text):after {
     content: "";
     position: absolute;
     display: block;
@@ -1071,4 +1071,15 @@ body:not(.popup) .open-manager-tab {
     background-repeat: no-repeat;
     background-color: #fff;
     border-radius: 0.5rem;
+}
+
+.shared .folder-title-text:after {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    top: 0.0625rem;
+    background-color: transparent;
+    background-size: 150%;
+    margin-left: 0.25rem;
+    border-radius: 0;
 }
