@@ -1054,3 +1054,21 @@ body:not(.popup) .open-manager-tab {
 .project-popup .main-content {  
     padding: 7.5rem 1.5rem 2rem;
 }
+
+
+/*  Shared  */
+.shared .emoji-folder:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0.875rem;
+    height: 0.875rem;
+    left: 15px;
+    top: 13px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuNSA1QzcuNSA2LjEwOTM4IDYuNTkzNzUgNyA1LjUgN0M0LjM5MDYzIDcgMy41IDYuMTA5MzggMy41IDVDMy41IDMuOTA2MjUgNC4zOTA2MyAzIDUuNSAzQzYuNTkzNzUgMyA3LjUgMy45MDYyNSA3LjUgNVpNMiAxMC41NDY5QzIgOSAzLjIzNDM4IDcuNzUgNC43ODEyNSA3Ljc1SDYuMjAzMTNDNy43NSA3Ljc1IDkgOSA5IDEwLjU0NjlDOSAxMC43OTY5IDguNzgxMjUgMTEgOC41MzEyNSAxMUgyLjQ1MzEzQzIuMjAzMTMgMTEgMiAxMC43OTY5IDIgMTAuNTQ2OVpNMTEuNTE1NiAxMUg5LjM1OTM4QzkuNDM3NSAxMC44NTk0IDkuNSAxMC42ODc1IDkuNSAxMC41VjEwLjM3NUM5LjUgOS40Mzc1IDkuMDYyNSA4LjU3ODEyIDguNDA2MjUgOC4wMTU2MkM4LjQzNzUgOC4wMTU2MiA4LjQ2ODc1IDggOC41MTU2MyA4SDkuNDY4NzVDMTAuODU5NCA4IDEyIDkuMTQwNjIgMTIgMTAuNTMxMkMxMiAxMC43OTY5IDExLjc4MTMgMTEgMTEuNTE1NiAxMVpNOC43NSA3QzguMjY1NjMgNyA3LjgyODEzIDYuODEyNSA3LjUgNi41QzcuODEyNSA2LjA3ODEyIDggNS41NjI1IDggNUM4IDQuNTkzNzUgNy44OTA2MyA0LjE4NzUgNy43MDMxMyAzLjg0Mzc1QzggMy42NDA2MiA4LjM1OTM4IDMuNSA4Ljc1IDMuNUM5LjcwMzEzIDMuNSAxMC41IDQuMjk2ODggMTAuNSA1LjI1QzEwLjUgNi4yMTg3NSA5LjcwMzEzIDcgOC43NSA3WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg==");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
