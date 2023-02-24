@@ -105,7 +105,7 @@
 }
 
 .dark-mode :is(
-    .page-tabs__nav-item:not(.w--current):hover) {
+    .page-tabs__nav-item:not(.w--current):hover, a.sharing-user:hover) {
   background-color: var(--gray-725);
   outline-color: var(--gray-725);
 }
