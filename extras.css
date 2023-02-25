@@ -782,7 +782,7 @@ body .crossed q.item-note {
     margin-top: 3.5rem;
 }
 
-[id^=ÃƒÂ¢Ã…Â Ã¢â‚¬Âº] {
+[id^=ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº] {
     display: none;
 }
 
@@ -1090,9 +1090,9 @@ body:not(.popup) .open-manager-tab {
     font-size: 0.75rem;
     display: flex;
     white-space: nowrap;
-    margin: 10px;
+    margin: 0.875rem 0;
     color: var(--red-700);
-    padding: 0.75rem 0;
+    padding: 1.75rem 0;
 }
 
 .divider:not(:empty)::before,
