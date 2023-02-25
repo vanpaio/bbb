@@ -1083,3 +1083,24 @@ body:not(.popup) .open-manager-tab {
     margin-left: 0.25rem;
     border-radius: 0;
 }
+
+.divider:not(:empty) {
+    height: unset;
+    background-color: transparent;
+    font-size: 0.75rem;
+    display: flex;
+    white-space: nowrap;
+    margin: 10px;
+    color: var(--red-700);
+    padding: 1.75rem 0;
+}
+
+.divider:not(:empty)::before,
+.divider:not(:empty)::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background-color: var(--red-700);
+    width: 100%;
+    margin: 6px;
+}
