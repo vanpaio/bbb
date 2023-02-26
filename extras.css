@@ -453,7 +453,6 @@ body .project-icon:is(:hover, .w--open)  {
     cursor: grabbing;
 }
 
-
 .linklist-item.crossed:not(.folder) .linklist-item-content:hover .list-item-favicon,
 .toolbar-visible .folder .linklist-item-content:hover .list-item-favicon,
 .linklist-checkbox-wrapper:hover .list-item-favicon,
@@ -502,6 +501,7 @@ body .project-icon:is(:hover, .w--open)  {
     background-color: var(--ghost-400)
 }
 
+.linklist-item :is(.btn.btn-xs.btn-primary, .overflow-menu__wrap) {align-self: end;}
 
 /* Linklist - Editing (Toolbar) */
 
