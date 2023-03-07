@@ -1,4 +1,4 @@
-/* Generated on: Sun Feb 26 2023 03:41:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 07 2023 19:42:43 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1830,6 +1830,10 @@ label {
 
 .svg-icon.svg-small {
   width: 1.25rem;
+}
+
+.svg-icon.svg-xs {
+  width: auto;
 }
 
 .btn-svg__disabled {
@@ -12229,6 +12233,120 @@ label {
   transition: all 200ms ease;
 }
 
+.project-sharing-info {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  min-height: 3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  -ms-grid-columns: 2fr;
+  grid-template-columns: 2fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 189, 189, 0.22);
+  -webkit-transition: all 70ms ease, background-position 0ms ease;
+  transition: all 70ms ease, background-position 0ms ease;
+}
+
+.project-sharing-info.w--current {
+  background-color: #ffe5e5;
+}
+
+.project-sharing-info.selected {
+  background-color: rgba(251, 175, 175, 0.3);
+  outline-color: #ff8484;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+.project-sharing-info.selected.edit {
+  padding-left: 0.625rem;
+}
+
+.project-sharing-info.linklist-archived {
+  background-color: rgba(255, 201, 132, 0.6);
+}
+
+.project-sharing-info.linklist-archived:focus {
+  border: 1px none #000;
+  outline-color: #ffe299;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+}
+
+.project-sharing-info.edit-mode {
+  background-color: #f5f5f5;
+  outline-color: #ff2d2d;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 0.125rem;
+}
+
+.project-sharing-info.edit-mode.url-edit-mode {
+  overflow: hidden;
+  padding: 0rem 0.125rem 0rem 0rem;
+  grid-auto-flow: column;
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+  opacity: 1;
+}
+
+.project-sharing-info.linklist-bookmark.selected {
+  background-color: #222;
+  outline-color: #000;
+  color: #fff;
+}
+
+.project-sharing-info.folder {
+  -webkit-transition-duration: 0ms, 0ms;
+  transition-duration: 0ms, 0ms;
+}
+
+.project-sharing-info.folder:hover {
+  background-color: rgba(93, 93, 93, 0.16);
+}
+
+.project-sharing-info.folder.selected:hover {
+  background-color: #ffbfbf;
+}
+
+.project-sharing-info.linklist__search {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  grid-auto-flow: column;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.project-sharing-info.linklist__search:hover {
+  background-color: rgba(251, 175, 175, 0.3);
+}
+
+.project-sharing-info.suggestion-tab {
+  width: auto;
+  min-height: auto;
+  padding: 0rem;
+}
+
 @media screen and (max-width: 991px) {
   .top-nav__menu {
     height: auto;
@@ -17774,6 +17892,105 @@ label {
 }
 
 #w-node-_6be94076-ba11-2977-ae1b-b34a85bcbcc2-e6bfbbbb {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-eb5b6756-feab-2b39-f342-51416aeaa6f2-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a771449f-33b8-7bd2-5deb-36e5d0332114-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71da-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71db-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71e3-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71f0-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71f4-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71f9-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-b9c83d48-f8af-bd0c-c714-ab4f157c71fb-ddd57e08 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
