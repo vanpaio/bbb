@@ -540,8 +540,8 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     display: flex;
     visibility: visible !important;
     color: transparent;
-    background-color: var(--rose-100);
-    outline-color: var(--rose-100);
+    background-color: var(--rose-000);
+    outline-color: var(--rose-000);
 }
 
 
