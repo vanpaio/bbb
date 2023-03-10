@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 07 2023 19:42:43 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 10 2023 14:54:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12241,6 +12241,7 @@ label {
   min-height: 3rem;
   padding-right: 0.5rem;
   padding-left: 0.75rem;
+  justify-items: start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -12253,14 +12254,15 @@ label {
   grid-auto-columns: auto;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
-  -ms-grid-columns: 2fr;
-  grid-template-columns: 2fr;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-radius: 0.5rem;
   background-color: rgba(255, 189, 189, 0.22);
   -webkit-transition: all 70ms ease, background-position 0ms ease;
   transition: all 70ms ease, background-position 0ms ease;
+  font-weight: 500;
 }
 
 .project-sharing-info.w--current {
@@ -17914,6 +17916,28 @@ label {
 }
 
 #w-node-a771449f-33b8-7bd2-5deb-36e5d0332114-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d890b84a-64ad-d271-e9c2-3cc9c5d5fda2-ddd57e08 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-d890b84a-64ad-d271-e9c2-3cc9c5d5fda3-ddd57e08 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
