@@ -134,7 +134,7 @@ input,
 }
 
 .sidenav-list-wrapper section:not(:hover) .w-dropdown:not(.sidenav-item-overflow-menu) :is(.section-settings, .w-dropdown-toggle):not(.w--open),
-.sidenav-list-wrapper .sidenav-item:not(:hover) .w-dropdown.sidenav-item-overflow-menu .w-dropdown-toggle:not(.w--open) {
+.sidenav-list-wrapper .sidenav-item:not(:hover, [data-bb-tab]) .w-dropdown.sidenav-item-overflow-menu .w-dropdown-toggle:not(.w--open) {
     display: none;
 }
 
@@ -168,18 +168,10 @@ input,
     opacity: 1;
 }
 
-.sidenav-item[data-bb-tab]:after {
-    display: block;
-    content: " ";
-    width: 0.25rem;
-    height: 0.25rem;
-    position: absolute;
-    background: var(--red-500);
-    top: 25%;
-    right: 0.25rem;
-    margin-top: -0.125rem;
-    border-radius: 1rem;
+.sidenav-item[data-bb-tab]:not(:hover) .sidenav-item-link:not(.w--current, :hover) {
+  background-color: rgba(0, 0, 0, 0.02);
 }
+
 
 /* Overflow Menu */
 
