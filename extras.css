@@ -121,8 +121,8 @@ input,
     text-decoration: none;
 }
 
-.sidenav-item:hover .sidenav-item-text div {
-    max-width: 15ch;
+.sidenav-item:is(:hover, [data-bb-tab]) .sidenav-item-text div {
+    max-width: 14.5ch;
 }
 
 .sidenav-item-text div {
@@ -796,7 +796,7 @@ body .crossed q.item-note {
     margin-top: 3.5rem;
 }
 
-[id^=ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº] {
+[id^=ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âº] {
     display: none;
 }
 
