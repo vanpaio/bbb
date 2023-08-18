@@ -173,7 +173,7 @@ input,
 }
 
 .sidenav-item[data-bb-tab]:not(:hover) .sidenav-item-link:not(.w--current, :hover) {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: var(--rose-000) !important;
 }
 
 /* Overflow Menu */
