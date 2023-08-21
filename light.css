@@ -10344,6 +10344,7 @@ label {
   justify-content: space-between;
   align-items: stretch;
   margin-top: -.25rem;
+  padding-right: .375rem;
   display: grid;
 }
 
