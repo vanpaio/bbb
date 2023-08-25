@@ -589,7 +589,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 .close-icon-wrapper:not(:hover) svg { color: transparent; }
 .close-icon-wrapper:hover + .close-tab-text { display: flex; }
 
-.linklist-item[data-bb-tab] {
+.linklist-item[data-bb-tab]:not([data-bb-tab=""]) {
     background-color: var(--rose-000) !important;
 }
 
