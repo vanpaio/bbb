@@ -636,6 +636,8 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 
 .linklist-item.folder:has(.description) {
   height: 72px;
+    grid-row-gap: 0rem;
+    grid-auto-flow: row;
 }
 
 .description {
