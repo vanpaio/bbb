@@ -562,7 +562,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
   display: none;
 }
 
-.linklist-item:is{.folder, .link-folder} .linklist-item-content .btn.open-folder {
+.linklist-item:is(.folder, .link-folder) .linklist-item-content .btn.open-folder {
   display: grid;
 }
 
@@ -634,11 +634,15 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     outline: 0;
 }
 
-.linklist-item:has(.description) {
+.linklist-item:has(.description:not(:empty)) {
   height: 72px;
 }
 
-.linklist-item-content:has(.description) {
+.description:empty {
+  display: none;
+}
+
+.linklist-item-content:has(.description:not(:empty)) {
     grid-row-gap: 0rem;
     grid-auto-flow: row;
 }
