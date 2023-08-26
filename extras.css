@@ -634,6 +634,17 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
     outline: 0;
 }
 
+.linklist-item.folder:has(.description) {
+  height: 72px;
+}
+
+.description {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
 /* .project-icon:not(.hidden) ~ .project-heading {
     margin-left: 3.5rem;
 } */
