@@ -8333,7 +8333,6 @@ label {
   font-weight: 500;
   text-decoration: none;
   display: grid;
-  overflow: hidden;
 }
 
 .linklist-item-title:hover {
