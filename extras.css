@@ -121,7 +121,7 @@ input,
     text-decoration: none;
 }
 
-.sidenav-item:is(:hover, [data-bb-tab], :has(.w--open)) .sidenav-item-text div {
+.sidenav-item:is(:hover, [data-bb-tab]) .sidenav-item-text div {
     max-width: 14.5ch;
 }
 
@@ -137,15 +137,24 @@ input,
 
 .sidenav-list-wrapper section:not(:hover) .w-dropdown:not(.sidenav-item-overflow-menu) :is(.section-settings, .w-dropdown-toggle):not(.w--open),
 .sidenav-list-wrapper .sidenav-item:not(:hover, [data-bb-tab]) .w-dropdown.sidenav-item-overflow-menu .w-dropdown-toggle:not(.w--open),
-.sidenav-list-wrapper .sidenav-item:not(:hover) .w-dropdown:not(.w--open) .menu-icon,
-.sidenav-list-wrapper :is(.sidenav-item:hover, .sidenav-item:has(.w--open)) .tab-icon {
+.sidenav-list-wrapper .sidenav-item:not(:hover) .menu-icon,
+.sidenav-list-wrapper .sidenav-item:hover .tab-icon {
     display: none;
 }
 
 .sidenav-scroll section {max-width: 15.625rem}
 
+.sidenav-item.link .emoji-icon {
+/*     margin-right: 0.25rem; */
+}
+
 .emoji-icon-link {
     display: none;
+/*     height: 12px;
+    width: 12px;
+    position: absolute;
+    right: -0.3125rem;
+    bottom: -0.3125rem; */
 }
 
 .sidenav-item.link:hover a:not(.w--current) .sidenav-item-text {
@@ -459,6 +468,14 @@ body .project-icon:is(:hover, .w--open)  {
     border: .125rem solid red;
     background: red url(https://uploads-ssl.webflow.com/6209eae6fc1ea3fa8ad8301e/620c60c3367acb38050e65d5_checked.svg) -1px 0px no-repeat;
     background-size: 14px;
+}
+
+.linklist-item .emoji-folder {
+    height: 1.125rem;
+    width: 1.25rem;
+    font-size: 0.78125rem;
+    margin: -0.125rem 0 0 -0.125rem;
+    padding-top: 0.1875rem;
 }
 
 .linklist-item:hover .overflow-menu__toggle,
@@ -811,7 +828,7 @@ body .crossed q.item-note {
     margin-top: 3.5rem;
 }
 
-[id^=ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº] {
+[id^=ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº] {
     display: none;
 }
 
@@ -895,9 +912,7 @@ body.is-dragging * {
     border-radius: 0.5rem;
 }
 
-.linklist {
-/*     width: calc(100% + 1rem); */
-}
+.linklist {/* width: calc(100% + 1rem); */}
 
 body.is-dragging :is(
     .sidenav-list-wrapper section, 
