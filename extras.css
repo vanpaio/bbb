@@ -478,6 +478,10 @@ body .project-icon:is(:hover, .w--open)  {
     padding-top: 0.1875rem;
 }
 
+.linklist-item .list-item-favicon:has(.emoji-folder) {
+  overflow: visible;
+}
+
 .linklist-item:hover .overflow-menu__toggle,
 .linklist-item .linklist-item-content .overflow-menu__toggle.btn.w--open {
     display: flex;
