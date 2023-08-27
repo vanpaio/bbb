@@ -578,6 +578,10 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
   display: grid;
 }
 
+.linklist-item .linklist-item-body:has(.open-folder) {
+    padding-bottom: 0.125rem;
+}
+
 [data-bb-tab] .linklist-item-content:not(:hover) .btn-tab {
     opacity: .25;
     display: grid;
