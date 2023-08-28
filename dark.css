@@ -68,7 +68,7 @@
 }
 
 .dark-mode :is(
-    .linklist-item:not(.selected, .edit-mode, .linklist-archived),
+    .linklist-item:not(.selected, .edit-mode, .linklist-archived, [class*='link-folder__']),
     .modal .divider,
     .color__picker-divider,
     [contenteditable=true]:not(:focus):hover,
