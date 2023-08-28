@@ -297,23 +297,23 @@ body .project-icon:is(:hover, .w--open)  {
     background: hsl(var(--color), var(--opacity)) !important;
 }
 
-.link-folder__red {background: rgba(254, 135, 135, 0.12);}
+.link-folder__red {background: rgba(254, 135, 135, 0.2);}
 
-.link-folder__blue {background: rgba(83, 152, 255, 0.12);}
+.link-folder__blue {background: rgba(83, 152, 255, 0.2);}
 
-.link-folder__yellow {background: rgba(255, 219, 109, 0.12);}
+.link-folder__yellow {background: rgba(255, 219, 109, 0.2);}
 
-.link-folder__pink {background: rgba(254, 154, 212, 0.12);}
+.link-folder__pink {background: rgba(254, 154, 212, 0.2);}
 
-.link-folder__purple {background: rgba(169, 98, 248, 0.12);}
+.link-folder__purple {background: rgba(169, 98, 248, 0.2);}
 
-.link-folder__cyan {background: rgba(255, 219, 109, 0.12);}
+.link-folder__cyan {background: rgba(255, 219, 109, 0.2);}
 
-.link-folder__green {background: rgba(122, 215, 89, 0.12);}
+.link-folder__green {background: rgba(122, 215, 89, 0.2);}
 
-.link-folder__orange {background: rgba(255, 157, 74, 0.12);}
+.link-folder__orange {background: rgba(255, 157, 74, 0.2);}
 
-.link-folder__gray {background: rgba(184, 184, 184, 0.12);}
+.link-folder__gray {background: rgba(184, 184, 184, 0.2);}
 
 .project-heading-area {
     resize: none;
