@@ -79,7 +79,7 @@
 .dark-mode .linklist-item.folder:not(.selected):hover {
   background-color: var(--ghost-400);
 }
-.dark-mode .linklist-item.folder.selected:hover {
+.dark-mode .linklist-item:is(.folder, .link-folder).selected:hover {
   background-color: rgba(251, 175, 175, 0.2) !important;
 }
 
