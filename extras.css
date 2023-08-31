@@ -686,7 +686,7 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
-  max-height: 18px;
+  max-height: 19px;
 }
 
 /* .project-icon:not(.hidden) ~ .project-heading {
