@@ -3580,6 +3580,10 @@ label {
   top: auto;
 }
 
+.modal-container.modal-welcome {
+  width: 39rem;
+}
+
 .modal-header {
   width: 100%;
   flex: none;
@@ -3686,6 +3690,13 @@ label {
   display: grid;
   position: relative;
   overflow: scroll;
+}
+
+.modal-content.welcome-list {
+  grid-row-gap: 1rem;
+  flex-direction: column;
+  padding: 1rem;
+  display: flex;
 }
 
 .modal-group-right {
@@ -11494,6 +11505,99 @@ label {
 .description {
   color: #b8b8b8;
   margin-top: -.125rem;
+}
+
+.welcome-header {
+  width: 100%;
+  height: 228px;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  display: flex;
+}
+
+.vectors-wrapper {
+  width: 80px;
+  height: 80px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.title-title-lg {
+  color: #000;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.welcome-list-item {
+  width: 100%;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  display: flex;
+}
+
+.frame-700 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  opacity: .5;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.welcome-list-icon {
+  width: 24.0002px;
+  height: 24.0002px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.welcome-list-content {
+  width: 100%;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.welcome-list-title {
+  color: #000;
+  letter-spacing: .02em;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.description-3 {
+  opacity: .5;
+  color: #000;
+  letter-spacing: .02em;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 991px) {
