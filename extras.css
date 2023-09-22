@@ -419,7 +419,7 @@ body .project-icon:is(:hover, .w--open)  {
 }
 
 .note-editable:focus + .add-description {
-    display: none;
+	display: none;
 }
 
 .note-placeholder {
@@ -748,6 +748,18 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 body .crossed q.item-note {
   color: inherit;
   opacity: 0.5;
+}
+
+.item-code::before, .item-code::after {
+    display: none;
+}
+
+.item-code {
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--gray-750) !important;
+    font-family: 'Space Mono', monospace;
+    word-spacing: -0.125rem;
 }
 
 /*  Linklist - Archived */
