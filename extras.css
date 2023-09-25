@@ -628,6 +628,10 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
   display: grid;
 }
 
+.linklist-item:not(:hover) .open-folder {
+    opacity: 0.2;
+}
+
 .linklist-item .linklist-item-body:has(.open-folder) {
     padding-bottom: 0.125rem;
 }
