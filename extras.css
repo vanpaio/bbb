@@ -37,6 +37,20 @@
   --ghost-200: #F4F4F480;
   --ghost-300: #ADADAD1A;
   --ghost-400: #5050501A;
+
+  --color-red: 254, 135, 135;
+  --color-blue: 83, 152, 255;
+  --color-yellow: 255, 219, 109;
+  --color-pink: 254, 154, 212;
+  --color-purple: 169, 98, 248;
+  --color-cyan: 124, 227, 253;
+  --color-green: 122, 215, 89;
+  --color-orange: 255, 157, 74;
+  --color-gray: 184, 184, 184;
+
+  --opacity-200: 0.2;
+  --opacity-300: 0.3;
+  --opacity-400: 0.4;
 }
 
 /* Keyboard navigation (tab navigation, :focus, :focus-visible)
@@ -297,23 +311,41 @@ body .project-icon:is(:hover, .w--open)  {
     background: hsl(var(--color), var(--opacity)) !important;
 }
 
-.link-folder__red {background: rgba(254, 135, 135, 0.2);}
+.link-folder__red {background: rgba(var(--color-red), 0.2);}
 
-.link-folder__blue {background: rgba(83, 152, 255, 0.2);}
+.link-folder__blue {background: rgba(var(--color-blue), 0.2);}
 
-.link-folder__yellow {background: rgba(255, 219, 109, 0.2);}
+.link-folder__yellow {background: rgba(var(--color-yellow), 0.2);}
 
-.link-folder__pink {background: rgba(254, 154, 212, 0.2);}
+.link-folder__pink {background: rgba(var(--color-pink), 0.2);}
 
-.link-folder__purple {background: rgba(169, 98, 248, 0.2);}
+.link-folder__purple {background: rgba(var(--color-purple), 0.2);}
 
-.link-folder__cyan {background: rgba(124, 227, 253, 0.20);}
+.link-folder__cyan {background: rgba(var(--color-cyan), 0.2);}
 
-.link-folder__green {background: rgba(122, 215, 89, 0.2);}
+.link-folder__green {background: rgba(var(--color-green), 0.2);}
 
-.link-folder__orange {background: rgba(255, 157, 74, 0.2);}
+.link-folder__orange {background: rgba(var(--color-orange), 0.2);}
 
-.link-folder__gray {background: rgba(184, 184, 184, 0.2);}
+.link-folder__gray {background: rgba(var(--color-gray), 0.2);}
+
+.link-folder__red:not(.selected):hover {background: rgba(var(--color-red), 0.4);}
+
+.link-folder__blue:not(.selected):hover {background: rgba(var(--color-blue), 0.4);}
+
+.link-folder__yellow:not(.selected):hover {background: rgba(var(--color-yellow), 0.4);}
+
+.link-folder__pink:not(.selected):hover {background: rgba(var(--color-pink), 0.4);}
+
+.link-folder__purple:not(.selected):hover {background: rgba(var(--color-purple), 0.4);}
+
+.link-folder__cyan:not(.selected):hover {background: rgba(var(--color-cyan), 0.4);}
+
+.link-folder__green:not(.selected):hover {background: rgba(var(--color-green), 0.4);}
+
+.link-folder__orange:not(.selected):hover {background: rgba(var(--color-orange), 0.4);}
+
+.link-folder__gray:not(.selected):hover {background: rgba(var(--color-gray), 0.4);}
 
 .project-heading-area {
     resize: none;
