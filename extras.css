@@ -978,6 +978,11 @@ body.is-dragging * {
     outline-color: transparent !important;
 }
 
+.ctrl-key-pressed .linklist-item.dragging {
+  opacity: 0.7 !important;
+      background-color: rgba(251, 175, 175, .3) !important;
+    filter: none;
+}
 .dragging .linklist-item-body {
   opacity: 0;
 }
