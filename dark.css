@@ -23,7 +23,8 @@
     .overflow-sub_menu-toggle,
     .linklist-item-title,
     .header__base #search,
-    .search-result .empty-state) {
+    .search-result .empty-state,
+    .item-code) {
   color: var(--gray-100);
 }
 
