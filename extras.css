@@ -186,8 +186,8 @@ input,
     opacity: 1;
 }
 
-.sidenav-item[data-bb-tab]:not(:hover) .sidenav-item-link:not(.w--current, :hover) {
-  background-color: var(--gray-750); !important;
+.sidenav-item[data-bb-tab]:not(:hover, :has(.w--open)) .sidenav-item-link:not(.w--current, :hover) {
+  background-color: #9f9f9f36;
 }
 
 /* Overflow Menu */
@@ -659,8 +659,8 @@ body:not(.show-description) :not(#archived-section).linklist-wrapper {
 .close-icon-wrapper:not(:hover) svg { color: transparent; }
 .close-icon-wrapper:hover + .close-tab-text { display: flex; }
 
-.linklist-item[data-bb-tab]:not([data-bb-tab=""]) {
-    background-color: var(--rose-000) !important;
+.linklist-item[data-bb-tab]:not([data-bb-tab=""], .selected, :has(.w--open)) {
+    background-color: #9f9f9f36 !important;
 }
 
 .linklist-item:not([data-bb-tab]) .open-tab-text span:last-child,
