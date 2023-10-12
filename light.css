@@ -2097,7 +2097,6 @@ textarea.w-input, textarea.w-select {
   --red--200: #ffd1d1;
   --ghost--300: rgba(173, 173, 173, .1);
   --red--700: #ff2d2d;
-  --ghost--100: rgba(0, 0, 0, .02);
   --grey--800: #b8b8b8;
   --red--800: red;
   --red--900: #f00000;
@@ -2111,6 +2110,7 @@ textarea.w-input, textarea.w-select {
   --gray--600: #b8b8b8;
   --success: #19d855;
   --warning--600: #fcd216;
+  --ghost--100: rgba(0, 0, 0, .02);
   --red--500: #ff8484;
   --red--300: #ffbfbf;
   --warning--400: #fffa85;
@@ -2884,13 +2884,10 @@ label {
 }
 
 .breadcrumb {
-  background-color: var(--ghost--100);
-  border-radius: .5rem;
   align-items: center;
-  padding: .625rem 1rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   display: flex;
-  position: relative;
+  position: absolute;
   top: 6.9375rem;
 }
 
@@ -9898,11 +9895,12 @@ label {
 .sidenav-list-wrapper {
   grid-column-gap: 1.75rem;
   grid-row-gap: 1.75rem;
+  flex: 2 auto;
   grid-template-rows: min-content;
   grid-template-columns: 1fr;
   grid-auto-rows: min-content;
   grid-auto-columns: 1fr;
-  align-content: space-between;
+  align-content: start;
   padding-top: 3.125rem;
   padding-left: .125rem;
   font-weight: 500;
