@@ -2089,7 +2089,7 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --white: var(--gray--100);
-  --black: black;
+  --black: var(--gray--900);
   --gray--500: #dedede;
   --gray--300: whitesmoke;
   --rosé--000: rgba(255, 189, 189, .22);
@@ -2097,7 +2097,7 @@ textarea.w-input, textarea.w-select {
   --red--200: #ffd1d1;
   --ghost--300: rgba(173, 173, 173, .1);
   --red--700: #ff2d2d;
-  --grey--800: #b8b8b8;
+  --gray--800: #b8b8b8;
   --red--800: red;
   --red--900: #f00000;
   --ghost--400: rgba(93, 93, 93, .16);
@@ -2105,8 +2105,8 @@ textarea.w-input, textarea.w-select {
   --ghost--200: rgba(0, 0, 0, .03);
   --gray--400: #ededed;
   --red--000: #fff2f2;
-  --red--100-1001: #ffe5e5;
-  --gray--900: #222;
+  --red--100: #ffe5e5;
+  --gray--900: #000;
   --gray--600: #b8b8b8;
   --success: #19d855;
   --warning--600: #fcd216;
@@ -2119,8 +2119,11 @@ textarea.w-input, textarea.w-select {
   --red--600: #ff6161;
   --red: var(--red--800);
   --red--400: #ff9f9f;
-  --grey--700: #7b7b7b;
+  --gray--700: #7b7b7b;
   --gray--100: white;
+  --red--2000: #b70505;
+  --gray--750: #2c2c2c;
+  --gray--725: #333;
 }
 
 .w-users-userformpagewrap {
@@ -2912,7 +2915,7 @@ label {
 }
 
 .breadcrumb-link-old.w--current {
-  color: var(--grey--800);
+  color: var(--gray--800);
 }
 
 .breadcrumb-divider {
@@ -3297,8 +3300,8 @@ label {
 }
 
 .btn.btn-danger:hover {
-  background-color: var(--red--100-1001);
-  outline-color: var(--red--100-1001);
+  background-color: var(--red--100);
+  outline-color: var(--red--100);
   color: var(--red--900);
 }
 
@@ -3855,12 +3858,12 @@ label {
 }
 
 .text-input::-ms-input-placeholder {
-  color: var(--grey--800);
+  color: var(--gray--800);
   font-weight: 300;
 }
 
 .text-input::placeholder {
-  color: var(--grey--800);
+  color: var(--gray--800);
   font-weight: 300;
 }
 
@@ -4104,7 +4107,6 @@ label {
 
 .overflow-menu.w--open {
   z-index: 999;
-  min-width: 140px;
   background-color: var(--white);
   border-radius: .375rem;
   padding: .5rem;
@@ -4283,12 +4285,12 @@ label {
 }
 
 .checkbox.checkbox-disabled {
-  border-color: var(--grey--800);
+  border-color: var(--gray--800);
 }
 
 .checkbox.checkbox-disabled.w--redirected-checked {
-  border-color: var(--grey--800);
-  background-color: var(--grey--800);
+  border-color: var(--gray--800);
+  background-color: var(--gray--800);
 }
 
 .checkbox.checkbox-xs {
@@ -4484,7 +4486,7 @@ label {
 
 .inline-notification.inline-notification-error {
   max-width: 46rem;
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .inline-notification.inline-notification-error.notification-visible {
@@ -4606,7 +4608,7 @@ label {
 }
 
 .toast-notification.toast-notification__error {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
   align-items: flex-start;
   font-weight: 300;
 }
@@ -4894,7 +4896,7 @@ label {
 }
 
 .clickable-tile:hover {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .clickable-tile:focus-visible {
@@ -5139,7 +5141,7 @@ label {
 }
 
 .form__helper-text {
-  color: var(--grey--800);
+  color: var(--gray--800);
   letter-spacing: .32px;
   cursor: default;
   margin-top: -.375rem;
@@ -5327,7 +5329,7 @@ label {
 }
 
 .data-table__body-row:hover {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .data-table__body-row.data-table__body-row-no-hover:hover {
@@ -5635,11 +5637,11 @@ label {
 }
 
 .text-area.text-area__disabled::-ms-input-placeholder {
-  color: var(--grey--800);
+  color: var(--gray--800);
 }
 
 .text-area.text-area__disabled::placeholder {
-  color: var(--grey--800);
+  color: var(--gray--800);
 }
 
 .text-area.text-area__white {
@@ -7823,7 +7825,7 @@ label {
 }
 
 .linklist-item.w--current {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .linklist-item.selected {
@@ -8250,8 +8252,8 @@ label {
 }
 
 .sidenav-subitem-link:hover {
-  background-color: var(--red--100-1001);
-  outline-color: var(--red--100-1001);
+  background-color: var(--red--100);
+  outline-color: var(--red--100);
   outline-offset: 0px;
   outline-width: .125rem;
   outline-style: solid;
@@ -8259,7 +8261,7 @@ label {
 }
 
 .sidenav-subitem-link:active {
-  outline-color: var(--red--100-1001);
+  outline-color: var(--red--100);
   outline-offset: 0px;
   outline-width: 0;
   outline-style: solid;
@@ -8278,7 +8280,7 @@ label {
 }
 
 .sidenav-subitem-link.w--current {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .sidenav-subitem-link.text-dark:hover {
@@ -8406,7 +8408,7 @@ label {
 .overflow-menu-list__title {
   height: 30.1953px;
   max-width: 11rem;
-  color: var(--grey--800);
+  color: var(--gray--800);
   padding: .375rem .25rem;
   font-size: .875rem;
   font-weight: 400;
@@ -8963,7 +8965,7 @@ label {
 
 .banner-notification.inline-notification__error {
   max-width: 46rem;
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .banner-notification.inline-notification__success {
@@ -9054,7 +9056,7 @@ label {
 }
 
 .main-content {
-  min-height: 100vh;
+  min-height: 100.1vh;
   background-color: var(--white);
   padding: 13.5rem 2rem 8.5rem;
 }
@@ -9424,7 +9426,7 @@ label {
 .add-description {
   width: 100%;
   opacity: 0;
-  color: var(--grey--800);
+  color: var(--gray--800);
   padding-top: .125rem;
   padding-bottom: .125rem;
   text-decoration: none;
@@ -10136,7 +10138,7 @@ label {
 }
 
 .folder-item.w--current, .folder-item.selected {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .folder-item-content {
@@ -10168,7 +10170,7 @@ label {
 }
 
 .folderopen-item-header.w--current, .folderopen-item-header.selected {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .folder-item-title {
@@ -10259,11 +10261,11 @@ label {
 }
 
 .url-edit::-ms-input-placeholder {
-  color: var(--grey--800);
+  color: var(--gray--800);
 }
 
 .url-edit::placeholder {
-  color: var(--grey--800);
+  color: var(--gray--800);
 }
 
 .notifications-container {
@@ -10425,7 +10427,7 @@ label {
   min-height: 1.5rem;
   border-left: 0rem solid var(--ghost--300);
   opacity: .5;
-  color: var(--grey--800);
+  color: var(--gray--800);
   justify-content: flex-start;
   align-items: center;
   margin-top: .75rem;
@@ -10535,15 +10537,15 @@ label {
 }
 
 .sidenav-close.w--current {
-  background-color: var(--red--100-1001);
-  outline-color: var(--red--100-1001);
+  background-color: var(--red--100);
+  outline-color: var(--red--100);
   outline-offset: 0px;
   outline-width: .125rem;
   outline-style: solid;
 }
 
 .sidenav-close.w--current:hover {
-  outline-color: var(--red--100-1001);
+  outline-color: var(--red--100);
   outline-offset: 0px;
   outline-width: .125rem;
   outline-style: solid;
@@ -10667,7 +10669,7 @@ label {
 }
 
 .dragging-ghost-pseudoparent.w--current {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .dragging-ghost-pseudoparent.selected {
@@ -10831,7 +10833,7 @@ label {
 .badge.tag__lightred {
   min-width: 1.5rem;
   background-color: var(--red--000);
-  outline-color: var(--red--100-1001);
+  outline-color: var(--red--100);
   outline-offset: 0px;
   color: var(--red--800);
   outline-width: .125rem;
@@ -11284,7 +11286,7 @@ label {
 
 .list__title {
   max-width: 11rem;
-  color: var(--grey--800);
+  color: var(--gray--800);
   padding: .375rem .25rem;
   font-size: .875rem;
   font-weight: 400;
@@ -11639,7 +11641,7 @@ label {
 }
 
 .project-sharing-info.w--current {
-  background-color: var(--red--100-1001);
+  background-color: var(--red--100);
 }
 
 .project-sharing-info.selected {
@@ -11719,7 +11721,7 @@ label {
 }
 
 .description {
-  color: var(--grey--800);
+  color: var(--gray--800);
   margin-top: -.125rem;
 }
 
