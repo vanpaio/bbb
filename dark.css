@@ -70,6 +70,7 @@
 
 .dark-mode :is(
     .linklist-item:not(.selected, .edit-mode, .linklist-archived, [class*='link-folder__']),
+    .link-folder__gray,
     .modal .divider,
     .color__picker-divider,
     [contenteditable=true]:not(:focus):hover,
@@ -77,8 +78,8 @@
   background-color: var(--gray-750);
 }
 
-.dark-mode .linklist-item.folder:not(.selected):hover {
-  background-color: var(--ghost-400);
+.dark-mode .linklist-item:is(.folder, .link-folder__gray):not(.selected):hover {
+  background-color: var(--ghost-300);
 }
 .dark-mode .linklist-item:is(.folder, .link-folder).selected:hover {
   background-color: rgba(251, 175, 175, 0.2) !important;
@@ -171,6 +172,38 @@
     color: var(--gray-900);
 }
 
-.dark-mode .linklist__search:hover {
+.dark-mode .dark-mode .linklist__search:hover {
   background-color: var(--rose-100) !important;
+}
+
+.dark-mode .link-folder__red:not(.selected):hover {
+    background: rgba(var(--color-red), 0.2);
+}
+
+.dark-mode .link-folder__blue:not(.selected):hover {
+    background: rgba(var(--color-blue), 0.2);
+}
+
+.dark-mode .link-folder__yellow:not(.selected):hover {
+    background: rgba(var(--color-yellow), 0.25);
+}
+
+.dark-mode .link-folder__pink:not(.selected):hover {
+    background: rgba(var(--color-pink), 0.2);
+}
+
+.dark-mode .link-folder__purple:not(.selected):hover {
+    background: rgba(var(--color-purple), 0.2);
+}
+
+.dark-mode .link-folder__cyan:not(.selected):hover {
+    background: rgba(var(--color-cyan), 0.2);
+}
+
+.dark-mode .link-folder__green:not(.selected):hover {
+    background: rgba(var(--color-green), 0.2);
+}
+
+.dark-mode .link-folder__orange:not(.selected):hover {
+    background: rgba(var(--color-orange), 0.15);
 }
