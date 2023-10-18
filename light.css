@@ -2891,7 +2891,7 @@ label {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   display: flex;
   position: absolute;
-  top: 6.9375rem;
+  top: 7.25rem;
 }
 
 .breadcrumb.demo {
@@ -8616,7 +8616,7 @@ label {
   transition: transform 50ms, all 70ms;
   display: inline-block;
   position: absolute;
-  top: -6rem;
+  top: -6.25rem;
 }
 
 .project-icon:hover {
