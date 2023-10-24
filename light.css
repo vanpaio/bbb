@@ -9502,7 +9502,7 @@ label {
 }
 
 .linklist-toolbar.floating-toolbar {
-  z-index: 999;
+  z-index: 998;
   grid-column-gap: .75rem;
   grid-row-gap: .75rem;
   grid-template-columns: min-content;
