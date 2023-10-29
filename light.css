@@ -9058,7 +9058,7 @@ label {
 .main-content {
   min-height: 100.1vh;
   background-color: var(--white);
-  padding: 13.5rem 2rem 8.5rem;
+  padding: 13.5rem 2rem 8.5rem 2.75rem;
 }
 
 .main-content.grid {
@@ -11914,9 +11914,7 @@ label {
   }
 
   .sidenav.sidenav__left {
-    height: auto;
-    min-width: 3.625rem;
-    overflow: visible;
+    min-width: 8rem;
   }
 
   .sidenav-btn__wrap {
@@ -11925,9 +11923,6 @@ label {
 
   .sidenav-list {
     grid-row-gap: .625rem;
-    justify-content: center;
-    justify-items: center;
-    padding-left: 0;
   }
 
   .sidenav-item {
@@ -11935,10 +11930,7 @@ label {
   }
 
   .sidenav-item-link {
-    width: auto;
-    height: auto;
-    justify-items: center;
-    padding: .25rem;
+    padding-left: .5rem;
   }
 
   .sidenav-switcher__wrap:hover {
@@ -12047,10 +12039,8 @@ label {
   }
 
   .sidenav-scroll {
-    align-items: center;
     padding-left: .25rem;
     padding-right: .375rem;
-    overflow: auto;
   }
 
   .snippet-multi.new {
@@ -12135,12 +12125,8 @@ label {
   }
 
   .main-content {
-    padding-left: 5rem;
+    padding-left: 15rem;
     padding-right: 1.5rem;
-  }
-
-  .sidenav-item-text {
-    display: none;
   }
 
   .linklist-menu-wrapper {
@@ -12171,10 +12157,6 @@ label {
     padding-right: 1.5rem;
   }
 
-  .nav-header {
-    display: none;
-  }
-
   .search__wrapper {
     margin-left: .5rem;
   }
@@ -12193,6 +12175,23 @@ label {
 }
 
 @media screen and (max-width: 767px) {
+  .sidenav.sidenav__left {
+    min-width: 3.625rem;
+  }
+
+  .sidenav-list {
+    justify-content: center;
+    justify-items: center;
+    padding-left: 0;
+  }
+
+  .sidenav-item-link {
+    width: auto;
+    height: auto;
+    justify-items: center;
+    padding: .25rem;
+  }
+
   .component-wrap-hz {
     height: 16rem;
     flex-flow: column wrap;
@@ -12249,6 +12248,13 @@ label {
     width: 70%;
   }
 
+  .sidenav-scroll {
+    align-items: center;
+    padding-left: .25rem;
+    padding-right: .375rem;
+    overflow: auto;
+  }
+
   .snippet-multi__example-wrap {
     width: 80%;
   }
@@ -12257,10 +12263,28 @@ label {
     width: 46%;
   }
 
-  .modal-document, .modal_headed {
+  .modal-document {
     width: 100%;
     height: 100%;
     max-height: none;
+  }
+
+  .main-content {
+    padding-left: 5rem;
+  }
+
+  .sidenav-item-text {
+    display: none;
+  }
+
+  .modal_headed {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+  }
+
+  .nav-header {
+    display: none;
   }
 }
 
