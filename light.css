@@ -10558,6 +10558,7 @@ label {
 }
 
 .nav-header {
+  height: 1.5rem;
   grid-column-gap: .125rem;
   grid-row-gap: .125rem;
   grid-template-rows: auto;
@@ -11909,28 +11910,12 @@ label {
 }
 
 @media screen and (max-width: 991px) {
-  .top-nav__menu {
-    height: auto;
-  }
-
-  .sidenav.sidenav__left {
-    min-width: 8rem;
-  }
-
   .sidenav-btn__wrap {
     margin-top: 0;
   }
 
-  .sidenav-list {
-    grid-row-gap: .625rem;
-  }
-
   .sidenav-item {
     align-items: center;
-  }
-
-  .sidenav-item-link {
-    padding-left: .5rem;
   }
 
   .sidenav-switcher__wrap:hover {
@@ -12038,11 +12023,6 @@ label {
     width: 60%;
   }
 
-  .sidenav-scroll {
-    padding-left: .25rem;
-    padding-right: .375rem;
-  }
-
   .snippet-multi.new {
     width: 100%;
     margin-top: 0;
@@ -12105,13 +12085,6 @@ label {
     display: none;
   }
 
-  .emoji-icon {
-    width: 1.875rem;
-    height: 1.71875rem;
-    padding-top: .25rem;
-    font-size: 1.125rem;
-  }
-
   .header-action-right {
     right: 1.5rem;
   }
@@ -12133,11 +12106,6 @@ label {
     width: 1.625rem;
     position: static;
     right: auto;
-  }
-
-  .sidenav-list-wrapper {
-    padding-top: 3rem;
-    padding-bottom: 10rem;
   }
 
   .folder-menu-wrapper {
@@ -12263,6 +12231,10 @@ label {
     width: 46%;
   }
 
+  .tiny-link-indent {
+    display: none;
+  }
+
   .modal-document {
     width: 100%;
     height: 100%;
@@ -12281,10 +12253,6 @@ label {
     width: 100%;
     height: 100%;
     max-height: none;
-  }
-
-  .nav-header {
-    display: none;
   }
 }
 
