@@ -12361,12 +12361,20 @@ label {
     grid-template-columns: min-content min-content min-content min-content min-content min-content min-content;
   }
 
+  .linklist-item-content {
+    padding-left: .75rem;
+  }
+
   .logo-wrapper {
     display: none;
   }
 
   .img-button-wrapper {
     flex: none;
+  }
+
+  .linklist-draghandle-old {
+    display: none;
   }
 }
 
