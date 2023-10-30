@@ -12250,6 +12250,15 @@ label {
     height: 100%;
     max-height: none;
   }
+
+  .project_fl-header {
+    display: flex;
+  }
+
+  .project_fl-actions {
+    float: none;
+    order: 1;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -12264,6 +12273,10 @@ label {
 
   .breadcrumb {
     flex-wrap: wrap;
+  }
+
+  .svg-icon.search-icon {
+    left: .25rem;
   }
 
   .tabs__nav-item {
@@ -12282,6 +12295,10 @@ label {
     overflow: hidden;
   }
 
+  .search-input.header__search-input {
+    padding-left: .25rem;
+  }
+
   .tabs__nav-item-dark {
     width: 5.5rem;
   }
@@ -12298,6 +12315,10 @@ label {
   .component-example__white-theme.example-dark-bg {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .header__name-span {
+    display: none;
   }
 
   .form-block-halfwidth {
@@ -12327,6 +12348,10 @@ label {
 
   .img-button-wrapper {
     flex: none;
+  }
+
+  .header__name-logo {
+    display: none;
   }
 }
 
