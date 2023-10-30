@@ -12296,7 +12296,7 @@ label {
   }
 
   .search-input.header__search-input {
-    padding-left: .25rem;
+    padding-left: 2.5rem;
   }
 
   .tabs__nav-item-dark {
@@ -12346,12 +12346,12 @@ label {
     padding-right: 1rem;
   }
 
-  .img-button-wrapper {
-    flex: none;
+  .logo-wrapper {
+    display: none;
   }
 
-  .header__name-logo {
-    display: none;
+  .img-button-wrapper {
+    flex: none;
   }
 }
 
