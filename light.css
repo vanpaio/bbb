@@ -12245,6 +12245,7 @@ label {
   }
 
   .main-content {
+    min-height: auto;
     padding-left: 5rem;
   }
 
@@ -12367,6 +12368,11 @@ label {
 
   .linklist-item-content {
     padding-left: .75rem;
+  }
+
+  .project_fl-header {
+    margin-bottom: -1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .logo-wrapper {
