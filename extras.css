@@ -213,6 +213,7 @@ input.text-input, .modal-group-right {
 
 .sidenav-item[data-bb-tab]:not(:hover, :has(.w--open)) .sidenav-item-link:not(.w--current, :hover) {
     background-color: #9f9f9f36;
+    outline-color: #9f9f9f36;
 }
 
 /* Overflow Menu */
