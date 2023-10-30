@@ -6024,6 +6024,7 @@ label {
   height: .5rem;
   background-color: var(--black);
   flex: none;
+  display: none;
   position: absolute;
   bottom: -.25rem;
   transform: rotate(45deg);
@@ -12288,7 +12289,7 @@ label {
   }
 
   .svg-icon.search-icon {
-    left: .25rem;
+    left: .375rem;
   }
 
   .tabs__nav-item {
