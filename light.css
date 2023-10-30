@@ -2540,7 +2540,7 @@ label {
 }
 
 .header__base {
-  z-index: 999;
+  z-index: 998;
   width: 100vw;
   height: 3.75rem;
   background-color: var(--gray--300);
@@ -3629,7 +3629,7 @@ label {
 .modal-container.emojipicker {
   width: 30.5rem;
   height: 21rem;
-  max-width: none;
+  max-width: 100%;
   min-width: auto;
   padding: 0 1rem 1rem;
   overflow: hidden;
@@ -10462,6 +10462,7 @@ label {
 }
 
 .emojipicker__wrapper.emojipicker__wrapper-demo {
+  max-width: 100%;
   margin-top: 0;
   display: block;
   position: relative;
@@ -12169,6 +12170,11 @@ label {
     max-height: none;
   }
 
+  .modal-content.emojipicker-scroll {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
   .pagination__text.pagination__text-right, .form-block__pagination-wrap.form-block__pagination-wrap-second {
     display: none;
   }
@@ -12344,6 +12350,10 @@ label {
   .main-content {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .emojipicker-list {
+    grid-template-columns: min-content min-content min-content min-content min-content min-content;
   }
 
   .logo-wrapper {
