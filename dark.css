@@ -6,25 +6,7 @@
   filter: invert(1);
 }
 
-.dark-mode,
-.dark-mode :is(
-    .header__name,
-    .sidenav-item,
-    .sidenav-item-link,
-    .w-tab-link,
-    .btn-secondary,
-    .btn-ghost,
-    .w-dropdown-btn, 
-    .w-dropdown-toggle, 
-    .w-dropdown-link,
-    .tiny-link,
-    .overflow-menu__link,
-    .overflow-menu__project,
-    .overflow-sub_menu-toggle,
-    .linklist-item-title,
-    .header__base #search,
-    .search-result .empty-state,
-    .item-code) {
+.dark-mode, .dark-mode :is( .header__name, .sidenav-item, .sidenav-item-link, .w-tab-link, .btn-secondary, .btn-ghost, .w-dropdown-btn, .w-dropdown-toggle, .w-dropdown-link, .tiny-link, .overflow-menu__link, .overflow-menu__project, .overflow-sub_menu-toggle, .linklist-item-title, .header__base #search, .search-result .empty-state) {
   color: var(--gray-100);
 }
 
