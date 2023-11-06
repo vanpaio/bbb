@@ -240,47 +240,47 @@ input.text-input, .modal-group-right {
 
 /*  Project Document */
 /*  Project Theming  */
-body.red q:not(.item-code) {
+body.red q {
     color: hsl(360, 98%, 76%);
     background: hsl(0 98% 76% / 0.07);
 }
 
-body.pink q:not(.item-code) {
+body.pink q {
     color: #f294be;
     background: #f294be17;
 }
 
-body.blue q:not(.item-code) {
+body.blue q {
     color: hsl(216, 100%, 66%);
     background: hsl(216deg 100% 66% / 7%);
 }
 
-body.yellow q:not(.item-code) {
+body.yellow q {
     color: hsl(45deg 95% 62%);
     background: hsl(45 100% 71% / 0.15);
 }
 
-body.purple q:not(.item-code) {
+body.purple q {
     color: hsl(268, 91%, 68%);
     background: hsl(268deg 91% 68% / 5%);
 }
 
-body.cyan q:not(.item-code) {
+body.cyan q {
     color: hsl(192deg 81% 60%);
     background: hsl(192deg 97% 74% / 13%);
 }
 
-body.green q:not(.item-code) {
+body.green q {
     color: hsl(104, 61%, 60%);
     background: hsl(104deg 61% 60% / 7%);
 }
 
-body.orange q:not(.item-code) {
+body.orange q {
     color: hsl(28, 100%, 65%);
     background: hsl(28deg 100% 65% / 10%);
 }
 
-body.gray q:not(.item-code) {
+body.gray q {
     color: hsl(0, 0%, 72%);
     background: hsl(0deg 0% 72% / 9%);
 }
@@ -838,9 +838,8 @@ body .crossed q.item-note {
 }
 
 .item-code {
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 1.8;
-    color: var(--gray-750);
     font-family: 'Space Mono', monospace;
     word-spacing: -0.125rem;
 }
