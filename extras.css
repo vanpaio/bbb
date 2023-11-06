@@ -844,6 +844,13 @@ body .crossed q.item-note {
     word-spacing: -0.125rem;
 }
 
+q.item-prompt::before {
+    content: "Prompt:";
+    display: inline-block;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+}
+
 /*  Linklist - Archived */
 .linklist-wrapper#archived-section {
     box-sizing: border-box;
