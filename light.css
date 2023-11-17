@@ -10342,7 +10342,6 @@ label {
   grid-auto-columns: 1fr;
   margin-left: -.375rem;
   display: grid;
-  position: relative;
 }
 
 .project_fl-wrapper.demo {
