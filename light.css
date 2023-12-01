@@ -12089,6 +12089,10 @@ label {
   display: none;
 }
 
+.sharing-user {
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .sidenav-btn__wrap {
     margin-top: 0;
