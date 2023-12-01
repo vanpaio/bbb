@@ -292,6 +292,10 @@ html[data-w-dynpage] [data-w-cloak] {
   color: rgba(0, 0, 0, 0) !important;
 }
 
+.w-code-block {
+  margin: unset;
+}
+
 .w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
   visibility: visible;
@@ -12057,8 +12061,9 @@ label {
 
 .project-sharing-content {
   min-height: 2.375rem;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   align-items: stretch;
+  display: flex;
 }
 
 .project-sharing-text {
