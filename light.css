@@ -12068,6 +12068,7 @@ label {
 
 .project-sharing-text {
   align-items: center;
+  display: flex;
 }
 
 .project-sharing-wrapper {
