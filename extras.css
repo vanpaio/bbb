@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 /* This file was edited on Github and automatically pushed to DB */
 * {
     -webkit-font-smoothing: antialiased;
@@ -52,6 +54,38 @@
     --opacity-200: 0.2;
     --opacity-300: 0.3;
     --opacity-400: 0.4;
+}
+
+body {
+	overflow-y: overlay;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 6px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 6px;
+	background-color: transparent;
+	transition: all .2s ease-in-out;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+	color: transparent;
+}
+
+:hover::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+	background-color: #56565640;
 }
 
 /* Keyboard navigation (tab navigation, :focus, :focus-visible)
