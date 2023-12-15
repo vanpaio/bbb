@@ -3621,7 +3621,7 @@ label {
 }
 
 .modal {
-  z-index: 2147483647;
+  z-index: 2000000000;
   width: 100vw;
   height: 100vh;
   background-color: rgba(23, 23, 23, .5);
@@ -10322,7 +10322,7 @@ label {
 }
 
 .notifications-container {
-  z-index: 900;
+  z-index: 2000000100;
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
   grid-template-rows: auto;
@@ -12111,6 +12111,7 @@ label {
 }
 
 .export-wrapper {
+  height: 100vh;
   background-color: var(--gray--500);
   flex-direction: column;
   padding: 3rem;
@@ -12123,7 +12124,8 @@ label {
   background-color: var(--gray--300);
   align-items: center;
   display: flex;
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0%;
   bottom: auto;
   left: 0%;
@@ -12160,7 +12162,7 @@ label {
 
 .export-content {
   border-radius: 7px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .checkbox-wrapper___export {
