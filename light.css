@@ -9505,6 +9505,7 @@ label {
   grid-auto-flow: column;
   align-content: center;
   width: 100%;
+  margin-bottom: .25rem;
   padding: 0 .25rem;
   font-size: .875rem;
   font-weight: 400;
