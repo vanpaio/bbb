@@ -9443,7 +9443,7 @@ label {
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
   height: 1.625rem;
-  margin-bottom: 0;
+  margin-bottom: .25rem;
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
@@ -9505,7 +9505,6 @@ label {
   grid-auto-flow: column;
   align-content: center;
   width: 100%;
-  margin-bottom: .25rem;
   padding: 0 .25rem;
   font-size: .875rem;
   font-weight: 400;
