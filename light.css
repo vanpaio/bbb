@@ -8379,7 +8379,7 @@ label {
   transition: transform 50ms, all 70ms;
   display: inline-block;
   position: absolute;
-  top: -5.25rem;
+  top: -5.0625rem;
 }
 
 .project-icon:hover {
@@ -10169,7 +10169,7 @@ label {
   z-index: 999;
   display: none;
   position: absolute;
-  top: -2.625rem;
+  top: -1.5rem;
   left: 0;
 }
 
