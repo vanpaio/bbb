@@ -3980,8 +3980,6 @@ label {
 .overflow-menu.w--open {
   z-index: 999;
   background-color: var(--white);
-  border-radius: .375rem;
-  padding: .5rem;
 }
 
 .overflow-menu.top {
