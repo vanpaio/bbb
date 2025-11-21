@@ -3965,14 +3965,14 @@ label {
   grid-row-gap: .125rem;
   white-space: nowrap;
   background-color: #fff;
-  border-radius: .5rem;
+  border-radius: .75rem;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
   min-width: 10rem;
   margin-top: .25rem;
   margin-bottom: .25rem;
-  padding: .75rem .5rem;
+  padding: .75rem 1rem;
   list-style-type: none;
   box-shadow: 0 0 .86rem #00000017, 0 0 .7rem #00000026;
 }
