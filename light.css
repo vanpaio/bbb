@@ -5787,11 +5787,11 @@ label {
   background-color: var(--black);
   color: #fff;
   text-align: center;
+  white-space: nowrap;
   border-radius: .377rem;
   flex: none;
   justify-content: center;
   align-items: center;
-  max-width: 15rem;
   height: auto;
   padding: .5rem .625rem;
   font-size: 1rem;
