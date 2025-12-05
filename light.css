@@ -2050,7 +2050,7 @@ textarea.w-input, textarea.w-select {
   --red--200: #ffd1d1;
   --ghost--300: #adadad1a;
   --red--700: #ff2d2d;
-  --gray--800: #b8b8b8;
+  --gray--800: #222;
   --red--800: red;
   --red--900: #f00000;
   --ghost--400: #5d5d5d29;
@@ -2073,12 +2073,24 @@ textarea.w-input, textarea.w-select {
   --gray--850: #1b1b1b;
   --red--600: #ff6161;
   --red: var(--red--800);
-  --gray--700: #7b7b7b;
-  --gray--100: white;
-  --gray--750: #2c2c2c;
-  --gray--725: #333;
+  --opacity--200: .2;
+  --opacity--300: .3;
+  --opacity--400: .4;
+  --color--red: #fe8686;
+  --color--blue: #5398ff;
+  --color--yellow: #ffdb6d;
   --red--400: #ff9f9f;
+  --color--pink: #fe9ad4;
+  --color--purple: #a962f8;
   --red--2000: #b70505;
+  --color--cyan: #9affff;
+  --gray--100: white;
+  --gray--700: #7b7b7b;
+  --gray--725: #333;
+  --gray--750: #2c2c2c;
+  --color--green: #7ad759;
+  --color--orange: #ff9d4a;
+  --color--gray: #b8b8b8;
 }
 
 .w-users-userformpagewrap {
@@ -2258,6 +2270,7 @@ textarea.w-input, textarea.w-select {
 body {
   background-color: var(--white);
   color: #000;
+  overflow-y: overlay;
   font-family: Inter, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -11883,6 +11896,57 @@ label {
   object-fit: cover;
 }
 
+.btn-open-close {
+  white-space: nowrap;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+}
+
+.close-state {
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: .75rem;
+  justify-content: center;
+  align-items: center;
+  height: 2.625rem;
+  padding-left: 1rem;
+  display: flex;
+  position: absolute;
+  top: .1875rem;
+  bottom: .1875rem;
+  right: -.0625rem;
+}
+
+.close-state:hover {
+  text-decoration: none;
+}
+
+.open-close-icon-wrapper {
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  display: flex;
+  position: absolute;
+  top: .0625rem;
+  bottom: .0625rem;
+  right: .25rem;
+}
+
+.open-state {
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: .6875rem 3.125rem .6875rem 0;
+  display: flex;
+}
+
+.close-text {
+  margin-right: 2.25rem;
+}
+
 @media screen and (max-width: 991px) {
   .sidenav-btn__wrap {
     margin-top: 0;
@@ -12447,6 +12511,10 @@ label {
 
 #w-node-c84178ec-98ef-977e-6183-1c3a9618c2b3-bbbfbb47, #w-node-c84178ec-98ef-977e-6183-1c3a9618c2b7-bbbfbb47, #w-node-c84178ec-98ef-977e-6183-1c3a9618c2bc-bbbfbb47, #w-node-c84178ec-98ef-977e-6183-1c3a9618c2c0-bbbfbb47 {
   grid-area: 1 / 2 / 2 / 3;
+}
+
+#w-node-_6de5d590-9bb4-e298-2cec-a5c87328271e-bbbfbb47 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_6de5d590-9bb4-e298-2cec-a5c87328271f-bbbfbb47 {
