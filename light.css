@@ -7650,10 +7650,6 @@ label {
 
 .linklist-item.edit-mode {
   background-color: var(--gray--300);
-  outline-color: var(--red--700);
-  outline-offset: 0px;
-  outline-width: .125rem;
-  outline-style: solid;
 }
 
 .linklist-item.edit-mode.url-edit-mode {
