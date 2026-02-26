@@ -8413,8 +8413,7 @@ label {
   line-height: 2.5rem;
   transition: transform 50ms, all 70ms;
   display: inline-block;
-  position: absolute;
-  top: -5.0625rem;
+  position: relative;
 }
 
 .project-icon:hover {
