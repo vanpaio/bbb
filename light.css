@@ -2068,6 +2068,7 @@ textarea.w-input, textarea.w-select {
   --ghost--100: #00000005;
   --red--500: #ff8484;
   --red--300: #ffbfbf;
+  --color--yellow: #ffdb6d;
   --warning--400: #fffa85;
   --red--1000: #d90000;
   --gray--850: #1b1b1b;
@@ -2078,7 +2079,6 @@ textarea.w-input, textarea.w-select {
   --opacity--400: .4;
   --color--red: #fe8686;
   --color--blue: #5398ff;
-  --color--yellow: #ffdb6d;
   --red--400: #ff9f9f;
   --color--pink: #fe9ad4;
   --color--purple: #a962f8;
@@ -8148,6 +8148,7 @@ label {
 
 .emoji-icon {
   text-align: center;
+  border-radius: .3125rem;
   justify-content: center;
   align-items: center;
   width: 1.5rem;
@@ -8173,6 +8174,27 @@ label {
   width: 1rem;
   height: 1rem;
   font-size: .5rem;
+}
+
+.emoji-icon.emoji-folder.utility-folder {
+  background-color: var(--color--yellow);
+  background-image: none;
+  padding-top: 0;
+}
+
+.emoji-icon.utility-folder {
+  padding-top: 0;
+}
+
+.emoji-icon.utility-folder.utility-folder-overlay {
+  z-index: 1;
+  background-color: var(--black);
+  color: var(--white);
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  bottom: -2px;
+  left: -5px;
 }
 
 .sidenav-title {
@@ -8419,6 +8441,11 @@ label {
 .project-icon.w--open:hover {
   outline-offset: 0px;
   outline: .125rem solid #0000;
+}
+
+.project-icon.demo {
+  position: relative;
+  top: auto;
 }
 
 .project-header {
@@ -11954,6 +11981,50 @@ label {
 
 .text-block-2 {
   opacity: 0;
+}
+
+.project-icon-wrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: inline-block;
+  position: absolute;
+  top: -5.0625rem;
+}
+
+.project-icon-wrapper:hover {
+  background-color: var(--ghost--100);
+  outline-color: var(--ghost--100);
+  outline-offset: 0px;
+  outline-width: .125rem;
+  outline-style: solid;
+}
+
+.project-icon-wrapper:active {
+  background-color: var(--ghost--300);
+  outline-color: var(--ghost--300);
+  outline-offset: 0px;
+  outline-width: 0;
+  outline-style: solid;
+  transform: scale(.97);
+}
+
+.project-icon-wrapper.w--open {
+  background-color: var(--rosé--100);
+}
+
+.project-icon-wrapper.w--open:hover {
+  outline-offset: 0px;
+  outline: .125rem solid #0000;
+}
+
+.project-icon-wrapper.demo {
+  position: relative;
+  top: auto;
 }
 
 @media screen and (max-width: 991px) {
