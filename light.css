@@ -9336,6 +9336,16 @@ label {
   display: flex;
 }
 
+.linklist-menu-wrapper.group-menu-wrapper {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1.375rem;
+  display: flex;
+  top: 0;
+  right: -3.125rem;
+}
+
 .modal_headed {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -12034,6 +12044,7 @@ label {
   padding: 16px 10px 12px;
   text-decoration: none;
   display: flex;
+  position: relative;
 }
 
 .listgroup-header {
@@ -12045,7 +12056,6 @@ label {
   padding-right: 4px;
   text-decoration: none;
   display: flex;
-  position: relative;
 }
 
 .listgroup-header-title {
