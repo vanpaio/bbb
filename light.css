@@ -12045,6 +12045,7 @@ label {
   padding-right: 4px;
   text-decoration: none;
   display: flex;
+  position: relative;
 }
 
 .listgroup-header-title {
