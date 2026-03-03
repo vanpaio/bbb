@@ -11961,6 +11961,7 @@ label {
 
 .close-state.xs {
   border-radius: .6255rem;
+  padding-left: .5rem;
 }
 
 .icon-wrapper {
@@ -12001,6 +12002,10 @@ label {
 
 .close-text {
   margin-right: 2.25rem;
+}
+
+.close-text.xs {
+  margin-right: 1.5rem;
 }
 
 .text-wrapper {
