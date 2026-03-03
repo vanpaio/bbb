@@ -11938,6 +11938,8 @@ label {
 }
 
 .open-state.xs {
+  height: 2rem;
+  margin-bottom: -.125rem;
   font-size: .75rem;
 }
 
