@@ -2082,8 +2082,8 @@ textarea.w-input, textarea.w-select {
   --red--400: #ff9f9f;
   --color--pink: #fe9ad4;
   --color--purple: #a962f8;
-  --red--2000: #b70505;
   --color--cyan: #9affff;
+  --red--2000: #b70505;
   --gray--100: white;
   --gray--700: #7b7b7b;
   --gray--725: #333;
@@ -11955,11 +11955,12 @@ label {
   inset: .1875rem -.0625rem .1875rem -.0625px;
 }
 
+.close-state:hover {
+  text-decoration: none;
+}
+
 .close-state.xs {
   border-radius: .6255rem;
-  padding-left: .625rem;
-  top: .0625rem;
-  bottom: .0625rem;
 }
 
 .icon-wrapper {
@@ -11968,16 +11969,11 @@ label {
   justify-content: center;
   align-items: center;
   width: 2rem;
-  text-decoration: none;
   display: flex;
   position: absolute;
   top: .0625rem;
   bottom: .0625rem;
   right: .25rem;
-}
-
-.icon-wrapper:hover {
-  text-decoration: none;
 }
 
 .icon-wrapper.xs {
@@ -11999,16 +11995,11 @@ label {
 }
 
 .width-text.xs {
-  height: 2rem;
-  padding-right: 1.8rem;
+  height: 2.25rem;
 }
 
 .close-text {
   margin-right: 2.25rem;
-}
-
-.close-text.xs {
-  margin-right: 1.1875rem;
 }
 
 .text-wrapper {
