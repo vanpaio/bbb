@@ -11939,6 +11939,7 @@ label {
 
 .close-state {
   background-color: var(--red);
+  pointer-events: none;
   color: var(--white);
   border-radius: .75rem;
   justify-content: flex-end;
@@ -11955,6 +11956,7 @@ label {
 }
 
 .icon-wrapper {
+  pointer-events: auto;
   color: var(--white);
   justify-content: center;
   align-items: center;
