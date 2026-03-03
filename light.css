@@ -11996,6 +11996,7 @@ label {
 
 .width-text.xs {
   height: 2.25rem;
+  padding-right: 2rem;
 }
 
 .close-text {
