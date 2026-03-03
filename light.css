@@ -11968,11 +11968,16 @@ label {
   justify-content: center;
   align-items: center;
   width: 2rem;
+  text-decoration: none;
   display: flex;
   position: absolute;
   top: .0625rem;
   bottom: .0625rem;
   right: .25rem;
+}
+
+.icon-wrapper:hover {
+  text-decoration: none;
 }
 
 .icon-wrapper.xs {
