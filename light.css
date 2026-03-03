@@ -11971,6 +11971,7 @@ label {
   align-items: center;
   height: 3rem;
   padding: .6875rem 4.625rem .6875rem 0;
+  text-decoration: none;
   display: flex;
 }
 
